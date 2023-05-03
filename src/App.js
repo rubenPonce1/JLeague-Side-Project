@@ -1,3 +1,10 @@
+/* 
+Filename: App.js
+Date: 05/02/23
+Authors: Ruben Ponce
+Description: Contains the Router for all components of the app
+*/
+
 import React from 'react';
 import { Routes, Route, Switch, Router, createBrowserRouter, RouterProvider,
   Outlet, useRouteLoaderData, createRoutesFromElements, BrowserRouter  } from 'react-router-dom';
