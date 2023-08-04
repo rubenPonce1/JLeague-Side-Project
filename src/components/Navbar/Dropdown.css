@@ -1,0 +1,45 @@
+/* The dropdown CSS */ 
+.dropdown-menu {
+    background:#d8232a;
+    width: 200px;
+    position: absolute;
+    top: 80px;
+    text-align: start;
+    list-style: none;
+  }
+  
+  .dropdown-menu li {
+    background: #d8232a;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu li:hover {
+    background: #7b1519;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+  }
+  
+  .dropdown-menu.clicked {
+    display: none;
+  }
+  
+  .dropdown-link {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    padding: 16px;
+
+  }
+  
+  @media screen and (max-width: 920px) {
+    .dropdown-menu {
+      position: absolute;
+      top: 371px;
+      left: 35%;
+      width: 350px;
+      font-size: 30px;
+    }
+
+  }
