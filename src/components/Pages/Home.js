@@ -3,25 +3,23 @@ import React from 'react';
 import '../Styles/Home.css';
 
 
-import { Container } from  'react-bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import Container from 'react-bootstrap/Container';
 
-function Home(){
+export default function Home(){
     return(
-      <div>
-        <Container>
+    <div>
+      <h1>
+        Jleague
+      </h1>
+      {/*This Container is for the Youtube Video */}
+      <Container>
+        <div class="ratio ratio-16x9">
+          <iframe src="https://www.youtube.com/embed/Mu3H6-SbGGQ" title="YouTube video" allowFullScreen></iframe>
+        </div>  
+      </Container>
 
-          <div class="ratio ratio-16x9">
-            <iframe src="https://www.youtube.com/embed/Mu3H6-SbGGQ" title="YouTube video" allowFullScreen></iframe>
-          </div>  
-        </Container>
-      
-
-
-        
     </div>
-       
     );
+       
 }
-
-export default Home;
