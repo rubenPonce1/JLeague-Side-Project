@@ -1,5 +1,5 @@
 /* 
-Filename: Navbar.js
+Filename: MenuItems.js
 Date: 05/02/23
 Authors: Ruben Ponce
 Description: File of array that holds the items for the dropdown function.
