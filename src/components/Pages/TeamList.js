@@ -26,14 +26,14 @@ import YokohamaFC from "../images/Team_Logos/Yokohama_FC.png"
 export const TeamList =[
     {
         image: Albirex,
-        title: 'Albirex',
+        title: 'Albirex Niigata',
         path: '/Albirex' ,
         cName: 'team-link'
     },
 
     {
         image: Avispa,
-        title: 'Avispa',
+        title: 'Avispa Fukuoka',
         path: '/Avispa' ,
         cName: 'team-link'
     },
