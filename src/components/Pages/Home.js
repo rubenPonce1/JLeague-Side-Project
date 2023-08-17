@@ -13,20 +13,21 @@ export default function Home(){
 
     return(
     <div>
-      <h1 className='HeaderName'>
-        J.LEAGUE
-      </h1>
+      <div className='home'>
+        <h1 className='HeaderName'>
+          J.LEAGUE
+        </h1>
 
 
-      {/*This Container is for the Youtube Video */}
-      <Container className='videoContainer'>
-        <div class="ratio ratio-16x9">
-          <iframe src="https://www.youtube.com/embed/Mu3H6-SbGGQ" 
-                  title="YouTube video" allowFullScreen></iframe>
-        </div>  
-      </Container>
+        {/*This Container is for the Youtube Video */}
+        <Container className='videoContainer'>
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/Mu3H6-SbGGQ" 
+                    title="YouTube video" allowFullScreen></iframe>
+          </div>  
+        </Container>
 
-
+      
       {/* This is the list of all the J1 Teams*/}
       <>
         <ul className='team-list'>
@@ -45,6 +46,7 @@ export default function Home(){
           })}
         </ul>
       </>
+      </div>
     </div>
     );
        
