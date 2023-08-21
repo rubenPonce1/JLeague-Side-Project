@@ -1,7 +1,8 @@
 .home{
     background-image: url('../images/J1_images/IMG_0036.png');
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+
+    background-size:contain;
 }
 
 .HeaderName {
@@ -13,18 +14,41 @@
     font-stretch: expanded;
     font-family: overpass,sans-serif;
 
+    font-style: italic;
     color: black;
     text-shadow:
         0.05em 0 white,
-        0 0.07em white,
-        -0.001em 0 whitesmoke,
-        0 -0.01em white;
+        0 0.05em white,
+        -0.05em 0 white,
+        0 -0.05em white,
+        -0.05em -0.05em white,
+        -0.05em 0.05em white,
+        0.05em -0.05em white,
+        0.05em 0.05em white;
     
 }
-.videoContainer{
+.video-cntr{
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
+.team-list-cntr{
+    background: #f6eee3;
+    padding: 25px;
+}
+
+.team-list-hdr{
+    text-align: center;
+    
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: bolder;
+    font-stretch: expanded;
+    font-family: overpass,sans-serif;
+
+    color: black;
+}
+
 
 .team-list{
      /* This removes the bulletin points in the List */ 
@@ -39,8 +63,7 @@
     column-rule: none;
     display:flexbox;
     
-    background: #f6eee3;
-    padding: 25px;
+    
 }
 
 .team-logo {
