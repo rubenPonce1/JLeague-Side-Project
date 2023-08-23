@@ -4,6 +4,8 @@ Date: 08/08/23
 Authors: Ruben Ponce
 Description: File of array of all the Teams Name, Logo, and page
 */
+
+/* These are all the image imports for all the logos of the teams */
 import Albirex from "../images/Team_Logos/Albirex_Niigata.png"
 import Avispa from "../images/Team_Logos/Avispa_Fukuoka.png"
 import Cerezo from "../images/Team_Logos/Cerezo_Osaka.png"
