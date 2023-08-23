@@ -2,7 +2,10 @@
     background-image: url('../images/J1_images/IMG_0036.png');
     background-repeat: no-repeat;
 
-    background-size:contain;
+    background-size:cover;
+    background-attachment: fixed;
+
+    flex-direction: column;
 }
 
 .HeaderName {
@@ -30,6 +33,12 @@
 .video-cntr{
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+home-carousel{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .team-list-cntr{
