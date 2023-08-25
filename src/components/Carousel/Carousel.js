@@ -49,7 +49,7 @@ function Carousel ({ images }){
           {images.map((image, index) => {
             return(
               <div 
-                key={index} 
+                key={images.index} 
                 className={
                   index === current 
                   ? "carousel-card carousel-card-active" 
@@ -76,7 +76,7 @@ function Carousel ({ images }){
             {images.map( (_,index) =>{
               return(
                 <div 
-                  key={ index }
+                  key={ images.index }
                   className={
                     index === current
                       ? "dot dot-active" 
