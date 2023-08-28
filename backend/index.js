@@ -14,23 +14,36 @@ const db = mysql2.createConnection({
     database:"JLeague",
     
     
-})
+});
 
-
+app.use(express.json())
 
 app.get("/", (req,res)=>{
     res.json("hello this is the backend")
-})
+});
 
 app.get("/teams", (req,res)=>{
     const q = "SELECT * FROM teams"
     db.query(q, (err, data) => {
         if(err) return res.json(err)
         return res.json(data)
-    })
-})
+    });
+});
 
-app.post
+app.post("/teams", (req, res) =>{
+    const q = "INSERT INTO teams (`TeamName`, `teamInfo`, `teamImg`) VALUES (?)";
+    const values = [
+        req.body.TeamName,
+        req.body.teamInfo,
+        req.body.teamImg,
+    ];
+
+    db.query(q, [values] ,(err, data) => {
+        if(err) return res.json(err)
+        return res.json("Team has been created succesfully.")
+    });
+
+});
 
 app.listen(8800, () => {
     console.log("Connected to backend!")
