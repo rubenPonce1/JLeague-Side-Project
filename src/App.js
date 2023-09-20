@@ -9,6 +9,7 @@ import React from 'react';
 import { Routes, Route, BrowserRouter  } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Pages/Home';
+import TeamPage from './components/Pages/TeamPage';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         </React.Fragment>
         <Routes>
           <Route path ="/" element={<Home />} />
+          <Route path = "/TeamPage" element={< TeamPage/>} />
         </Routes>
       </div>
     </BrowserRouter>
