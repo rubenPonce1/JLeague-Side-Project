@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import "../Styles/TeamPage.css"
 
 const TeamPage = () => {
   const [teams, setTeams] = useState([]);
@@ -16,21 +17,22 @@ const TeamPage = () => {
     fetchAllteams();
   }, []);
 
-  return <div>
-    <h1>Testing Team Page </h1>
-    <div className="teams">
-      {teams.map((team)=>(
-        <div className="team" key={team.id}>
-          {team.teamImg && <img src={team.teamImg} alt = ""/>}
-          <h2>{team.TeamName}</h2>
-          <p>{team.teamInfo}</p>
+  return( 
+    <div className="TeamPage">
+      <h1>Testing Team Page </h1>
+      <div className="teams">
+        {teams.map((team)=>(
+          <div className="team" key={team.id}>
+            {team.teamImg && <img className="teamImg" src={team.teamImg} alt = ""/>}
+            <h2>{team.TeamName}</h2>
+            <p>{team.teamInfo}</p>
 
-        </div>
-      ))};
-      
+          </div>
+        ))};
+        
 
-    </div>
-  </div>;
+      </div>
+    </div>);
 };
 
 export default TeamPage;
