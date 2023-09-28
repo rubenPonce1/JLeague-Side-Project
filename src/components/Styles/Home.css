@@ -65,7 +65,7 @@
     column-count: 2;
     column-gap: 30px;
     column-rule: none;
-    display:flexbox;
+    
     
     
 }
@@ -75,6 +75,7 @@
     height: auto;
     margin-right: 20px;
     margin-top: 20px;
+    flex: 2;
 }
 
 .team-link{
