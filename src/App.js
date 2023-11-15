@@ -9,7 +9,7 @@ import React from 'react';
 import { Routes, Route, BrowserRouter  } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Pages/Home';
-import Albirex from './components/Teams/albi';
+import Albi from './components/Teams/albi';
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
 
           {/*<Route path =  "*" element={<PageNotFound />} />*/}
 
-          <Route path = "/Albirex" element = {<Albirex />} />
+          <Route path = "/Albirex" element = {<Albi />} />
 
 
         </Routes>
