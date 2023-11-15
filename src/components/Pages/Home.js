@@ -24,10 +24,7 @@ export default function Home(){
   return(
     <div>
       <div className='home'>
-        <h1 className='HeaderName'>
-          J.LEAGUE
-        </h1>
-
+        <h1 className='HeaderName'> J.LEAGUE </h1>
 
         {/*This Container is for the Youtube Video */}
         <Container className='video-cntr'>
