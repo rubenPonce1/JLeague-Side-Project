@@ -9,6 +9,7 @@ import React from 'react';
 import { Routes, Route, BrowserRouter  } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Pages/Home';
+import Albirex from './components/Teams/albi';
 
 function App() {
   return (
@@ -18,7 +19,13 @@ function App() {
           <Navbar/>
         </React.Fragment>
         <Routes>
-          <Route path ="/" element={<Home />} />
+          <Route path = "/" element={<Home />} />
+
+          {/*<Route path =  "*" element={<PageNotFound />} />*/}
+
+          <Route path = "/Albirex" element = {<Albirex />} />
+
+
         </Routes>
       </div>
     </BrowserRouter>
