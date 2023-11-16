@@ -1,0 +1,8 @@
+.albi .header{
+    margin-top: 40px;
+    color: #e84e10;
+    text-shadow:
+        0.05em 0 #174195,
+        0 0.05em #174195,
+        0.05em 0.05em #174195;
+}
