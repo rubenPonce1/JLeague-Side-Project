@@ -1,8 +1,25 @@
+:root{
+    --albi: #e84e10; 
+    --albiSec: #174195;
+}
+
 .albi .header{
     margin-top: 40px;
-    color: #e84e10;
+    color: var(--albi);
     text-shadow:
-        0.05em 0 #174195,
-        0 0.05em #174195,
-        0.05em 0.05em #174195;
+        0.05em 0 var(--albiSec),
+        0 0.05em var(--albiSec),
+        0.05em 0.05em var(--albiSec);
 }
+
+.albi .team-info{
+    background-size: 180px 180px;
+    background-color: var(--albi);
+
+    background-image: -webkit-linear-gradient(var(--albiSec) 50%, transparent 50%, transparent);
+    background-image: -moz-linear-gradient(var(--albiSec) 50%, transparent 50%, transparent);
+    background-image: -ms-linear-gradient(var(--albiSec) 50%, transparent 50%, transparent);
+    background-image: -o-linear-gradient(var(--albiSec)5 50%, transparent 50%, transparent);
+    background-image: linear-gradient(var(--albiSec) 50%, transparent 50%, transparent);
+}
+
