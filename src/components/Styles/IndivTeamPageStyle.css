@@ -2,7 +2,15 @@
     --albi: #e84e10; 
     --albiSec: #174195;
 }
+.albi{
+    background-image: url('../images/Stadiums/BigSwanStadium\ Medium.png');
+    background-repeat: no-repeat;
+    margin-top: -40px;
+    background-size:cover;
+    background-attachment: fixed;
 
+    align-items: center; 
+}
 .albi .header{
     margin-top: 40px;
     color: var(--albi);
