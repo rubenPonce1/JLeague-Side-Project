@@ -8,28 +8,34 @@ h1{
     font-style: italic;
 }
 
-.albi .header{
-    margin-top: 40px;
-    color: #e84e10;
-    text-shadow:
-        0.05em 0 #174195,
-        0 0.05em #174195,
-        0.05em 0.05em #174195;
+.team-info{
+    background-attachment: fixed;
+    position: relative;
+    margin: 0 48px;
+    padding: 52px;
+    
 }
 
+.info-title{
+    font-weight: bolder;
+    font-size: 30px;
+    color: #1a1919;
+    margin-bottom: 20px;
+}
+
+
 .title{
-    font-style: normal;
     font-weight: bolder;
     font-size: 20px;
     line-height: 22px;
     text-transform: uppercase;
     color: black;
+
+    margin-top: 40px;
+    
 }
 
 .value{
-    margin-top: 8px;
-    font-family: overpass,sans-serif;
-    font-style: normal;
     font-size: 20px;
     line-height: 35px;
     color: #252323;
