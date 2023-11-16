@@ -6,31 +6,37 @@ import Albirex from "../images/Team_Logos/Albirex_Niigata.png"
 
 export default function Albi(){
     return(
-      <div>
-        <h1 className='team-name'> Albirex Niigata </h1>
+      <div className='albi'>
+        <h1 className='header'> Albirex Niigata </h1>
         <img src={Albirex} alt = "logo"className ="team-logo"></img> 
 
-        <ol className='team-info'> 
-          <li> <span class="bolded">EST:</span> 1955 </li>
-          <li> 
-            <span class="bolded">Team names: </span><br/>
+        <div className='team-info'> 
+          <div className='info-title'> Info </div>
+
+          <div className='title'> EST: </div> 
+            <div className='value'>1955</div>
+          
+          <div className='title'>Team names: </div>
+            <div className='value'>
               Niigata Eleven SC (1955)<br/>
               Albireo Niigata FC (1995)<br/>
               Albirex Niigata (1997) <br/>
               Nickname: Albi
-          </li> 
-          <li>
-            <span class="bolded">Stadium: </span><br/>
-              Name: Denka Big Swan Stadium<br/>
+            </div> 
+
+          <div className='title'> Stadium: </div>
+            <div className='value'> 
+              Denka Big Swan Stadium<br/>
               Capacity: 42,300<br/>
               <i class="fas fa-map-marker-alt"> </i> Chuo-ku, Niigata<br/>
-          </li>
-          <li>
-            Tropheys: <br/>
+            </div>
+
+          <div className='title'>Accomplishments: </div>
+            <div className='value'>
               J2 Champion (2003, 2022)
-          </li>
+            </div>
           
-        </ol>
+        </div>
 
         <Container className='video-cntr'>
           <div class="ratio ratio-16x9">
