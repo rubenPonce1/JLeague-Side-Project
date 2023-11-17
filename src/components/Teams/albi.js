@@ -1,3 +1,10 @@
+/* 
+Filename: albi.js
+Date: 11/16/23
+Authors: Ruben Ponce
+Description: This is the team page for Albirex Niigata
+*/
+
 import React from 'react';
 import Container from 'react-bootstrap/esm/Container';
 
@@ -13,9 +20,10 @@ export default function Albi(){
         Albirex Niigata 
         </h1>
         
-
+        {/*This is the container for the team info */}
         <div className='team-info'> 
           <div className='team-info-wrapper'>
+
             <div className='info-title'> Info </div>
 
             <div className='info-item'> EST: </div> 
@@ -44,6 +52,7 @@ export default function Albi(){
           </div>
         </div>
 
+        {/*This is the container for the team short youtube video*/}
         <Container className='video-cntr'>
           <h2 className='video-header'> Short Video of Albirex Niigata</h2>
 
@@ -53,7 +62,7 @@ export default function Albi(){
           </div> 
 
           <div className='video-disc'>
-              Title of Channel: 
+              Title of Channel: &nbsp;
               <Link className='video-chnl-link' to={"https://www.youtube.com/@albirexniigata12"}> 
                 Albirex Niigata Official Channel - Albirex Niigata <br/>
               </Link> 
