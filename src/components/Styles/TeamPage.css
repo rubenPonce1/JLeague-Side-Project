@@ -21,7 +21,7 @@ h1 .team-logo{
 }
 
 .team-info-wrapper{
-    background: #f6eee3;
+    background: #faeddf;
     padding: 15px;
     border-radius: 6px;
 }
@@ -32,7 +32,6 @@ h1 .team-logo{
     margin-bottom: 20px;
 
 }
-
 
 .info-item{
     font-weight: bolder;
@@ -50,4 +49,26 @@ h1 .team-logo{
     line-height: 35px;
     color: black;
     
+}
+
+.video-header{
+    background-color: #faeddf;
+    border-radius: 6px;
+    font-size: 35px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.video-disc{
+    background-color: #faeddf;
+    border-radius: 6px;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.video-chnl-link{
+    color: black;
+    cursor: pointer;
 }
