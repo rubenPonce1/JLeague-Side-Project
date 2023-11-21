@@ -90,8 +90,8 @@ export default function Albi(){
               <li className='social-media-item'>
                 <a className='social-media-value' href='https://twitter.com/albirex_pr?lang=en' 
                 target="_blank" rel="noreferrer">
-                  <div alt='albi_twt' className ="social-media-img"> 
-                  <FontAwesomeIcon icon="fab fa-twitter"/>
+                  <div> 
+                  <FontAwesomeIcon  alt='albi_ig' className ="social-media-img" icon="fab fa-twitter"/>
                   </div>
                   <div className='social-media-title'>@albirex_pr</div>
                 </a>
@@ -100,8 +100,8 @@ export default function Albi(){
               <li className='social-media-item'>
                 <a className='social-media-value' href='https://www.instagram.com/albirex_niigata_official/' 
                 target="_blank" rel="noreferrer">
-                  <div alt='albi_ig' className ="social-media-img">
-                    <FontAwesomeIcon icon="fab fa-instagram" />
+                  <div>
+                    <FontAwesomeIcon  alt='albi_ig' className ="social-media-img" icon="fab fa-instagram" />
                   </div>
                   <div className='social-media-title'> @albirex_niigata_official </div>
                 </a>
@@ -110,8 +110,8 @@ export default function Albi(){
               <li className='social-media-item'>
                 <a className='social-media-value' href='https://www.youtube.com/user/albirexniigata12' 
                 target="_blank" rel="noreferrer">
-                  <div alt='albi_ig' className ="social-media-img">
-                    <FontAwesomeIcon icon="fab fa-youtube" />
+                  <div>
+                    <FontAwesomeIcon  alt='albi_ig' className ="social-media-img" icon="fab fa-youtube" />
                   </div>
                   <div className='social-media-title'> Official Youtube </div>
                 </a>
@@ -120,8 +120,8 @@ export default function Albi(){
               <li className='social-media-item'>
                 <a className='social-media-value' href='https://www.tiktok.com/@albirex_official' 
                 target="_blank" rel="noreferrer">
-                  <div alt='albi_ig' className ="social-media-img">
-                    <FontAwesomeIcon icon="fab fa-tiktok" />
+                  <div>
+                    <FontAwesomeIcon alt='albi_ig' className ="social-media-img" icon="fab fa-tiktok" />
                   </div>
                   <div className='social-media-title'> @albirex_official </div>
                 </a>
@@ -130,10 +130,10 @@ export default function Albi(){
               <li className='social-media-item'>
                 <a className='social-media-value' href='https://www.facebook.com/AlbirexNiigata' 
                 target="_blank" rel="noreferrer">
-                  <div alt='albi_ig' className ="social-media-img">
-                    <FontAwesomeIcon icon="fab fa-facebook-f" />
+                  <div>
+                    <FontAwesomeIcon alt='albi_ig' className ="social-media-img" icon="fab fa-facebook-f" />
                   </div>
-                  <div className='social-media-title'> @アルビレックス新潟/Albirex Niigata </div>
+                  <div className='social-media-title'> @Albirex Niigata </div>
                 </a>
               </li>
             </ul>
