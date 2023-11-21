@@ -71,7 +71,24 @@ export default function Albi(){
           </div>
         </Container>
 
+        <footer className='social-media'>
+          <h2 className='social-media-hdr'>
+            Albirex Niigata On Social Media
+          </h2>
+          <div className='social-media-area'>
+            <ul className='social-media-list'>
+              <li className='social-media-item'>
+                <a className='social-media-value' href='https://www.albirex.co.jp/en/' target="_blank" rel="noreferrer"> 
+                  <img src={Albirex} alt = "logo"className ="social-media-img"/> 
+                  <div className='social-media-title'> Official Website </div>
+                </a> 
+              </li>
+              
 
+            </ul>
+
+          </div>
+        </footer>
         
       </div>
 
