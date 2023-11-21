@@ -1,6 +1,7 @@
 :root{
     --albi: #e84e10; 
     --albiSec: #174195;
+    --white: #ffffff;
 }
 .albi{
     background-image: url('../images/Stadiums/BigSwanStadium\ Medium.png');
@@ -33,4 +34,16 @@
 .albi .social-media-hdr-title-underline{
     background-image: linear-gradient(90deg, rgba(26,25,25,0.0001) 
     0,rgba(232,78,16,1) 10%, rgba(23,65,149,1) 99.96%);
+}
+
+.albi .social-media-value{
+    color: var(--albi)
+}
+
+.albi .social-media-img{
+    background: var(--albi);
+}
+
+.albi .social-media-img:hover{
+    background-color: var(--albiSec);
 }
