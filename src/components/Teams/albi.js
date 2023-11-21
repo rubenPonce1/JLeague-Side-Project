@@ -74,7 +74,8 @@ export default function Albi(){
 
         <footer className='social-media'>
           <h2 className='social-media-hdr'>
-            Albirex Niigata On Social Media
+            <div className='social-media-hdr-title'>Albirex Niigata Social Pages</div>
+            <div class="social-media-hdr-title-underline" />  
           </h2>
           <div className='social-media-area'>
             <ul className='social-media-list'>
@@ -136,7 +137,6 @@ export default function Albi(){
                 </a>
               </li>
             </ul>
-
           </div>
         </footer>
         
