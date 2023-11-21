@@ -72,3 +72,36 @@ h1 .team-logo{
     color: black;
     cursor: pointer;
 }
+
+.social-media{
+    background-color: black;
+    padding: 80px 120px;
+    margin-bottom: -20px;
+}
+.social-media-hdr{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.social-media-hdr-title{
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    text-transform: uppercase; 
+}
+
+.social-media-hdr-title-underline{
+    content: '';
+    position: absolute;
+    width: 45%;
+    height: 10px;
+    left: 50.5%;
+    transform: translateX(-50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
