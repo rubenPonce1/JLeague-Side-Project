@@ -50,7 +50,7 @@ export default function Home(){
               return(
                 <li key={TeamList.index} >
                   <Link className={item.cName}
-                        to = {item.path}>
+                        to = {item.path} target="_blank" rel="noreferrer">
 
                       <img src= {item.image} className= "team-logo" alt='teamLogo'></img>
                       {item.title}  
