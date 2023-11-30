@@ -17,7 +17,7 @@ h1 .team-logo{
     position: relative;
     margin: 0 48px;
     padding: 52px;
-    
+    text-transform: uppercase;
 }
 
 .team-info-wrapper{
@@ -45,7 +45,7 @@ h1 .team-logo{
 }
 
 .info-value{
-    font-size: 20px;
+    font-size: 18px;
     line-height: 35px;
     color: black;
     
@@ -78,6 +78,7 @@ h1 .team-logo{
     padding: 80px 120px;
     margin-bottom: -20px;
 }
+
 .social-media-hdr{
     max-width: 1440px;
     margin: 0 auto;
@@ -142,8 +143,6 @@ a{
     padding:30px;
     border-radius: 50%;
 }
-
-
 
 .social-media-title{
     font-weight:600;
