@@ -31,25 +31,40 @@ export default function Cerezo(){
           <div className='info-title'> Info </div>
 
           <div className='info-item'> EST: </div>
-            <div className='value'> *** </div>
+            <div className='value'> 
+              1957 <br/> 
+              Original Eight
+            </div>
 
 
           <div className='info-item'>Team names: </div>
             <div className='info-value'>
-              **** <br/>
-              Nickname: **
+              Yanmar Diesel(1957) <br/>
+              Cerezo Osaka (1993)<br/>
+              Nickname: Sakura (cherry blossoms)
             </div>
           
           <div className='info-item'> Stadium: </div>
               <div className='info-value'>
-                ***<br/>
-                Capacity: <br/>
-                <i class="fas fa-map-marker-alt"> </i> * <br/>
+                Yodoko Sakura Stadium <br/>
+                Capacity: 24,481 <br/>
+                <i class="fas fa-map-marker-alt"> </i> Higashisumiyoshi-ku, Osaka <br/>
               </div>
               
             <div className='info-item'>Accomplishments: </div>
               <div className='info-value'>
-                *****
+                Yanmir Diesel: <br/>
+                Japan Soccer League (1971, 1974, 1975, 1980)<br/>
+                JSL Cup/J.League Cup (1973, 1983, 1984)<br/>
+                Emperor's Cup (1968, 1970, 1974)<br/>
+                Queen's Cup (1976) <br/>
+                <br/>
+
+                Cerezo Osaka:<br/>
+                Japan Football League/J2 League (1994)<br/>
+                J.League Cup (2017)<br/>
+                Emperor's Cup (2017)<br/>
+                Japanese Super Cup (2018)
               </div>
         </div>
       </div>
@@ -57,21 +72,21 @@ export default function Cerezo(){
 
 	    {/*This is the container for the team video*/}
       <Container className='video-cntr'>
-        <h2 className='video-header'> Short Video of *****</h2>
+        <h2 className='video-header'> Short Video of Cerezo Osaka </h2>
 
 
         <div class="ratio ratio-16x9">
-          <iframe src=" "
+          <iframe src="https://www.youtube.com/embed/FkCV7x68Tnw?si=01GHe4DK54kTDfJu"
                   title="YouTube video" allowFullScreen></iframe>
         </div>
 
 
         <div className='video-disc'>
           Title of Channel:
-          <Link className='video-chnl-link' to={"  "}>
-            *** <br/>
+          <Link className='video-chnl-link' to={"https://www.youtube.com/@JLEAGUEInternational"}>
+              J.LEAGUE International <br/>
           </Link>
-            Title: *****
+            Title: GET TO KNOW J.LEAGUE: Cerezo Osaka
             
         </div>
       </Container>
