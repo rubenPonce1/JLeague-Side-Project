@@ -17,7 +17,8 @@ import { Link } from 'react-router-dom';
 export default function Albi(){
     return(
       <div className='albi'>
-        <h1 className='header'> <img src={Albirex} alt = "logo"className ="team-logo"></img> 
+        <h1 className='header'> <img src={Albirex} 
+        alt = "logo"className ="team-logo"></img> 
         Albirex Niigata 
         </h1>
         
@@ -64,7 +65,8 @@ export default function Albi(){
 
           <div className='video-disc'>
               Title of Channel: &nbsp;
-              <Link className='video-chnl-link' to={"https://www.youtube.com/@albirexniigata12"}> 
+              <Link className='video-chnl-link' 
+              to={"https://www.youtube.com/@albirexniigata12"}> 
                 Albirex Niigata Official Channel - Albirex Niigata <br/>
               </Link> 
               Title: Meiji Yasuda Life J2 League championship and J1 promotion commemorative parade
@@ -74,13 +76,16 @@ export default function Albi(){
 
         <footer className='social-media'>
           <h2 className='social-media-hdr'>
-            <div className='social-media-hdr-title'>Albirex Niigata Social Pages</div>
+            <div className='social-media-hdr-title'>
+              Albirex Niigata Social Pages
+            </div>
             <div class="social-media-hdr-title-underline" />  
           </h2>
           <div className='social-media-area'>
             <ul className='social-media-list'>
               {/*<li className='social-media-item'>
-                <a className='social-media-value' href='https://www.albirex.co.jp/en/' 
+                <a className='social-media-value' 
+                href='https://www.albirex.co.jp/en/' 
                 target="_blank" rel="noreferrer"> 
                   <img src={Albirex} alt = "logo" className ="social-media-img"/> 
                   <div className='social-media-title'> Official Website </div>
@@ -88,50 +93,60 @@ export default function Albi(){
               </li> */}
 
               <li className='social-media-item'>
-                <a className='social-media-value' href='https://twitter.com/albirex_pr?lang=en' 
+                <a className='social-media-value' 
+                href='https://twitter.com/albirex_pr?lang=en' 
                 target="_blank" rel="noreferrer">
                   <div> 
-                  <FontAwesomeIcon  alt='albi_ig' className ="social-media-img" icon="fab fa-twitter"/>
+                  <FontAwesomeIcon  alt='albi_twt' 
+                  className ="social-media-img" icon="fab fa-twitter"/>
                   </div>
                   <div className='social-media-title'>@albirex_pr</div>
                 </a>
               </li>
 
               <li className='social-media-item'>
-                <a className='social-media-value' href='https://www.instagram.com/albirex_niigata_official/' 
+                <a className='social-media-value'
+                href='https://www.instagram.com/albirex_niigata_official/' 
                 target="_blank" rel="noreferrer">
                   <div>
-                    <FontAwesomeIcon  alt='albi_ig' className ="social-media-img" icon="fab fa-instagram" />
+                    <FontAwesomeIcon  alt='albi_ig' 
+                    className ="social-media-img" icon="fab fa-instagram" />
                   </div>
                   <div className='social-media-title'> @albirex_niigata_official </div>
                 </a>
               </li>
 
               <li className='social-media-item'>
-                <a className='social-media-value' href='https://www.youtube.com/user/albirexniigata12' 
+                <a className='social-media-value' 
+                href='https://www.youtube.com/user/albirexniigata12' 
                 target="_blank" rel="noreferrer">
                   <div>
-                    <FontAwesomeIcon  alt='albi_ig' className ="social-media-img" icon="fab fa-youtube" />
+                    <FontAwesomeIcon  alt='albi_yt' 
+                    className ="social-media-img" icon="fab fa-youtube" />
                   </div>
                   <div className='social-media-title'> Official Youtube </div>
                 </a>
               </li>
 
               <li className='social-media-item'>
-                <a className='social-media-value' href='https://www.tiktok.com/@albirex_official' 
+                <a className='social-media-value' 
+                href='https://www.tiktok.com/@albirex_official' 
                 target="_blank" rel="noreferrer">
                   <div>
-                    <FontAwesomeIcon alt='albi_ig' className ="social-media-img" icon="fab fa-tiktok" />
+                    <FontAwesomeIcon alt='albi_tiktok' 
+                    className ="social-media-img" icon="fab fa-tiktok" />
                   </div>
                   <div className='social-media-title'> @albirex_official </div>
                 </a>
               </li>
 
               <li className='social-media-item'>
-                <a className='social-media-value' href='https://www.facebook.com/AlbirexNiigata' 
+                <a className='social-media-value' 
+                href='https://www.facebook.com/AlbirexNiigata' 
                 target="_blank" rel="noreferrer">
                   <div>
-                    <FontAwesomeIcon alt='albi_ig' className ="social-media-img" icon="fab fa-facebook-f" />
+                    <FontAwesomeIcon alt='albi_facebk' 
+                    className ="social-media-img" icon="fab fa-facebook-f" />
                   </div>
                   <div className='social-media-title'> @Albirex Niigata </div>
                 </a>
