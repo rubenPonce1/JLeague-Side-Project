@@ -35,7 +35,8 @@ export default function Avi(){
 
           <div className='info-item'>Team names: </div>
             <div className='info-value'>
-              Fujieda Blux (1994)<br/>
+              Fujieda Blux (1982)<br/>
+              Fukuoka Blux (1995)<br/>
               Avispa Fukuoka (1996)<br/>
               Nickname: Avi, Hachi (Hornet, in Japanese), Meishu
             </div>
