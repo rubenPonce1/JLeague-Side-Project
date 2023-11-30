@@ -1,10 +1,9 @@
 /*
-Filename: albi.js
-Date: 11/16/23
+Filename: avi.js
+Date: 11/30/23
 Authors: Ruben Ponce
-Description: This is the team page for 
+Description: This is the team page for Fukuoka Avispa
 */
-
 
 import React from 'react';
 import Container from 'react-bootstrap/esm/Container';
@@ -18,9 +17,10 @@ import { Link } from 'react-router-dom';
 
 export default function Avi(){
   return(
-    <div className='Avi'>
+    <div className='avi'>
       <h1 className='header'> <img src={Avispa}
         alt = "logo"className ="team-logo"></img> 
+        Avispa Fukuoka
       </h1>
       
        {/*This is the container for the team info */}
