@@ -105,22 +105,22 @@ export default function Cerezo(){
             
             <li className='social-media-item'>
               <a className='social-media-value'
-                 href=''
+                 href='https://twitter.com/crz_official'
                  target="_blank" rel="noreferrer">
 
                 <div>
-                  <FontAwesomeIcon  alt='***_twt'
+                  <FontAwesomeIcon  alt='crz_twt'
                     className ="social-media-img" icon="fab fa-twitter"/>
                 </div>
                 
-                <div className='social-media-title'>@***</div>
+                <div className='social-media-title'>@crz_official</div>
               </a>
             </li>
 
 
             <li className='social-media-item'>
               <a className='social-media-value'
-                 href=''
+                 href='https://www.instagram.com/cerezo_osaka/'
                  target="_blank" rel="noreferrer">
                 
                 <div>
@@ -128,51 +128,35 @@ export default function Cerezo(){
                   className ="social-media-img" icon="fab fa-instagram" />
                 </div>
                 
-                <div className='social-media-title'> @*** </div>
+                <div className='social-media-title'> @cerezo_osaka </div>
               </a>
             </li>
 
 
             <li className='social-media-item'>
               <a className='social-media-value'
-                 href=''
+                 href='https://www.youtube.com/c/CerezoOsakaOfficialchannel'
                  target="_blank" rel="noreferrer">
                  
                 <div>
-                  <FontAwesomeIcon  alt='***_yt'
+                  <FontAwesomeIcon  alt='crz_yt'
                   className ="social-media-img" icon="fab fa-youtube" />
                 </div>
                   <div className='social-media-title'> Official Youtube </div>
               </a>
             </li>
 
-
             <li className='social-media-item'>
               <a className='social-media-value'
-                 href=''
-                 target="_blank" rel="noreferrer">
-                 
-                <div>
-                  <FontAwesomeIcon alt='***_tiktok'
-                    className ="social-media-img" icon="fab fa-tiktok" />
-                </div>
-                
-                <div className='social-media-title'> @*** </div>
-              </a>
-            </li>
-
-
-            <li className='social-media-item'>
-              <a className='social-media-value'
-                 href=''
+                 href='https://www.facebook.com/OfficialCerezoOsaka'
                  target="_blank" rel="noreferrer">
                 
                 <div>
-                  <FontAwesomeIcon alt='***_facebk'
+                  <FontAwesomeIcon alt='crz_facebk'
                   className ="social-media-img" icon="fab fa-facebook-f" />
                  </div>
                 
-                <div className='social-media-title'> @*** </div>
+                <div className='social-media-title'> @OfficialCerezoOsaka </div>
               </a>
             </li>
           </ul>
