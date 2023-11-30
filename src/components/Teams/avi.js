@@ -23,7 +23,7 @@ export default function Avi(){
         Avispa Fukuoka
       </h1>
       
-       {/*This is the container for the team info */}
+      {/*This is the container for the team info */}
       <div className='team-info'>
         <div className='team-info-wrapper'>
           <div className='info-title'> Info </div>
@@ -55,7 +55,7 @@ export default function Avi(){
         </div>
       </div>
 
-
+      {/*This is the container for the team video*/}
       <Container className='video-cntr'>
         <h2 className='video-header'> Short Video of Avispa Fukuoka</h2>
 
@@ -77,7 +77,7 @@ export default function Avi(){
         </div>
       </Container>
 
-
+      {/*This is the container for the team socials*/}
 	    <footer className='social-media'>
         <h2 className='social-media-hdr'>
           <div className='social-media-hdr-title'>
