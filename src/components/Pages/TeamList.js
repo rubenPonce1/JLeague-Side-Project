@@ -43,7 +43,7 @@ export const TeamList =[
     {
         image: Cerezo,
         title: 'Cerezo Osaka',
-        path: '/Cerezo_Osaka' ,
+        path: '/Cerezo' ,
         cName: 'team-link'
     },
 
