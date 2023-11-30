@@ -46,10 +46,20 @@
 }
 
 .avi{
-    background-image: url('../images/Stadiums/BestDenkiStadium\ Medium.png');
+    background-image: url('../images/Stadiums/BestDenkiStadium\ Large.png');
     background-repeat: no-repeat;
     margin-top: -40px;
     background-size:cover;
     background-attachment: fixed;
     align-items: center;  
 }
+
+.avi .header{
+    color: var(--avi);
+    text-shadow:
+        0.05em 0 var(--aviSec),
+        0 0.05em var(--aviSec),
+        0.05em 0.05em var(--aviSec);
+}
+
+
