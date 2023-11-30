@@ -48,7 +48,12 @@ export default function Albi(){
                 
               <div className='info-item'>Accomplishments: </div>
                 <div className='info-value'>
-                  J2 Champion (2003, 2022)
+                  Niigata Eleven SC:
+                  Hokushinetsu Football League (1986)
+                  <br/>
+                  Albirex Niigata: <br/>
+                  J2 Champion (2003, 2022) <br/>
+                  Hokushinetsu Football League (1996, 1997)
                 </div>
           
           </div>
