@@ -35,7 +35,8 @@ export default function Avi(){
 
           <div className='info-item'>Team names: </div>
             <div className='info-value'>
-              Fujieda Blux (1982)<br/>
+              Chūō Bōhan SC (1982)<br/>
+              Fujieda Blux (1994)<br/>
               Fukuoka Blux (1995)<br/>
               Avispa Fukuoka (1996)<br/>
               Nickname: Avi, Hachi (Hornet, in Japanese), Meishu
@@ -50,7 +51,15 @@ export default function Avi(){
               
           <div className='info-item'>Accomplishments: </div>
             <div className='info-value'>
-               J. League Cup (2023)
+            Chuo Bohan:
+            Japan Football League/J2 League (1992)<br/>
+            <br/>
+
+            Fujieda Blux:
+            Japan Football League/J2 League (1995)<br/>
+            <br/>
+            Avispa Fukuoka:
+            J. League Cup (2023)
             </div>
         
         </div>
