@@ -8,51 +8,52 @@ Description: This is the team page for
 
 import React from 'react';
 import Container from 'react-bootstrap/esm/Container';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import '../Styles/TeamPage.css';
 import '../Styles/IndivTeamPageStyle.css'
-import from "../images/Team_Logos/.png"
+import Avispa from "../images/Team_Logos/Avispa_Fukuoka.png"
 import { Link } from 'react-router-dom';
 
 
-export default function (){
+export default function Avi(){
    return(
-     <div className=' '>
-       <h1 className='header'> <img src={} alt = "logo"className ="team-logo"></img>
-       
-       </h1>
+     <div className='Avi'>
+      <h1 className='header'> <img src={Avispa}
+        alt = "logo"className ="team-logo"></img> 
+      </h1>
       
        {/*This is the container for the team info */}
-       <div className='team-info'>
-         <div className='team-info-wrapper'>
-           <div className='info-title'> Info </div>
+      <div className='team-info'>
+        <div className='team-info-wrapper'>
+          <div className='info-title'> Info </div>
 
 
-           <div className='info-item'> EST: </div>
-             <div className='value'> *** </div>
+          <div className='info-item'> EST: </div>
+            <div className='value'> 1982 </div>
 
 
-           <div className='info-item'>Team names: </div>
-             <div className='info-value'>
-               **** <br/>
-               Nickname: **
-             </div>
+          <div className='info-item'>Team names: </div>
+            <div className='info-value'>
+              Fujieda Blux (1994)<br/>
+              Avispa Fukuoka (1996)<br/>
+              Nickname: Avi, Hachi (Hornet, in Japanese), Meishu
+            </div>
           
-             <div className='info-item'> Stadium: </div>
-               <div className='info-value'>
-                ***<br/>
-                 Capacity: <br/>
-                 <i class="fas fa-map-marker-alt"> </i> * <br/>
-               </div>
+          <div className='info-item'> Stadium: </div>
+            <div className='info-value'>
+              Best Denki Stadium <br/>
+              Capacity: 22,563<br/>
+              <i class="fas fa-map-marker-alt"> </i> Hakata-ku, Fukuoka <br/>
+            </div>
               
-             <div className='info-item'>Accomplishments: </div>
-               <div className='info-value'>
-                 *****
-               </div>
+          <div className='info-item'>Accomplishments: </div>
+            <div className='info-value'>
+               J. League Cup (2023)
+            </div>
         
-         </div>
-       </div>
+        </div>
+      </div>
 
 
        <Container className='video-cntr'>
