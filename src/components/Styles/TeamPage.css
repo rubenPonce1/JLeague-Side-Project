@@ -14,6 +14,7 @@ h1 .team-logo{
 
 .header{
     margin-top: 40px;
+    text-transform: uppercase;
 }
 
 .team-info{
@@ -21,7 +22,7 @@ h1 .team-logo{
     position: relative;
     margin: 0 48px;
     padding: 52px;
-    text-transform: uppercase;
+    
 }
 
 .team-info-wrapper{
@@ -32,7 +33,7 @@ h1 .team-logo{
 
 .info-title{
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 32px;
     margin-bottom: 20px;
 
 }
