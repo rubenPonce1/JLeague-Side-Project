@@ -12,6 +12,10 @@ h1 .team-logo{
     width: auto;
 }
 
+.header{
+    margin-top: 40px;
+}
+
 .team-info{
     background-attachment: fixed;
     position: relative;
