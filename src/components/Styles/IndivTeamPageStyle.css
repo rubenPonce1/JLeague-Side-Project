@@ -33,10 +33,10 @@
 }
 .albi .social-media-hdr-title-underline{
     background-image: linear-gradient(90deg, rgba(26,25,25,0.0001) 
-    0,rgba(232,78,16,1) 10%, rgba(23,65,149,1) 99.96%);
+    0, var(--albi) 10%, var(--albiSec) 99.96%);
 }
 .albi .social-media-value{
-    color: var(--albi)
+    color: var(--albiSec)
 }
 .albi .social-media-img{
     background: var(--albi);
@@ -53,7 +53,6 @@
     background-attachment: fixed;
     align-items: center;  
 }
-
 .avi .header{
     color: var(--avi);
     text-shadow:
@@ -61,7 +60,6 @@
         0 0.05em var(--aviSec),
         0.05em 0.05em var(--aviSec);
 }
-
 .avi .team-info{
     background-size: 180px 180px;
     background-color: var(--avi);
@@ -72,5 +70,17 @@
     background-image: -o-linear-gradient(var(--aviSec)5 50%, transparent 50%, transparent);
     background-image: linear-gradient(var(--aviSec) 50%, transparent 50%, transparent); 
 }
-
+.avi .social-media-hdr-title-underline{
+    background-image: linear-gradient(90deg, rgba(26,25,25,0.0001) 
+    0, var(--avi) 10%, var(--aviSec) 99.96%);
+}
+.avi .social-media-value{
+    color: var(--avi)
+}
+.avi .social-media-img{
+    background: var(--aviSec);
+}
+.avi .social-media-img:hover{
+    background-color: var(--avi);
+}
 
