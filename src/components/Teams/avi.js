@@ -17,8 +17,8 @@ import { Link } from 'react-router-dom';
 
 
 export default function Avi(){
-   return(
-     <div className='Avi'>
+  return(
+    <div className='Avi'>
       <h1 className='header'> <img src={Avispa}
         alt = "logo"className ="team-logo"></img> 
       </h1>
@@ -78,87 +78,97 @@ export default function Avi(){
       </Container>
 
 
-	<footer className='social-media'>
-         <h2 className='social-media-hdr'>
-           <div className='social-media-hdr-title'>
-             *** Social Pages
-           </div>
-           <div class="social-media-hdr-title-underline" /> 
-         </h2>
-         <div className='social-media-area'>
-           <ul className='social-media-list'>
+	    <footer className='social-media'>
+        <h2 className='social-media-hdr'>
+          <div className='social-media-hdr-title'>
+            Avispa Fukuoka Social Pages
+          </div>
+          <div class="social-media-hdr-title-underline" /> 
+        </h2>
+
+        <div className='social-media-area'>
+          <ul className='social-media-list'>
             
-             <li className='social-media-item'>
-               <a className='social-media-value'
-               href=''
-               target="_blank" rel="noreferrer">
-                 <div>
-                 <FontAwesomeIcon  alt='***_ig'
-                 className ="social-media-img" icon="fab fa-twitter"/>
+            <li className='social-media-item'>
+              <a className='social-media-value'
+                 href='https://twitter.com/AvispaF'
+                 target="_blank" rel="noreferrer">
+
+                  <div>
+                    <FontAwesomeIcon  alt='avi_twt'
+                    className ="social-media-img" icon="fab fa-twitter"/>
+                  </div>
+
+                  <div className='social-media-title'>@AvispaF</div>
+              </a>
+            </li>
+
+
+            <li className='social-media-item'>
+              <a className='social-media-value'
+                 href='https://www.instagram.com/avispaf/'
+                 target="_blank" rel="noreferrer">
+
+                <div>
+                  <FontAwesomeIcon  alt='avi_ig'
+                  className ="social-media-img" icon="fab fa-instagram" />
                  </div>
-                 <div className='social-media-title'>@***</div>
-               </a>
-             </li>
+                <div className='social-media-title'> @avispaf </div>
+              </a>
+            </li>
 
 
-             <li className='social-media-item'>
-               <a className='social-media-value'
-               href=''
-               target="_blank" rel="noreferrer">
-                 <div>
-                   <FontAwesomeIcon  alt='***_ig'
-                   className ="social-media-img" icon="fab fa-instagram" />
-                 </div>
-                 <div className='social-media-title'> @*** </div>
-               </a>
-             </li>
+            <li className='social-media-item'>
+              <a className='social-media-value'
+                 href='https://www.youtube.com/avispachannel'
+                 target="_blank" rel="noreferrer">
+
+                <div>
+                  <FontAwesomeIcon  alt='avi_yt'
+                  className ="social-media-img" icon="fab fa-youtube" />
+                </div>
+                <div className='social-media-title'> Official Youtube </div>
+              </a>
+            </li>
 
 
-             <li className='social-media-item'>
-               <a className='social-media-value'
-               href=''
-               target="_blank" rel="noreferrer">
-                 <div>
-                   <FontAwesomeIcon  alt='***_ig'
-                   className ="social-media-img" icon="fab fa-youtube" />
-                 </div>
-                 <div className='social-media-title'> Official Youtube </div>
-               </a>
-             </li>
+            <li className='social-media-item'>
+              <a className='social-media-value'
+                 href='https://www.tiktok.com/@avispaf_'
+                 target="_blank" rel="noreferrer">
+
+                <div>
+                  <FontAwesomeIcon alt='avi_tiktok'
+                  className ="social-media-img" icon="fab fa-tiktok" />
+                </div>
+                
+                <div className='social-media-title'> @avispaf_ </div>
+              </a>
+            </li>
 
 
-             <li className='social-media-item'>
-               <a className='social-media-value'
-               href=''
-               target="_blank" rel="noreferrer">
-                 <div>
-                   <FontAwesomeIcon alt='***_ig'
-                   className ="social-media-img" icon="fab fa-tiktok" />
-                 </div>
-                 <div className='social-media-title'> @*** </div>
-               </a>
-             </li>
+            <li className='social-media-item'>
+              <a className='social-media-value'
+                 href='https://www.facebook.com/avispaf/'
+                 target="_blank" rel="noreferrer">
+                 
+                <div>
+                  <FontAwesomeIcon alt='avi_facebk'
+                  className ="social-media-img" icon="fab fa-facebook-f" />
+                </div>
+                
+                <div className='social-media-title'> @avispaf </div>
+              </a>
+            </li>
 
-
-             <li className='social-media-item'>
-               <a className='social-media-value'
-               href='https://www.facebook.com/AlbirexNiigata'
-               target="_blank" rel="noreferrer">
-                 <div>
-                   <FontAwesomeIcon alt='***_ig'
-                   className ="social-media-img" icon="fab fa-facebook-f" />
-                 </div>
-                 <div className='social-media-title'> @*** </div>
-               </a>
-             </li>
-           </ul>
-         </div>
-       </footer>
+          </ul>
+        </div>
+      </footer>
       
-     </div>
+    </div>
 
 
-   );
+  );
 }  
 
  
