@@ -10,6 +10,7 @@ import { Routes, Route, BrowserRouter  } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Pages/Home';
 import Albi from './components/Teams/albi';
+import Avi from './components/Teams/avi'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           {/*<Route path =  "*" element={<PageNotFound />} />*/}
 
           <Route path = "/Albirex" element = {<Albi />} />
+          <Route path = "/Avispa" element= {<Avi />} />
 
 
         </Routes>
