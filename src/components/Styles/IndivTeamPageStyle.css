@@ -62,4 +62,15 @@
         0.05em 0.05em var(--aviSec);
 }
 
+.avi .team-info{
+    background-size: 180px 180px;
+    background-color: var(--avi);
+
+    background-image: -webkit-linear-gradient(var(--aviSec) 50%, transparent 50%, transparent);
+    background-image: -moz-linear-gradient(var(--aviSec) 50%, transparent 50%, transparent);
+    background-image: -ms-linear-gradient(var(--aviSec) 50%, transparent 50%, transparent);
+    background-image: -o-linear-gradient(var(--aviSec)5 50%, transparent 50%, transparent);
+    background-image: linear-gradient(var(--aviSec) 50%, transparent 50%, transparent); 
+}
+
 
