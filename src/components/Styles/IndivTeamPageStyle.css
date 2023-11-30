@@ -1,8 +1,9 @@
 :root{
     --white: #ffffff;
     --black: #000000;
-    --albi: #e84e10; 
-    --albiSec: #174195;
+    --albi: #e84e10; --albiSec: #174195;
+    --avi: #0092ae; --aviSec: #0b2355;
+
     
 }
 .albi{
@@ -14,7 +15,6 @@
     align-items: center; 
 }
 .albi .header{
-    margin-top: 40px;
     color: var(--albi);
     text-shadow:
         0.05em 0 var(--albiSec),
@@ -43,4 +43,13 @@
 }
 .albi .social-media-img:hover{
     background-color: var(--albiSec);
+}
+
+.avi{
+    background-image: url('../images/Stadiums/BestDenkiStadium\ Medium.png');
+    background-repeat: no-repeat;
+    margin-top: -40px;
+    background-size:cover;
+    background-attachment: fixed;
+    align-items: center;  
 }
