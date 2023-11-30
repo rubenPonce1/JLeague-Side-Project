@@ -56,25 +56,26 @@ export default function Avi(){
       </div>
 
 
-       <Container className='video-cntr'>
-         <h2 className='video-header'> Short Video of *****</h2>
+      <Container className='video-cntr'>
+        <h2 className='video-header'> Short Video of Avispa Fukuoka</h2>
+
+        <div class="ratio ratio-16x9">
+          <iframe src="https://www.youtube.com/embed/LfLepbWMpo4?si=LWjzgIUwP2PIFixX"
+                  title="YouTube video" allowFullScreen></iframe>
+        </div>
 
 
-         <div class="ratio ratio-16x9">
-           <iframe src=" "
-                   title="YouTube video" allowFullScreen></iframe>
-         </div>
+        <div className='video-disc'>
+            Title of Channel: 
 
+            <Link className='video-chnl-link' to={"https://www.youtube.com/@JLEAGUEInternational"}>
+              J.LEAGUE International <br/>
+            </Link>
 
-         <div className='video-disc'>
-             Title of Channel:
-             <Link className='video-chnl-link' to={"  "}>
-               *** <br/>
-             </Link>
-             Title: *****
-            
-         </div>
-       </Container>
+            Title: Avispa Fukuoka Makes History in the 2023 Levain Cup!
+
+        </div>
+      </Container>
 
 
 	<footer className='social-media'>
