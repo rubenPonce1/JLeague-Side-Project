@@ -103,7 +103,9 @@ export default function Hokkaido() {
 
       <footer className="social-media">
         <h2 className="social-media-hdr">
-          <div className="social-media-hdr-title">*** Social Pages</div>
+          <div className="social-media-hdr-title">
+            Hokkaido Consadole Sapporo Social Pages
+          </div>
           <div class="social-media-hdr-title-underline" />
         </h2>
         <div className="social-media-area">
@@ -111,49 +113,52 @@ export default function Hokkaido() {
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://twitter.com/consaofficial/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt="***_twt"
+                    alt="consa_twt"
                     className="social-media-img"
                     icon="fab fa-twitter"
                   />
                 </div>
-                <div className="social-media-title">@***</div>
+                <div className="social-media-title">@consaofficial</div>
               </a>
             </li>
 
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.instagram.com/hokkaido_consadole_sapporo/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt="***_ig"
+                    alt="consa_ig"
                     className="social-media-img"
                     icon="fab fa-instagram"
                   />
                 </div>
-                <div className="social-media-title"> @*** </div>
+                <div className="social-media-title">
+                  {" "}
+                  @hokkaido_consadole_sapporo{" "}
+                </div>
               </a>
             </li>
 
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.youtube.com/user/consadolesapporotv"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt="***_yt"
+                    alt="consa_yt"
                     className="social-media-img"
                     icon="fab fa-youtube"
                   />
@@ -165,36 +170,42 @@ export default function Hokkaido() {
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.tiktok.com/@hokkaidoconsadolesapporo/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt="***_tiktok"
+                    alt="consa_tiktok"
                     className="social-media-img"
                     icon="fab fa-tiktok"
                   />
                 </div>
-                <div className="social-media-title"> @*** </div>
+                <div className="social-media-title">
+                  {" "}
+                  @hokkaidoconsadolesapporo{" "}
+                </div>
               </a>
             </li>
 
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.facebook.com/consadoleInternational/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt="***_facebk"
+                    alt="consa_facebk"
                     className="social-media-img"
                     icon="fab fa-facebook-f"
                   />
                 </div>
-                <div className="social-media-title"> @*** </div>
+                <div className="social-media-title">
+                  {" "}
+                  @consadoleInternational{" "}
+                </div>
               </a>
             </li>
           </ul>
