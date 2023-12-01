@@ -249,3 +249,53 @@
     color: var(--gos);
     background-color: var(--white);
 }
+
+.consa{
+    background-image: url('../images/Stadiums/SapporoDome\ Large.jpeg');
+    background-repeat: no-repeat;
+    margin-top: -40px;
+    background-size:cover;
+    background-attachment: fixed;
+    align-items: center; 
+}
+.consa .header{
+    color: var(--sapp);
+    text-shadow:
+        0.05em 0 var(--sappSec),
+        0 0.05em var(--sappSec),
+        0.05em 0.05em var(--sappSec);
+}
+.consa .team-info{
+    background-image: linear-gradient(
+        90deg,
+        var(--sapp) 0%,
+        var(--sapp) 20%,
+        var(--sappSec) 20%,
+        var(--sappSec) 40%,
+        var(--sapp)40%,
+        var(--sapp) 60%,
+        var(--sappSec) 60%,
+        var(--sappSec) 80%,
+        var(--sapp) 80%,
+        var(--sapp) 100%
+    );
+}
+.consa .social-media-hdr-title-underline{
+    background-image: 
+        linear-gradient(
+            90deg,
+            rgba(26,25,25,0.0001) 0,
+            var(--white) 10%,
+            var(--sapp) 70.96%
+        );
+}
+.consa .social-media-value{
+    color: var(--white)
+}
+.consa .social-media-img{
+    background: var(--sapp);
+}
+.consa .social-media-img:hover{
+    color: var(--sapp);
+    background-color: var(--white);
+}
