@@ -299,3 +299,49 @@
     color: var(--sapp);
     background-color: var(--white);
 }
+
+.kasm{
+    background-image: url('../images/Stadiums/KashimaAntlersStadium.jpeg');
+    background-repeat: no-repeat;
+    margin-top: -40px;
+    background-size:cover;
+    background-attachment: fixed;
+    align-items: center; 
+}
+.kasm .header{
+    color: var(--kasm);
+    text-shadow:
+        0.05em 0 var(--kasmSec),
+        0 0.05em var(--kasmSec),
+        0.05em 0.05em var(--kasmSec);
+}
+.kasm .team-info{
+    background-image: linear-gradient(
+        90deg,
+        var(--kasmSec) 0%,
+        var(--kasmSec) 10%,
+        var(--kasm) 10%,
+        var(--kasm) 90%,
+        var(--kasmSec) 90%,
+        var(--kasmSec) 100%
+    );
+}
+.kasm .social-media-hdr-title-underline{
+    background-image: 
+        linear-gradient(
+            90deg,
+            rgba(26,25,25,0.0001) 0,
+            var(--white) 10%,
+            var(--kasm) 70.96%
+        );
+}
+.kasm .social-media-value{
+    color: var(--white)
+}
+.kasm .social-media-img{
+    background: var(--kasm);
+}
+.kasm .social-media-img:hover{
+    color: var(--kasm);
+    background-color: var(--white);
+}
