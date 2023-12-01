@@ -10,6 +10,7 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Pages/Home";
 import Albi from "./components/Teams/albi";
+import Kashima from "./components/Teams/antlers";
 import Avi from "./components/Teams/avi";
 import Cerezo from "./components/Teams/cerezo";
 import Hokkaido from "./components/Teams/consa";
@@ -34,6 +35,7 @@ function App() {
           <Route path="/FC_Tokyo" element={<FCTokyo />} />
           <Route path="/Gamba_Osaka" element={<Gamba />} />
           <Route path="/Hokkaido" element={<Hokkaido />} />
+          <Route path="/Kashima_Antlers" element={<Kashima />} />
         </Routes>
       </div>
     </BrowserRouter>
