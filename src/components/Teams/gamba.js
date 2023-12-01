@@ -96,7 +96,7 @@ export default function Gamba(){
       <footer className='social-media'>
         <h2 className='social-media-hdr'>
           <div className='social-media-hdr-title'>
-            *** Social Pages
+            Gamba Osaka Social Pages
           </div>
           <div class="social-media-hdr-title-underline" /> 
         </h2>
@@ -105,39 +105,39 @@ export default function Gamba(){
             
             <li className='social-media-item'>
               <a className='social-media-value'
-                 href=''
+                 href='https://twitter.com/GAMBA_OFFICIAL'
                  target="_blank" rel="noreferrer">
                 
                 <div>
-                  <FontAwesomeIcon  alt='***_twt'
+                  <FontAwesomeIcon  alt='gamba_twt'
                   className ="social-media-img" icon="fab fa-twitter"/>
                 </div>
                 
-                <div className='social-media-title'>@***</div>
+                <div className='social-media-title'>@gamba_official</div>
               </a>
             </li>
 
             <li className='social-media-item'>
               <a className='social-media-value'
-                 href=''
+                 href='https://www.instagram.com/gambaosaka_official/'
                  target="_blank" rel="noreferrer">
                 
                 <div>
-                  <FontAwesomeIcon  alt='***_ig'
+                  <FontAwesomeIcon  alt='gamba_ig'
                   className ="social-media-img" icon="fab fa-instagram" />
                 </div>
                 
-                <div className='social-media-title'> @*** </div>
+                <div className='social-media-title'> @gambaosaka_official </div>
               </a>
             </li>
 
             <li className='social-media-item'>
               <a className='social-media-value'
-                 href=''
+                 href='https://www.youtube.com/user/GambaFamilyNet'
                  target="_blank" rel="noreferrer">
                 
                 <div>
-                  <FontAwesomeIcon  alt='***_yt'
+                  <FontAwesomeIcon  alt='gamba_yt'
                   className ="social-media-img" icon="fab fa-youtube" />
                 </div>
                 
@@ -148,7 +148,7 @@ export default function Gamba(){
 
             <li className='social-media-item'>
               <a className='social-media-value'
-                 href=''
+                 href='https://www.tiktok.com/@gambaosaka_official'
                  target="_blank" rel="noreferrer">
                   
                 <div>
@@ -156,22 +156,22 @@ export default function Gamba(){
                   className ="social-media-img" icon="fab fa-tiktok" />
                 </div>
                   
-                <div className='social-media-title'> @*** </div>
+                <div className='social-media-title'> @gambaosaka_official </div>
               </a>
             </li>
 
 
             <li className='social-media-item'>
               <a className='social-media-value'
-                 href=''
+                 href='https://www.facebook.com/GambaOsakaOfficial'
                  target="_blank" rel="noreferrer">
                 
                 <div>
-                  <FontAwesomeIcon alt='***_facebk'
+                  <FontAwesomeIcon alt='gamba_facebk'
                   className ="social-media-img" icon="fab fa-facebook-f" />
                 </div>
                   
-                <div className='social-media-title'> @*** </div>
+                <div className='social-media-title'> @GambaOsakaOfficial </div>
               </a>
             </li>
           </ul>
