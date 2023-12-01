@@ -199,3 +199,53 @@
 .fctk .social-media-img:hover{
     background-color: var(--fctkSec);
 }
+
+.gamba{
+    background-image: url('../images/Stadiums/GambaOsakaStadium.jpeg');
+    background-repeat: no-repeat;
+    margin-top: -40px;
+    background-size:cover;
+    background-attachment: fixed;
+    align-items: center; 
+}
+.gamba .header{
+    color: var(--gos);
+    text-shadow:
+        0.05em 0 var(--gosSec),
+        0 0.05em var(--gosSec),
+        0.05em 0.05em var(--gosSec);
+}
+.gamba .team-info{
+    background-image: linear-gradient(
+        90deg,
+        var(--gos) 0%,
+        var(--gos) 20%,
+        var(--gosSec) 20%,
+        var(--gosSec) 40%,
+        var(--gos)40%,
+        var(--gos) 60%,
+        var(--gosSec) 60%,
+        var(--gosSec) 80%,
+        var(--gos) 80%,
+        var(--gos) 100%
+    );
+}
+.gamba .social-media-hdr-title-underline{
+    background-image: 
+        linear-gradient(
+            90deg,
+            rgba(26,25,25,0.0001) 0,
+            var(--white) 10%,
+            var(--gos) 70.96%
+        );
+}
+.gamba .social-media-value{
+    color: var(--white)
+}
+.gamba .social-media-img{
+    background: var(--gos);
+}
+.gamba .social-media-img:hover{
+    color: var(--gos);
+    background-color: var(--white);
+}
