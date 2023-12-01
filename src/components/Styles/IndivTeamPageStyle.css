@@ -47,8 +47,9 @@
     background-image: linear-gradient(var(--albiSec) 50%, transparent 50%, transparent);
 }
 .albi .social-media-hdr-title-underline{
-    background-image: linear-gradient(90deg, rgba(26,25,25,0.0001) 
-    0, var(--albi) 10%, var(--albiSec) 99.96%);
+    background-image: 
+        linear-gradient(90deg, rgba(26,25,25,0.0001) 0,
+        var(--albi) 10%, var(--albiSec) 99.96%);
 }
 .albi .social-media-value{
     color: var(--albiSec)
@@ -76,14 +77,14 @@
         0.05em 0.05em var(--aviSec);
 }
 .avi .team-info{
-    background-size: 180px 180px;
-    background-color: var(--avi);
-
-    background-image: -webkit-linear-gradient(var(--aviSec) 50%, transparent 50%, transparent);
-    background-image: -moz-linear-gradient(var(--aviSec) 50%, transparent 50%, transparent);
-    background-image: -ms-linear-gradient(var(--aviSec) 50%, transparent 50%, transparent);
-    background-image: -o-linear-gradient(var(--aviSec)5 50%, transparent 50%, transparent);
-    background-image: linear-gradient(var(--aviSec) 50%, transparent 50%, transparent); 
+    background:
+        repeating-linear-gradient(
+            to right,
+            var(--avi),
+            var(--avi) 40px,
+            var(--aviSec) 10px,
+            var(--aviSec) 80px
+        );
 }
 .avi .social-media-hdr-title-underline{
     background-image: linear-gradient(90deg, rgba(26,25,25,0.0001) 
@@ -108,32 +109,40 @@
     align-items: center; 
 }
 .crz .header{
-    color: var(--crz);
+    color: var(--cos);
     text-shadow:
-        0.05em 0 var(--crzSec),
-        0 0.05em var(--crzSec),
+        0.05em 0 var(--cosSec),
+        0 0.05em var(--cosSec),
         0.05em 0.05em var(--white);
 }
 .crz .team-info{
-    background-size: 180px 180px;
-    background-color: var(--crz);
-
-    background-image: -webkit-linear-gradient(var(--crzSec) 50%, transparent 50%, transparent);
-    background-image: -moz-linear-gradient(var(--crzSec) 50%, transparent 50%, transparent);
-    background-image: -ms-linear-gradient(var(--crzSec) 50%, transparent 50%, transparent);
-    background-image: -o-linear-gradient(var(--crzSec)5 50%, transparent 50%, transparent);
-    background-image: linear-gradient(var(--crzSec) 50%, transparent 50%, transparent); 
+    background:
+        /* On "top" */
+        repeating-linear-gradient(
+            45deg,
+            transparent,   
+            transparent 10px,
+            var(--cosSec) 10px,
+            var(--cos) 20px
+        ),
+        /* on "bottom" */
+        linear-gradient(
+            to bottom,
+            var(--cos),
+            var(--cos)
+        );
 }
 .crz .social-media-hdr-title-underline{
-    background-image: linear-gradient(90deg, rgba(26,25,25,0.0001) 
-    0, var(--crz) 10%, var(--crzSec) 99.96%);
+    background-image: 
+        linear-gradient(90deg, rgba(26,25,25,0.0001) 
+    0, var(--cos) 10%, var(--cosSec) 99.96%);
 }
 .crz .social-media-value{
-    color: var(--crzSec)
+    color: var(--cosSec)
 }
 .crz .social-media-img{
-    background: var(--crz);
+    background: var(--cos);
 }
 .crz .social-media-img:hover{
-    background-color: var(--crzSec);
+    background-color: var(--cosSec);
 }
