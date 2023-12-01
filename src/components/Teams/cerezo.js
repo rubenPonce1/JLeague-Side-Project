@@ -95,7 +95,7 @@ export default function Cerezo(){
       <footer className='social-media'>
         <h2 className='social-media-hdr'>
           <div className='social-media-hdr-title'>
-            *** Social Pages
+            Cerezo Osaka Social Pages
           </div>
           <div class="social-media-hdr-title-underline" /> 
         </h2>
