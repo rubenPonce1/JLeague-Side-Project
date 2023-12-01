@@ -1,8 +1,8 @@
 /*
-Filename: albi.js
-Date: 11/16/23
+Filename: consa.js
+Date: 12/1/23
 Authors: Ruben Ponce
-Description: This is the team page for 
+Description: This is the team page for Hookaido Consadole Sapporo
 */
 
 import React from "react";
