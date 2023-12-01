@@ -16,10 +16,11 @@ import { Link } from "react-router-dom";
 
 export default function Hokkaido() {
   return (
-    <div className=" ">
+    <div className="consa">
       <h1 className="header">
         {" "}
         <img src={HCS} alt="logo" className="team-logo"></img>
+        Hokkaido Consadole Sapporo
       </h1>
 
       {/*This is the container for the team info */}
@@ -28,24 +29,38 @@ export default function Hokkaido() {
           <div className="info-title"> Info </div>
 
           <div className="info-item"> EST: </div>
-          <div className="value"> *** </div>
+          <div className="value"> 1935 </div>
 
           <div className="info-item">Team names: </div>
           <div className="info-value">
-            **** <br />
-            Nickname: **
+            Toshiba S.C. (1935) <br />
+            Consadole Sapporo (1996) <br />
+            Hokkaido Consadole Sapporo (2016) <br />
+            Nickname: Consa
           </div>
 
           <div className="info-item"> Stadium: </div>
           <div className="info-value">
-            ***
+            Sapporo Dome
             <br />
-            Capacity: <br />
-            <i class="fas fa-map-marker-alt"> </i> * <br />
+            Capacity: 42,065<br />
+            <i class="fas fa-map-marker-alt"> </i>  Sapporo, Hokkaido <br />
           </div>
 
           <div className="info-item">Accomplishments: </div>
-          <div className="info-value">*****</div>
+          <div className="info-value">
+            Toshiba S.C.: <br/>
+              Japan Soccer League Division 2/Japan Football League (1979, 1988)<br/>
+              All Japan Senior Football Championship (1977)<br/>
+              JSL Cup (1981)<br/>
+              <br/>
+            Consadole Sapporo<br/>
+              J.League Division 2/J2 League (1997, 2000, 2007)<br/>
+              <br/>
+            Hokkaido Consadole Sapporo:<br/>
+              J2 League (2016)<br/>
+            <br/>
+          </div>
         </div>
       </div>
 
