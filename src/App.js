@@ -12,6 +12,7 @@ import Home from './components/Pages/Home';
 import Albi from './components/Teams/albi';
 import Avi from './components/Teams/avi'
 import Cerezo from './components/Teams/cerezo';
+import Hokkaido from './components/Teams/consa';
 import FCTokyo from './components/Teams/fctky';
 import Gamba from './components/Teams/gamba';
 
@@ -32,6 +33,7 @@ function App() {
           <Route path = "/Cerezo" element= {<Cerezo />} />
           <Route path = "/FC_Tokyo" element= {<FCTokyo />} />
           <Route path = "/Gamba_Osaka" element= {<Gamba />} />
+          <Route path = "/Hokkaido" element= {<Hokkaido />} />
 
         </Routes>
       </div>
