@@ -85,3 +85,41 @@
     background-color: var(--avi);
 }
 
+.crz{
+    background-image: url('../images/Stadiums/CerezoOsaka.png');
+    background-repeat: no-repeat;
+    margin-top: -40px;
+    background-size:cover;
+    background-attachment: fixed;
+    align-items: center; 
+}
+.crz .header{
+    color: var(--crz);
+    text-shadow:
+        0.05em 0 var(--crzSec),
+        0 0.05em var(--crzSec),
+        0.05em 0.05em var(--white);
+}
+.crz .team-info{
+    background-size: 180px 180px;
+    background-color: var(--crz);
+
+    background-image: -webkit-linear-gradient(var(--crzSec) 50%, transparent 50%, transparent);
+    background-image: -moz-linear-gradient(var(--crzSec) 50%, transparent 50%, transparent);
+    background-image: -ms-linear-gradient(var(--crzSec) 50%, transparent 50%, transparent);
+    background-image: -o-linear-gradient(var(--crzSec)5 50%, transparent 50%, transparent);
+    background-image: linear-gradient(var(--crzSec) 50%, transparent 50%, transparent); 
+}
+.crz .social-media-hdr-title-underline{
+    background-image: linear-gradient(90deg, rgba(26,25,25,0.0001) 
+    0, var(--crz) 10%, var(--crzSec) 99.96%);
+}
+.crz .social-media-value{
+    color: var(--crzSec)
+}
+.crz .social-media-img{
+    background: var(--crz);
+}
+.crz .social-media-img:hover{
+    background-color: var(--crzSec);
+}
