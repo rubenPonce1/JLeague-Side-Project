@@ -77,14 +77,18 @@
         0.05em 0.05em var(--aviSec);
 }
 .avi .team-info{
-    background:
-        repeating-linear-gradient(
-            to right,
-            var(--avi),
-            var(--avi) 40px,
-            var(--aviSec) 10px,
-            var(--aviSec) 80px
-        );
+    background-image: 
+        linear-gradient(
+            90deg,
+            #0092ae 18.04%,
+            #0b2355 18.04%,
+            #0b2355 50%, 
+            #0092ae 50%, 
+            #0092ae 68.04%, 
+            #0b2355 68.04%, 
+            #0b2355 100%
+            );
+    background-size: 195.00px 200.00px;
 }
 .avi .social-media-hdr-title-underline{
     background-image: linear-gradient(90deg, rgba(26,25,25,0.0001) 
@@ -147,3 +151,51 @@
     background-color: var(--cosSec);
 }
 
+.fctk{
+    background-image: url('../images/Stadiums/FCTokyoStadium.png');
+    background-repeat: no-repeat;
+    margin-top: -40px;
+    background-size:cover;
+    background-attachment: fixed;
+    align-items: center; 
+}
+.fctk .header{
+    color: var(--fctk);
+    text-shadow:
+        0.05em 0 var(--white),
+        0 0.05em var(--white),
+        0.05em 0.05em var(--white);
+}
+.fctk .team-info{
+    background-image: linear-gradient(
+        90deg,
+        var(--fctk) 0%,
+        var(--fctk) 20%,
+        var(--fctkSec) 20%,
+        var(--fctkSec) 40%,
+        var(--fctk)40%,
+        var(--fctk) 60%,
+        var(--fctkSec) 60%,
+        var(--fctkSec) 80%,
+        var(--fctk) 80%,
+        var(--fctk) 100%
+    );
+}
+.fctk .social-media-hdr-title-underline{
+    background-image: 
+        linear-gradient(
+            90deg,
+            rgba(26,25,25,0.0001) 0,
+            var(--fctk) 10%,
+            var(--fctkSec) 70.96%
+        );
+}
+.fctk .social-media-value{
+    color: var(--fctkSec)
+}
+.fctk .social-media-img{
+    background: var(--fctk);
+}
+.fctk .social-media-img:hover{
+    background-color: var(--fctkSec);
+}
