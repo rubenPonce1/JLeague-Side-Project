@@ -2,7 +2,7 @@
 Filename: fctky.js
 Date: 11/31/23
 Authors: Ruben Ponce
-Description: This is the team page for 
+Description: This is the team page for FC Tokyo
 */
 
 
