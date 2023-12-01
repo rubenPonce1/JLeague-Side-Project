@@ -20,6 +20,7 @@ export default function Kashima() {
       <h1 className="header">
         {" "}
         <img src={Kashima_Antlers} alt="logo" className="team-logo"></img>
+        Kashima Antlers
       </h1>
 
       {/*This is the container for the team info */}
@@ -28,24 +29,51 @@ export default function Kashima() {
           <div className="info-title"> Info </div>
 
           <div className="info-item"> EST: </div>
-          <div className="value"> *** </div>
+          <div className="value"> 1947 </div>
 
           <div className="info-item">Team names: </div>
           <div className="info-value">
-            **** <br />
-            Nickname: **
+            Sumitomo Metal FC (1947)
+            <br />
+            Kashima Antlers(1992)
+            <br />
+            Nickname: The Perrennial Winners
           </div>
 
           <div className="info-item"> Stadium: </div>
           <div className="info-value">
-            ***
+            Kashima Soccer Stadium
             <br />
-            Capacity: <br />
-            <i class="fas fa-map-marker-alt"> </i> * <br />
+            Capacity: 40,728
+            <br />
+            <i class="fas fa-map-marker-alt"> </i> Kashima City, Ibaraki
+            Prefecture <br />
           </div>
 
           <div className="info-item">Accomplishments: </div>
-          <div className="info-value">*****</div>
+          <div className="info-value">
+            Sumitomo Metal FC: <br />
+            JSL Division 2 (1984, 1986)
+            <br />
+            All Japan Senior Football Championship(1973) <br />
+            <br />
+            Kashima Antlers: <br />
+            J1 League (1996, 1998, 2000, 2001, 2007, 2008, 2009, 2016)
+            <br />
+            Emperor's Cup (1997, 2000, 2007, 2010, 2016)
+            <br />
+            J.League Cup (1997, 2000, 2002, 2011, 2012, 2015)
+            <br />
+            Japanese Super Cup (1997, 1998, 1999, 2009, 2010, 2017)
+            <br />
+            AFC Champions League (2018)
+            <br />
+            Suruga Bank Championship (2012, 2013)
+            <br />
+            A3 Champions Cup (2003)
+            <br />
+            <br />
+          </div>
         </div>
       </div>
 
