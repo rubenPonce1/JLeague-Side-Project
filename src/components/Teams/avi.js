@@ -70,7 +70,7 @@ export default function Avi(){
         <h2 className='video-header'> Short Video of Avispa Fukuoka</h2>
 
         <div class="ratio ratio-16x9">
-          <iframe src="https://www.youtube.com/embed/LfLepbWMpo4?si=LWjzgIUwP2PIFixX"
+          <iframe src="https://www.youtube.com/embed/-qKrse3t_xM?si=LfyfmYZrHb3SEifF"
                   title="YouTube video" allowFullScreen></iframe>
         </div>
 
@@ -82,8 +82,7 @@ export default function Avi(){
               J.LEAGUE International <br/>
             </Link>
 
-            Title: Avispa Fukuoka Makes History in the 2023 Levain Cup!
-
+            Title: GET TO KNOW J.LEAGUE: Avispa Fukuoka
         </div>
       </Container>
 
