@@ -19,7 +19,7 @@ import { Link } from 'react-router-dom';
 
 export default function Cerezo(){
    return(
-    <div className='cerezo'>
+    <div className='crz'>
       <h1 className='header'> <img src={Cerezo_Osaka} 
       alt = "logo"className ="team-logo"></img>
       Cerezo Osaka 
