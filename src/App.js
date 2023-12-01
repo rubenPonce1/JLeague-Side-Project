@@ -12,6 +12,7 @@ import Home from './components/Pages/Home';
 import Albi from './components/Teams/albi';
 import Avi from './components/Teams/avi'
 import Cerezo from './components/Teams/cerezo';
+import FCTokyo from './components/Teams/fctky';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path = "/Albirex" element = {<Albi />} />
           <Route path = "/Avispa" element= {<Avi />} />
           <Route path = "/Cerezo" element= {<Cerezo />} />
+          <Route path = "/FC_Tokyo" element= {<FCTokyo />} />
 
 
         </Routes>
