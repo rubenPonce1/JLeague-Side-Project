@@ -91,7 +91,7 @@ export default function FCTokyo(){
       <footer className='social-media'>
         <h2 className='social-media-hdr'>
           <div className='social-media-hdr-title'>
-            *** Social Pages
+            FC Tokyo Social Pages
           </div>
           <div class="social-media-hdr-title-underline" /> 
         </h2>
@@ -100,41 +100,41 @@ export default function FCTokyo(){
             
               <li className='social-media-item'>
                 <a className='social-media-value'
-                   href=''
+                   href='https://twitter.com/fctokyoofficial'
                    target="_blank" rel="noreferrer">
                   
                   <div>
-                    <FontAwesomeIcon  alt='***_twt'
+                    <FontAwesomeIcon  alt='fctk_twt'
                     className ="social-media-img" icon="fab fa-twitter"/>
                   </div>
                   
-                  <div className='social-media-title'>@***</div>
+                  <div className='social-media-title'>@fctokyoofficial</div>
                 </a>
               </li>
 
 
               <li className='social-media-item'>
                 <a className='social-media-value'
-                   href=''
+                   href='https://www.instagram.com/fctokyoofficial'
                    target="_blank" rel="noreferrer">
                   
                   <div>
-                    <FontAwesomeIcon  alt='***_ig'
+                    <FontAwesomeIcon  alt='fctk_ig'
                     className ="social-media-img" icon="fab fa-instagram" />
                   </div>
                   
-                  <div className='social-media-title'> @*** </div>
+                  <div className='social-media-title'> @fctokyoofficial </div>
                 </a>
               </li>
 
 
               <li className='social-media-item'>
                 <a className='social-media-value'
-                   href=''
+                   href='https://www.youtube.com/user/fctokyochannel'
                    target="_blank" rel="noreferrer">
                   
                   <div>
-                    <FontAwesomeIcon  alt='***_yt'
+                    <FontAwesomeIcon  alt='fctk_yt'
                     className ="social-media-img" icon="fab fa-youtube" />
                   </div>
                   
@@ -145,7 +145,7 @@ export default function FCTokyo(){
 
               <li className='social-media-item'>
                 <a className='social-media-value'
-                   href=''
+                   href='https://www.tiktok.com/@tokyodorompa'
                    target="_blank" rel="noreferrer">
                  
                   <div>
@@ -153,14 +153,14 @@ export default function FCTokyo(){
                     className ="social-media-img" icon="fab fa-tiktok" />
                   </div>
                   
-                  <div className='social-media-title'> @*** </div>
+                  <div className='social-media-title'> @tokyodorompa </div>
                 </a>
               </li>
 
 
               <li className='social-media-item'>
                 <a className='social-media-value'
-                   href=''
+                   href='https://www.facebook.com/fctokyo'
                    target="_blank" rel="noreferrer">
                   
                   <div>
@@ -168,7 +168,7 @@ export default function FCTokyo(){
                     className ="social-media-img" icon="fab fa-facebook-f" />
                   </div>
                   
-                  <div className='social-media-title'> @*** </div>
+                  <div className='social-media-title'> @fctokyo </div>
                 </a>
               </li>
             </ul>
