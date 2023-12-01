@@ -43,41 +43,59 @@ export default function Hokkaido() {
           <div className="info-value">
             Sapporo Dome
             <br />
-            Capacity: 42,065<br />
-            <i class="fas fa-map-marker-alt"> </i>  Sapporo, Hokkaido <br />
+            Capacity: 42,065
+            <br />
+            <i class="fas fa-map-marker-alt"> </i> Sapporo, Hokkaido <br />
           </div>
 
           <div className="info-item">Accomplishments: </div>
           <div className="info-value">
-            Toshiba S.C.: <br/>
-              Japan Soccer League Division 2/Japan Football League (1979, 1988)<br/>
-              All Japan Senior Football Championship (1977)<br/>
-              JSL Cup (1981)<br/>
-              <br/>
-            Consadole Sapporo<br/>
-              J.League Division 2/J2 League (1997, 2000, 2007)<br/>
-              <br/>
-            Hokkaido Consadole Sapporo:<br/>
-              J2 League (2016)<br/>
-            <br/>
+            Toshiba S.C.: <br />
+            Japan Soccer League Division 2/Japan Football League (1979, 1988)
+            <br />
+            All Japan Senior Football Championship (1977)
+            <br />
+            JSL Cup (1981)
+            <br />
+            <br />
+            Consadole Sapporo
+            <br />
+            J.League Division 2/J2 League (1997, 2000, 2007)
+            <br />
+            <br />
+            Hokkaido Consadole Sapporo:
+            <br />
+            J2 League (2016)
+            <br />
+            <br />
           </div>
         </div>
       </div>
 
       {/*This is the container for the team video*/}
       <Container className="video-cntr">
-        <h2 className="video-header"> Short Video of *****</h2>
+        <h2 className="video-header">
+          {" "}
+          Short Video of Hokkaido Consadole Sapporo
+        </h2>
 
         <div class="ratio ratio-16x9">
-          <iframe src=" " title="YouTube video" allowFullScreen></iframe>
+          <iframe
+            src="https://www.youtube.com/embed/KWSqxdzMyI8?si=3qTc4Lvcqi7PfpYJ"
+            title="YouTube video"
+            allowFullScreen
+          ></iframe>
         </div>
 
         <div className="video-disc">
           Title of Channel:
-          <Link className="video-chnl-link" to={"  "}>
-            *** <br />
+          <Link
+            className="video-chnl-link"
+            to={"https://www.youtube.com/@JLEAGUEInternational"}
+          >
+            J.LEAGUE International <br />
           </Link>
-          Title: *****
+          Title: GET TO KNOW J.LEAGUE: Hokkaido Consadole Sapporo
         </div>
       </Container>
 
