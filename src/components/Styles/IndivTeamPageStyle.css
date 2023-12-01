@@ -3,8 +3,22 @@
     --black: #000000;
     --albi: #e84e10; --albiSec: #174195;
     --avi: #0092ae; --aviSec: #0b2355;
-    --crz: #d60666; --crzSec: #30287d;
-
+    --cos: #d60666; --cosSec: #30287d;
+    --fctk: #26348c; --fctkSec:#e4032f;
+    --gos: #00468e; --gosSec: #000000;
+    --sapp: #d30a12; --sappSec: #000000;
+    --kasm: #b71e3f; --kasmSec: #000000;
+    --kasw: #feed00; --kaswSec: #000000;
+    --kaf: #3ea2dd; --kafSec: #000000;
+    --kyot: #750069; --kyotSec: #e6002e;
+    --nago:  #d51216; --nagoSec: #f29200;
+    --tosu: #ea5599; --tosuSec: #009ccc;
+    --hiro: #59358c; --hiroSec: #ffffff;
+    --shon: #77b82a; --shonSec: #005da0;
+    --reds: #e4032f; --redsSec: #000000;
+    --kobe: #a40931; --kobeSec: #000000;
+    --yfc: #009fe3; --yfcSec: #13387f;
+    --yfm: #174195; --yfmSec: #e4003b;
     
 }
 .albi{
