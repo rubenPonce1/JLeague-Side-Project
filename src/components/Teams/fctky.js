@@ -21,7 +21,7 @@ export default function FCTokyo(){
   return(
     <div className='fctk'>
       <h1 className='header'> <img src={FCTKY} alt = "logo"className ="team-logo"></img>
-
+        FC Tokyo
       </h1>
       
       {/*This is the container for the team info */}
@@ -31,25 +31,33 @@ export default function FCTokyo(){
 
 
           <div className='info-item'> EST: </div>
-            <div className='value'> *** </div>
+            <div className='value'> 1935 </div>
 
 
           <div className='info-item'>Team names: </div>
             <div className='info-value'>
-              **** <br/>
-              Nickname: **
+              Tokyo Gas SC (1935) <br/>
+              FC Tokyo (1999) 
             </div>
           
           <div className='info-item'> Stadium: </div>
               <div className='info-value'>
-                ***<br/>
-                Capacity: <br/>
-                <i class="fas fa-map-marker-alt"> </i> * <br/>
+                Ajinomoto Stadium <br/>
+                Capacity: 49,970<br/>
+                <i class="fas fa-map-marker-alt"> </i> Chofu, Tokyo <br/>
               </div>
               
             <div className='info-item'>Accomplishments: </div>
               <div className='info-value'>
-                *****
+                Tokyo Gas: <br />
+                Japan Football League/J2 League (1998) <br/>
+                Regional League Promotion Series (1990) <br/><br/>
+
+                FC Tokyo: <br/>
+                J2 League (2011)<br/>
+                Emperor's Cup (2011) <br/>
+                J.League Cup (2004, 2009, 2020)<br/>
+                Suruga Bank Championship (2010)<br/>
               </div>
         
         </div>
