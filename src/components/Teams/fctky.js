@@ -66,21 +66,21 @@ export default function FCTokyo(){
 
 	    {/*This is the container for the team video*/}
       <Container className='video-cntr'>
-        <h2 className='video-header'> Short Video of *****</h2>
+        <h2 className='video-header'> Short Video of FC Tokyo</h2>
 
 
         <div class="ratio ratio-16x9">
-          <iframe src=" "
+          <iframe src="https://www.youtube.com/embed/SxtMsE5iTBQ?si=NCwRfSossy7Kjmfr"
                   title="YouTube video" allowFullScreen></iframe>
         </div>
 
 
         <div className='video-disc'>
             Title of Channel:
-            <Link className='video-chnl-link' to={"  "}>
-              *** <br/>
+            <Link className='video-chnl-link' to={"https://www.youtube.com/@JLEAGUEInternational"}>
+              J.LEAGUE International <br/>
             </Link>
-            Title: *****
+            Title: GET TO KNOW J.LEAGUE: FC Tokyo
             
         </div>
       </Container>
