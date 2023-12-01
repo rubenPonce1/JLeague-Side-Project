@@ -80,13 +80,13 @@
     background-image: 
         linear-gradient(
             90deg,
-            #0092ae 18.04%,
-            #0b2355 18.04%,
-            #0b2355 50%, 
-            #0092ae 50%, 
-            #0092ae 68.04%, 
-            #0b2355 68.04%, 
-            #0b2355 100%
+            var(--avi) 18.04%,
+            var(--aviSec)18.04%,
+            var(--aviSec) 50%, 
+            var(--avi) 50%, 
+            var(--avi) 68.04%, 
+            var(--aviSec) 68.04%, 
+            var(--aviSec) 100%
             );
     background-size: 195.00px 200.00px;
 }
