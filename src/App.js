@@ -16,6 +16,7 @@ import Cerezo from "./components/Teams/cerezo";
 import Hokkaido from "./components/Teams/consa";
 import FCTokyo from "./components/Teams/fctky";
 import Gamba from "./components/Teams/gamba";
+import Kashiwa from "./components/Teams/reysol";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           <Route path="/Gamba_Osaka" element={<Gamba />} />
           <Route path="/Hokkaido" element={<Hokkaido />} />
           <Route path="/Kashima_Antlers" element={<Kashima />} />
+          <Route path="/Kashiwa_Reysol" element={<Kashiwa />} />
         </Routes>
       </div>
     </BrowserRouter>
