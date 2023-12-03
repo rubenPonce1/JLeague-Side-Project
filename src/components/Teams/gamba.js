@@ -29,7 +29,7 @@ export default function Gamba() {
           <div className="info-title"> Info </div>
 
           <div className="info-item"> EST: </div>
-          <div className="value"> 1980 </div>
+          <div className="value"> 1980 <br /> Original 10</div>
 
           <div className="info-item">Team names: </div>
           <div className="info-value">
