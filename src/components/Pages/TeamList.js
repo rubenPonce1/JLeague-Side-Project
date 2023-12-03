@@ -92,7 +92,7 @@ export const TeamList =[
     {
         image: Kyoto,
         title: 'Kyoto Sanga FC',
-        path: '/Kyoto_Sanga_FC' ,
+        path: '/Kyoto_Sanga' ,
         cName: 'team-link'
     },
 
