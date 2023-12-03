@@ -100,7 +100,7 @@ export default function Kawasaki() {
 
       <footer className="social-media">
         <h2 className="social-media-hdr">
-          <div className="social-media-hdr-title">*** Social Pages</div>
+          <div className="social-media-hdr-title">Kawasaki Frontale Social Pages</div>
           <div class="social-media-hdr-title-underline" />
         </h2>
         <div className="social-media-area">
