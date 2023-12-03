@@ -446,3 +446,8 @@
     color: var(--kaf);
     background-color: var(--white);
 }
+
+.kyoto .team-page-logo{
+    height: 95px;
+    margin-right: 15px;
+}
