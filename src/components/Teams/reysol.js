@@ -1,8 +1,8 @@
 /*
-Filename: .js
-Date: 12/01/23
+Filename: reysol.js
+Date: 12/02/23
 Authors: Ruben Ponce
-Description: This is the team page for 
+Description: This is the team page for Kashiwa Reysol
 */
 
 import React from "react";
