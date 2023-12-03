@@ -120,49 +120,49 @@ export default function Nagoya() {
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://twitter.com/nge_official"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" *** _twt"
+                    alt="grampus_twt"
                     className="social-media-img"
                     icon="fab fa-twitter"
                   />
                 </div>
-                <div className="social-media-title"> @ *** </div>
+                <div className="social-media-title"> @nge_official </div>
               </a>
             </li>
 
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.instagram.com/nagoyagrampus/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" *** _ig"
+                    alt="grampus _ig"
                     className="social-media-img"
                     icon="fab fa-instagram"
                   />
                 </div>
-                <div className="social-media-title"> @ *** </div>
+                <div className="social-media-title"> @nagoyagrampus </div>
               </a>
             </li>
 
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.youtube.com/user/NagoyaGrampus758"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" *** _yt"
+                    alt="grampus _yt"
                     className="social-media-img"
                     icon="fab fa-youtube"
                   />
@@ -174,36 +174,36 @@ export default function Nagoya() {
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.tiktok.com/@nagoya_grampu"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" ** _tiktok"
+                    alt="grampus_tiktok"
                     className="social-media-img"
                     icon="fab fa-tiktok"
                   />
                 </div>
-                <div className="social-media-title"> @ *** </div>
+                <div className="social-media-title"> @nagoya_grampus </div>
               </a>
             </li>
 
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.facebook.com/nagoya.grampus.official"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" *** _facebk"
+                    alt="grampus _facebk"
                     className="social-media-img"
                     icon="fab fa-facebook-f"
                   />
                 </div>
-                <div className="social-media-title"> @*** </div>
+                <div className="social-media-title"> @nagoya.grampus.official </div>
               </a>
             </li>
           </ul>
