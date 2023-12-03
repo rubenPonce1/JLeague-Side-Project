@@ -33,9 +33,9 @@ export default function Hokkaido() {
 
           <div className="info-item">Team names: </div>
           <div className="info-value">
-            Toshiba S.C. (1935) <br />
-            Consadole Sapporo (1996) <br />
-            Hokkaido Consadole Sapporo (2016) <br />
+            Toshiba S.C. (1935-1995) <br />
+            Consadole Sapporo (1996-2015) <br />
+            Hokkaido Consadole Sapporo (2016-present) <br />
             Nickname: Consa
           </div>
 

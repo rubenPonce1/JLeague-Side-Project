@@ -33,9 +33,9 @@ export default function Kashima() {
 
           <div className="info-item">Team names: </div>
           <div className="info-value">
-            Sumitomo Metal FC (1947)
+            Sumitomo Metal FC (1947-1991)
             <br />
-            Kashima Antlers(1992)
+            Kashima Antlers(1992-present)
             <br />
             Nickname: The Perrennial Winners
           </div>

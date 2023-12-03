@@ -20,6 +20,7 @@ export default function Kawasaki() {
       <h1 className="header">
         {" "}
         <img src={Kawasaki_Frontale} alt="logo" className="team-logo"></img>
+        Kawasaki Frontale
       </h1>
 
       {/*This is the container for the team info */}
@@ -28,11 +29,12 @@ export default function Kawasaki() {
           <div className="info-title"> Info </div>
 
           <div className="info-item"> EST: </div>
-          <div className="value"> *** </div>
+          <div className="value"> 1955 </div>
 
           <div className="info-item">Team names: </div>
           <div className="info-value">
-            **** <br />
+            Fujitsu SC (1955-1996) <br />
+            Kawasaki Frontale (1997-present) <br />
             Nickname: **
           </div>
 

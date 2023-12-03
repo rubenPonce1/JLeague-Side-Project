@@ -33,9 +33,9 @@ export default function Gamba() {
 
           <div className="info-item">Team names: </div>
           <div className="info-value">
-            Matsushita Electric SC (1980)
+            Matsushita Electric SC (1980-1991)
             <br />
-            Gamba Osaka (1992) <br />
+            Gamba Osaka (1992-present) <br />
             Nickname: Nerazzurri (Black-and-Blues)
           </div>
 

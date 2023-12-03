@@ -36,8 +36,8 @@ export default function Kashiwa() {
 
           <div className="info-item">Team names: </div>
           <div className="info-value">
-            Hitachi SC (1939) <br />
-            Kashiwa Reysol (1993) <br />
+            Hitachi SC (1939-1992) <br />
+            Kashiwa Reysol (1993-present) <br />
             Nickname: Rey, Taiyō-Ō (Sun King), Aurinegro (gold-and-black)
           </div>
 

@@ -33,8 +33,8 @@ export default function FCTokyo() {
 
           <div className="info-item">Team names: </div>
           <div className="info-value">
-            Tokyo Gas SC (1935) <br />
-            FC Tokyo (1999)
+            Tokyo Gas SC (1935-1998) <br />
+            FC Tokyo (1999-present)
           </div>
 
           <div className="info-item"> Stadium: </div>

@@ -33,8 +33,9 @@ export default function Albi() {
 
           <div className="info-item">Team names: </div>
           <div className="info-value">
-            Niigata Eleven SC (1955), Albireo Niigata FC (1995), Albirex Niigata
-            (1997) <br />
+            Niigata Eleven SC (1955-1994) <br />
+            Albireo Niigata FC (1995-1996) <br />
+            Albirex Niigata (1997-present) <br />
             Nickname: Albi
           </div>
 

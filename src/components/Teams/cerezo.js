@@ -36,8 +36,8 @@ export default function Cerezo() {
 
           <div className="info-item">Team names: </div>
           <div className="info-value">
-            Yanmar Diesel(1957) <br />
-            Cerezo Osaka (1993)
+            Yanmar Diesel(1957-1992)  <br />
+            Cerezo Osaka (1993-present)
             <br />
             Nickname: Sakura (cherry blossoms)
           </div>
