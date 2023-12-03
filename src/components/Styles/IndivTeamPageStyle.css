@@ -396,3 +396,53 @@
     color: var(--kaswSec);
     background-color: var(--white);
 }
+
+.kaw-fr{
+    background-image: url('../images/Stadiums/KawasakiFrontaleStadium.jpeg');
+    background-repeat: no-repeat;
+    margin-top: -40px;
+    background-size:cover;
+    background-attachment: fixed;
+    align-items: center; 
+}
+.kaw-fr .header{
+    color: var(--kaf);
+    text-shadow:
+        0.05em 0 var(--kafSec),
+        0 0.05em var(--kafSec),
+        0.05em 0.05em var(--kafSec);
+}
+.kaw-fr .team-info{
+    background-image: linear-gradient(
+        90deg,
+        var(--kaf) 0%,
+        var(--kaf) 20%,
+        var(--kaf) 25%,
+        var(--kafSec) 40%,
+        var(--kafSec)40%,
+        var(--kafSec) 50%,
+        var(--kafSec) 55%,
+        var(--kaf) 80%,
+        var(--kaf) 90%,
+        var(--kaf) 100%
+    );
+}
+.kaw-fr .social-media-hdr-title-underline{
+    background-image: 
+        linear-gradient(
+            90deg,
+            rgba(26,25,25,0.0001) 0,
+            var(--kaf) 10%,
+            var(--kaf) 70.96%
+        );
+}
+.kaw-fr .social-media-value{
+    color: var(--white)
+}
+.kaw-fr .social-media-img{
+    background: var(--kaf);
+}
+.kaw-fr .social-media-img:hover{
+    color: var(--kaf);
+    background-color: var(--white);
+}
