@@ -35,19 +35,40 @@ export default function Kawasaki() {
           <div className="info-value">
             Fujitsu SC (1955-1996) <br />
             Kawasaki Frontale (1997-present) <br />
-            Nickname: **
+            Nickname: Grêmio from Japan, Azzurro Nero (Blue-black)
           </div>
 
           <div className="info-item"> Stadium: </div>
           <div className="info-value">
-            ***
+            Kawasaki Todoroki Stadium
             <br />
-            Capacity: <br />
-            <i class="fas fa-map-marker-alt"> </i> * <br />
+            Capacity: 26,827
+            <br />
+            <i class="fas fa-map-marker-alt"> </i> Nakahara, Kawasaki, <br />
           </div>
 
           <div className="info-item">Accomplishments: </div>
-          <div className="info-value">*****</div>
+          <div className="info-value">
+            Fujitsu SC: <br />
+            Japan Soccer League Division 2 (1976)
+            <br />
+            Kanto Soccer League (1968)
+            <br />
+            <br />
+            Kawasaki Frontale:
+            <br />
+            J1 League (2017, 2018, 2020, 2021)
+            <br />
+            J2 League (1999, 2004)
+            <br />
+            Emperor's Cup (2020)
+            <br />
+            J.League Cup (2019)
+            <br />
+            Japanese Super Cup (2019, 2021)
+            <br />
+            <br />
+          </div>
         </div>
       </div>
 
