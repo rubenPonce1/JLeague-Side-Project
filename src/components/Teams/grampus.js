@@ -20,6 +20,7 @@ export default function Nagoya() {
       <h1 className="header">
         {" "}
         <img src={Grampus} alt="logo" className="team-page-logo"></img>
+        Nagoya Grampus
       </h1>
 
       {/*This is the container for the team info */}
@@ -28,32 +29,55 @@ export default function Nagoya() {
           <div className="info-title"> Info </div>
 
           <div className="info-item"> EST: </div>
-          <div className="value"> *** </div>
+          <div className="value">
+            {" "}
+            1939 <br /> Original 10{" "}
+          </div>
 
           <div className="info-item">Team names: </div>
           <div className="info-value">
-            **** <br />
+            Toyota Motor SC (1939-1991) <br />
+            Nagoya Grampus Eight (1991-2007)
             <br />
+            Nagoya Grampus (2008-present)
             <br />
-            Nickname: **
+            Nickname: Grampus, The Red Whales
           </div>
 
           <div className="info-item"> Stadium: </div>
           <div className="info-value">
-            ***
+            Toyota Stadium
             <br />
-            Capacity: <br />
-            <i class="fas fa-map-marker-alt"> </i> * <br />
+            Capacity: 44,692
+            <br />
+            <i class="fas fa-map-marker-alt"> </i> Toyota City, Aichi Prefecture{" "}
+            <br />
           </div>
 
           <div className="info-item">Accomplishments: </div>
           <div className="info-value">
+          Toyota Motor SC:
+            <br />
+            &emsp; Japan Soccer League Division 2 (1972)
+            <br />
+            &emsp; All Japan Senior Football Championship (1968, 1970)
+            <br />
+            &emsp; Konica Cup (1991)
             <br />
             <br />
+            Nagoya Grampus Eight
+            <br />
+            &emsp; Emperor's Cup (1995, 1999)
+            <br />
+            &emsp; Japanese Super Cup (1996)
             <br />
             <br />
+            Nagoya Grampus: <br />
+            &emsp; J.League Division 1 (2010)
             <br />
+            &emsp; J.League Cup (2021)
             <br />
+            &emsp; Japanese Super Cup (2011)
             <br />
             <br />
           </div>
