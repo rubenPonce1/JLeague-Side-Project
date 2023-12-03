@@ -114,7 +114,7 @@ export default function Kashiwa() {
 
       <footer className="social-media">
         <h2 className="social-media-hdr">
-          <div className="social-media-hdr-title">*** Social Pages</div>
+          <div className="social-media-hdr-title">Kashiwa Reysol Social Pages</div>
           <div class="social-media-hdr-title-underline" />
         </h2>
         <div className="social-media-area">
@@ -122,49 +122,49 @@ export default function Kashiwa() {
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://twitter.com/REYSOL_Official"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt="***_twt"
+                    alt="rey_twt"
                     className="social-media-img"
                     icon="fab fa-twitter"
                   />
                 </div>
-                <div className="social-media-title">@***</div>
+                <div className="social-media-title"> @REYSOL_Official </div>
               </a>
             </li>
 
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.instagram.com/kashiwareysol_official/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt="***_ig"
+                    alt="rey_ig"
                     className="social-media-img"
                     icon="fab fa-instagram"
                   />
                 </div>
-                <div className="social-media-title"> @*** </div>
+                <div className="social-media-title"> @kashiwareysol_official </div>
               </a>
             </li>
 
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.youtube.com/user/KashiwaReysolChannel"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt="***_yt"
+                    alt="rey_yt"
                     className="social-media-img"
                     icon="fab fa-youtube"
                   />
@@ -176,7 +176,7 @@ export default function Kashiwa() {
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.tiktok.com/@kashiwareysol_official?is_from_webapp=1&sender_device=pc"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -187,14 +187,14 @@ export default function Kashiwa() {
                     icon="fab fa-tiktok"
                   />
                 </div>
-                <div className="social-media-title"> @*** </div>
+                <div className="social-media-title"> @kashiwareysol_official </div>
               </a>
             </li>
 
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.facebook.com/ReysolOfficial/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -205,7 +205,7 @@ export default function Kashiwa() {
                     icon="fab fa-facebook-f"
                   />
                 </div>
-                <div className="social-media-title"> @*** </div>
+                <div className="social-media-title"> @ReysolOfficial </div>
               </a>
             </li>
           </ul>
