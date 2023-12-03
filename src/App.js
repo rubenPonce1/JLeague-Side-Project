@@ -16,6 +16,7 @@ import Cerezo from "./components/Teams/cerezo";
 import Hokkaido from "./components/Teams/consa";
 import FCTokyo from "./components/Teams/fctky";
 import Gamba from "./components/Teams/gamba";
+import Nagoya from "./components/Teams/grampus";
 import Kawasaki from "./components/Teams/kawFront";
 import Kyoto from "./components/Teams/kyoto";
 import Kashiwa from "./components/Teams/reysol";
@@ -42,6 +43,7 @@ function App() {
           <Route path="/Kashiwa_Reysol" element={<Kashiwa />} />
           <Route path="/Kawasaki_Frontale" element={<Kawasaki />} />
           <Route path="/Kyoto_Sanga" element={<Kyoto />} />
+          <Route path="/Nagoya_Grampus" element={<Nagoya />} />
         </Routes>
       </div>
     </BrowserRouter>
