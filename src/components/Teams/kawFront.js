@@ -77,20 +77,23 @@ export default function Kawasaki() {
         <h2 className="video-header"> Short Video of Kawasaki Frontale</h2>
 
         <div class="ratio ratio-16x9">
-          <iframe src="https://www.youtube.com/embed/LQbyMMFj25k?si=vH_739NEf8dO7n7G" title="YouTube video" allowFullScreen></iframe>
+          <iframe
+            src="https://www.youtube.com/embed/LQbyMMFj25k?si=vH_739NEf8dO7n7G"
+            title="YouTube video"
+            allowFullScreen
+          ></iframe>
         </div>
 
-        <div className='video-disc'>
-           Title of Channel:
-
-
-           <Link className='video-chnl-link' to={"https://www.youtube.com/@JLEAGUEInternational"}>
-             J.LEAGUE International <br/>
-           </Link>
-
-
-           Title: GET TO KNOW J.LEAGUE: Kawasaki Frontale
-       </div>
+        <div className="video-disc">
+          Title of Channel:
+          <Link
+            className="video-chnl-link"
+            to={"https://www.youtube.com/@JLEAGUEInternational"}
+          >
+            J.LEAGUE International <br />
+          </Link>
+          Title: GET TO KNOW J.LEAGUE: Kawasaki Frontale
+        </div>
       </Container>
 
       {/*This is the container for the team socials*/}
@@ -105,49 +108,49 @@ export default function Kawasaki() {
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://twitter.com/frontale_staff"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt="***_twt"
+                    alt="kaw-fr_twt"
                     className="social-media-img"
                     icon="fab fa-twitter"
                   />
                 </div>
-                <div className="social-media-title">@***</div>
+                <div className="social-media-title">@frontale_staff</div>
               </a>
             </li>
 
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.instagram.com/kawasaki_frontale/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt="***_ig"
+                    alt="kaw-fr_ig"
                     className="social-media-img"
                     icon="fab fa-instagram"
                   />
                 </div>
-                <div className="social-media-title"> @*** </div>
+                <div className="social-media-title"> @kawasaki_frontale </div>
               </a>
             </li>
 
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.youtube.com/@frontalechannel/featured"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt="***_yt"
+                    alt="kaw-fr_yt"
                     className="social-media-img"
                     icon="fab fa-youtube"
                   />
@@ -159,36 +162,36 @@ export default function Kawasaki() {
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.tiktok.com/@frontale.official"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt="***_tiktok"
+                    alt="kaw-fr_tiktok"
                     className="social-media-img"
                     icon="fab fa-tiktok"
                   />
                 </div>
-                <div className="social-media-title"> @*** </div>
+                <div className="social-media-title"> @frontale.official </div>
               </a>
             </li>
 
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.facebook.com/kawasakifrontaleofficial/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt="***_facebk"
+                    alt="kaw-fr_facebk"
                     className="social-media-img"
                     icon="fab fa-facebook-f"
                   />
                 </div>
-                <div className="social-media-title"> @*** </div>
+                <div className="social-media-title"> @kawasakifrontaleofficial </div>
               </a>
             </li>
           </ul>
