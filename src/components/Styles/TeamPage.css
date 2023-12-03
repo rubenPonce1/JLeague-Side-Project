@@ -6,7 +6,7 @@ h1{
     font-style: italic;
 }
 
-h1 .team-page-logo{
+.team-page-logo{
     margin-top: -10px;
     height: 85px;
     width: auto;
