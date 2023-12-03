@@ -19,7 +19,11 @@ export default function Kawasaki() {
     <div className="kaw-fr">
       <h1 className="header">
         {" "}
-        <img src={Kawasaki_Frontale} alt="logo" className="team-page-logo"></img>
+        <img
+          src={Kawasaki_Frontale}
+          alt="logo"
+          className="team-page-logo"
+        ></img>
         Kawasaki Frontale
       </h1>
 
@@ -50,22 +54,21 @@ export default function Kawasaki() {
           <div className="info-item">Accomplishments: </div>
           <div className="info-value">
             Fujitsu SC: <br />
-            Japan Soccer League Division 2 (1976)
+            &emsp; Japan Soccer League Division 2 (1976)
             <br />
-            Kanto Soccer League (1968)
+            &emsp; Kanto Soccer League (1968)
             <br />
             <br />
-            Kawasaki Frontale:
+            Kawasaki Frontale: <br />
+            &emsp; J1 League (2017, 2018, 2020, 2021)
             <br />
-            J1 League (2017, 2018, 2020, 2021)
+            &emsp; J2 League (1999, 2004)
             <br />
-            J2 League (1999, 2004)
+            &emsp; Emperor's Cup (2020)
             <br />
-            Emperor's Cup (2020)
+            &emsp; J.League Cup (2019)
             <br />
-            J.League Cup (2019)
-            <br />
-            Japanese Super Cup (2019, 2021)
+            &emsp; Japanese Super Cup (2019, 2021)
             <br />
             <br />
           </div>
@@ -100,7 +103,9 @@ export default function Kawasaki() {
 
       <footer className="social-media">
         <h2 className="social-media-hdr">
-          <div className="social-media-hdr-title">Kawasaki Frontale Social Pages</div>
+          <div className="social-media-hdr-title">
+            Kawasaki Frontale Social Pages
+          </div>
           <div class="social-media-hdr-title-underline" />
         </h2>
         <div className="social-media-area">

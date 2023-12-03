@@ -54,13 +54,17 @@ export default function Avi() {
 
           <div className="info-item">Accomplishments: </div>
           <div className="info-value">
-            Chuo Bohan: Japan Football League/J2 League (1992)
+            Chuo Bohan: <br />
+            &emsp; Japan Football League/J2 League (1992)
             <br />
             <br />
-            Fujieda Blux: Japan Football League/J2 League (1995)
+            Fujieda Blux: <br />
+            &emsp; Japan Football League/J2 League (1995)
             <br />
             <br />
-            Avispa Fukuoka: J. League Cup (2023)
+            Avispa Fukuoka: <br />
+            &emsp; J. League Cup (2023)
+            <br />
           </div>
         </div>
       </div>

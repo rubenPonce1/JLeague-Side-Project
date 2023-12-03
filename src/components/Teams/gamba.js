@@ -29,7 +29,10 @@ export default function Gamba() {
           <div className="info-title"> Info </div>
 
           <div className="info-item"> EST: </div>
-          <div className="value"> 1980 <br /> Original 10</div>
+          <div className="value">
+            {" "}
+            1980 <br /> Original 10
+          </div>
 
           <div className="info-item">Team names: </div>
           <div className="info-value">
@@ -50,23 +53,25 @@ export default function Gamba() {
           <div className="info-item">Accomplishments: </div>
           <div className="info-value">
             Matsushita Electric SC: <br />
-            All Japan Senior Football Championship (1983)
+            &emsp; All Japan Senior Football Championship (1983)
             <br />
-            JSL Division 2 (1985)
+            &emsp; JSL Division 2 (1985)
             <br />
-            Emperor's Cup (1990)
+            &emsp; Emperor's Cup (1990)
             <br />
             <br />
             Gamba Osaka <br />
-            J.League Division 1 (2005,2014) <br />
-            J.League Division 2 (2013) <br />
-            Emperor's Cup (2008, 2009, 2014, 2015)
+            &emsp; J.League Division 1 (2005,2014)
             <br />
-            J.League Cup (2007, 2014)
+            &emsp; J.League Division 2 (2013)
             <br />
-            Japanese Super Cup (2007, 2015) <br />
-            AFC Champions League (2008) <br />
-            Pan-Pacific Championship (2008)
+            &emsp; Emperor's Cup (2008, 2009, 2014, 2015)
+            <br />
+            &emsp; J.League Cup (2007, 2014)
+            <br />
+            &emsp; Japanese Super Cup (2007, 2015) <br />
+            &emsp; AFC Champions League (2008) <br />
+            &emsp; Pan-Pacific Championship (2008)
             <br />
             <br />
           </div>

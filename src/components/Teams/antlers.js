@@ -53,24 +53,24 @@ export default function Kashima() {
           <div className="info-item">Accomplishments: </div>
           <div className="info-value">
             Sumitomo Metal FC: <br />
-            JSL Division 2 (1984, 1986)
+            &emsp; JSL Division 2 (1984, 1986)
             <br />
-            All Japan Senior Football Championship(1973) <br />
+            &emsp; All Japan Senior Football Championship(1973) <br />
             <br />
             Kashima Antlers: <br />
-            J1 League (1996, 1998, 2000, 2001, 2007, 2008, 2009, 2016)
+            &emsp; J1 League (1996, 1998, 2000, 2001, 2007, 2008, 2009, 2016)
             <br />
-            Emperor's Cup (1997, 2000, 2007, 2010, 2016)
+            &emsp; Emperor's Cup (1997, 2000, 2007, 2010, 2016)
             <br />
-            J.League Cup (1997, 2000, 2002, 2011, 2012, 2015)
+            &emsp; J.League Cup (1997, 2000, 2002, 2011, 2012, 2015)
             <br />
-            Japanese Super Cup (1997, 1998, 1999, 2009, 2010, 2017)
+            &emsp; Japanese Super Cup (1997, 1998, 1999, 2009, 2010, 2017)
             <br />
-            AFC Champions League (2018)
+            &emsp; AFC Champions League (2018)
             <br />
-            Suruga Bank Championship (2012, 2013)
+            &emsp; Suruga Bank Championship (2012, 2013)
             <br />
-            A3 Champions Cup (2003)
+            &emsp; A3 Champions Cup (2003)
             <br />
             <br />
           </div>

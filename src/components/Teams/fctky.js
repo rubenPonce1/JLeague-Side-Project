@@ -48,16 +48,19 @@ export default function FCTokyo() {
           <div className="info-item">Accomplishments: </div>
           <div className="info-value">
             Tokyo Gas: <br />
-            Japan Football League/J2 League (1998) <br />
-            Regional League Promotion Series (1990) <br />
+            &emsp; Japan Football League/J2 League (1998)
+            <br />
+            &emsp; Regional League Promotion Series (1990)
+            <br />
             <br />
             FC Tokyo: <br />
-            J2 League (2011)
+            &emsp; J2 League (2011)
             <br />
-            Emperor's Cup (2011) <br />
-            J.League Cup (2004, 2009, 2020)
+            &emsp; Emperor's Cup (2011)
             <br />
-            Suruga Bank Championship (2010)
+            &emsp; J.League Cup (2004, 2009, 2020)
+            <br />
+            &emsp; Suruga Bank Championship (2010)
             <br />
           </div>
         </div>

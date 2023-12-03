@@ -51,21 +51,22 @@ export default function Hokkaido() {
           <div className="info-item">Accomplishments: </div>
           <div className="info-value">
             Toshiba S.C.: <br />
-            Japan Soccer League Division 2/Japan Football League (1979, 1988)
+            &emsp; Japan Soccer League Division 2/Japan Football League (1979,
+            1988)
             <br />
-            All Japan Senior Football Championship (1977)
+            &emsp; All Japan Senior Football Championship (1977)
             <br />
-            JSL Cup (1981)
+            &emsp; JSL Cup (1981)
             <br />
             <br />
             Consadole Sapporo
             <br />
-            J.League Division 2/J2 League (1997, 2000, 2007)
+            &emsp; J.League Division 2/J2 League (1997, 2000, 2007)
             <br />
             <br />
             Hokkaido Consadole Sapporo:
             <br />
-            J2 League (2016)
+            &emsp; J2 League (2016)
             <br />
             <br />
           </div>

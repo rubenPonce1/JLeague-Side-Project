@@ -53,15 +53,16 @@ export default function Kyoto() {
           <div className="info-item">Accomplishments: </div>
           <div className="info-value">
             Kyoto Shiko Club: <br />
-            Kansai Soccer League 5th tier (1969, 1971, 1979, 1988 )<br />
-            All Japan Senior Football Championship (1988)
+            &emsp; Kansai Soccer League 5th tier (1969, 1971, 1979, 1988 )
+            <br />
+            &emsp; All Japan Senior Football Championship (1988)
             <br />
             <br />
             Kyoto Purple Sanga:
             <br />
-            J.League Division 2 (2001, 2005)
+            &emsp; J.League Division 2 (2001, 2005)
             <br />
-            Emperor's Cup (2002)
+            &emsp; Emperor's Cup (2002)
             <br />
             <br />
           </div>
@@ -96,7 +97,10 @@ export default function Kyoto() {
 
       <footer className="social-media">
         <h2 className="social-media-hdr">
-          <div className="social-media-hdr-title"> Kyoto Sanga Social Pages</div>
+          <div className="social-media-hdr-title">
+            {" "}
+            Kyoto Sanga Social Pages
+          </div>
           <div class="social-media-hdr-title-underline" />
         </h2>
         <div className="social-media-area">

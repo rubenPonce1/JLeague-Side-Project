@@ -54,32 +54,32 @@ export default function Kashiwa() {
           <div className="info-value">
             Hitachi SC:
             <br />
-            JSL Division 1 (1972)
+            &emsp; JSL Division 1 (1972)
             <br />
-            JSL Division 2 (1990)
+            &emsp; JSL Division 2 (1990)
             <br />
-            Emperor's Cup (1972, 1975)
+            &emsp; Emperor's Cup (1972, 1975)
             <br />
-            JSL Cup (1976)
+            &emsp; JSL Cup (1976)
             <br />
-            All Japan Works Football Championship (1958, 1960)
+            &emsp; All Japan Works Football Championship (1958, 1960)
             <br />
-            All Japan Inter-City Football Championship (1963)
+            &emsp; All Japan Inter-City Football Championship (1963)
             <br />
             <br />
             Kashiwa Reysol
             <br />
-            J1 League (2011)
+            &emsp; J1 League (2011)
             <br />
-            J2 League (2010, 2019)
+            &emsp; J2 League (2010, 2019)
             <br />
-            Emperor's Cup (2012)
+            &emsp; Emperor's Cup (2012)
             <br />
-            J. League Cup (1999, 2013)
+            &emsp; J. League Cup (1999, 2013)
             <br />
-            Japanese Super Cup (2012)
+            &emsp; Japanese Super Cup (2012)
             <br />
-            Suruga Bank Championship (2014)
+            &emsp; Suruga Bank Championship (2014)
             <br />
             <br />
           </div>
@@ -114,7 +114,9 @@ export default function Kashiwa() {
 
       <footer className="social-media">
         <h2 className="social-media-hdr">
-          <div className="social-media-hdr-title">Kashiwa Reysol Social Pages</div>
+          <div className="social-media-hdr-title">
+            Kashiwa Reysol Social Pages
+          </div>
           <div class="social-media-hdr-title-underline" />
         </h2>
         <div className="social-media-area">
@@ -151,7 +153,10 @@ export default function Kashiwa() {
                     icon="fab fa-instagram"
                   />
                 </div>
-                <div className="social-media-title"> @kashiwareysol_official </div>
+                <div className="social-media-title">
+                  {" "}
+                  @kashiwareysol_official{" "}
+                </div>
               </a>
             </li>
 
@@ -187,7 +192,10 @@ export default function Kashiwa() {
                     icon="fab fa-tiktok"
                   />
                 </div>
-                <div className="social-media-title"> @kashiwareysol_official </div>
+                <div className="social-media-title">
+                  {" "}
+                  @kashiwareysol_official{" "}
+                </div>
               </a>
             </li>
 

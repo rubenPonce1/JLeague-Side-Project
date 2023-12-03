@@ -36,7 +36,7 @@ export default function Cerezo() {
 
           <div className="info-item">Team names: </div>
           <div className="info-value">
-            Yanmar Diesel(1957-1992)  <br />
+            Yanmar Diesel(1957-1992) <br />
             Cerezo Osaka (1993-present)
             <br />
             Nickname: Sakura (cherry blossoms)
@@ -53,23 +53,23 @@ export default function Cerezo() {
           <div className="info-item">Accomplishments: </div>
           <div className="info-value">
             Yanmir Diesel: <br />
-            Japan Soccer League (1971, 1974, 1975, 1980)
+            &emsp; Japan Soccer League (1971, 1974, 1975, 1980)
             <br />
-            JSL Cup/J.League Cup (1973, 1983, 1984)
+            &emsp; JSL Cup/J.League Cup (1973, 1983, 1984)
             <br />
-            Emperor's Cup (1968, 1970, 1974)
+            &emsp; Emperor's Cup (1968, 1970, 1974)
             <br />
-            Queen's Cup (1976) <br />
+            &emsp; Queen's Cup (1976) <br />
             <br />
             Cerezo Osaka:
             <br />
-            Japan Football League/J2 League (1994)
+            &emsp; Japan Football League/J2 League (1994)
             <br />
-            J.League Cup (2017)
+            &emsp; J.League Cup (2017)
             <br />
-            Emperor's Cup (2017)
+            &emsp; Emperor's Cup (2017)
             <br />
-            Japanese Super Cup (2018)
+            &emsp; Japanese Super Cup (2018)
           </div>
         </div>
       </div>
