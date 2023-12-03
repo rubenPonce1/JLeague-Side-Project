@@ -19,7 +19,7 @@ export default function Kawasaki() {
     <div className="kaw-fr">
       <h1 className="header">
         {" "}
-        <img src={Kawasaki_Frontale} alt="logo" className="team-logo"></img>
+        <img src={Kawasaki_Frontale} alt="logo" className="team-page-logo"></img>
         Kawasaki Frontale
       </h1>
 

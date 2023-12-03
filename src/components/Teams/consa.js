@@ -19,7 +19,7 @@ export default function Hokkaido() {
     <div className="consa">
       <h1 className="header">
         {" "}
-        <img src={HCS} alt="logo" className="team-logo"></img>
+        <img src={HCS} alt="logo" className="team-page-logo"></img>
         Hokkaido Consadole Sapporo
       </h1>
 

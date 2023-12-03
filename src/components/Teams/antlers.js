@@ -19,7 +19,7 @@ export default function Kashima() {
     <div className="kasm">
       <h1 className="header">
         {" "}
-        <img src={Kashima_Antlers} alt="logo" className="team-logo"></img>
+        <img src={Kashima_Antlers} alt="logo" className="team-page-logo"></img>
         Kashima Antlers
       </h1>
 

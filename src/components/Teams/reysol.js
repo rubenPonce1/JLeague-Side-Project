@@ -19,7 +19,7 @@ export default function Kashiwa() {
     <div className="rey">
       <h1 className="header">
         {" "}
-        <img src={Reysol} alt="logo" className="team-logo"></img>
+        <img src={Reysol} alt="logo" className="team-page-logo"></img>
         Kashiwa Reysol
       </h1>
 

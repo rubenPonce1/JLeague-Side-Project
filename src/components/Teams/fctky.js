@@ -19,7 +19,7 @@ export default function FCTokyo() {
     <div className="fctk">
       <h1 className="header">
         {" "}
-        <img src={FCTKY} alt="logo" className="team-logo"></img>
+        <img src={FCTKY} alt="logo" className="team-page-logo"></img>
         FC Tokyo
       </h1>
 

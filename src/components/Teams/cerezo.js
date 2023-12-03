@@ -19,7 +19,7 @@ export default function Cerezo() {
     <div className="crz">
       <h1 className="header">
         {" "}
-        <img src={Cerezo_Osaka} alt="logo" className="team-logo"></img>
+        <img src={Cerezo_Osaka} alt="logo" className="team-page-logo"></img>
         Cerezo Osaka
       </h1>
 

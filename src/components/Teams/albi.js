@@ -19,7 +19,7 @@ export default function Albi() {
     <div className="albi">
       <h1 className="header">
         {" "}
-        <img src={Albirex} alt="logo" className="team-logo"></img>
+        <img src={Albirex} alt="logo" className="team-page-logo"></img>
         Albirex Niigata
       </h1>
 

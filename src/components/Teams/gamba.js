@@ -19,7 +19,7 @@ export default function Gamba() {
     <div className="gamba">
       <h1 className="header">
         {" "}
-        <img src={Gamba_Osaka} alt="logo" className="team-logo"></img>
+        <img src={Gamba_Osaka} alt="logo" className="team-page-logo"></img>
         Gamba Osaka
       </h1>
 

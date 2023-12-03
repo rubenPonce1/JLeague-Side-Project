@@ -19,7 +19,7 @@ export default function Avi() {
     <div className="avi">
       <h1 className="header">
         {" "}
-        <img src={Avispa} alt="logo" className="team-logo"></img>
+        <img src={Avispa} alt="logo" className="team-page-logo"></img>
         Avispa Fukuoka
       </h1>
 
