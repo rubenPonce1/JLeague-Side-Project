@@ -20,6 +20,7 @@ import Nagoya from "./components/Teams/grampus";
 import Kawasaki from "./components/Teams/kawFront";
 import Kyoto from "./components/Teams/kyoto";
 import Kashiwa from "./components/Teams/reysol";
+import Sagan from "./components/Teams/sagan";
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
           <Route path="/Kawasaki_Frontale" element={<Kawasaki />} />
           <Route path="/Kyoto_Sanga" element={<Kyoto />} />
           <Route path="/Nagoya_Grampus" element={<Nagoya />} />
+          <Route path="/Sagan_Tosu" element={<Sagan />} />
         </Routes>
       </div>
     </BrowserRouter>
