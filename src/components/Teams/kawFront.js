@@ -191,7 +191,10 @@ export default function Kawasaki() {
                     icon="fab fa-facebook-f"
                   />
                 </div>
-                <div className="social-media-title"> @kawasakifrontaleofficial </div>
+                <div className="social-media-title">
+                  {" "}
+                  @kawasakifrontaleofficial{" "}
+                </div>
               </a>
             </li>
           </ul>
