@@ -2,7 +2,7 @@
 Filename: kyoto.js
 Date: 12/01/23
 Authors: Ruben Ponce
-Description: This is the team page for 
+Description: This is the team page for Kyoto Sanga
 */
 
 import React from "react";
