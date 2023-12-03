@@ -74,19 +74,23 @@ export default function Kawasaki() {
 
       {/*This is the container for the team video*/}
       <Container className="video-cntr">
-        <h2 className="video-header"> Short Video of *****</h2>
+        <h2 className="video-header"> Short Video of Kawasaki Frontale</h2>
 
         <div class="ratio ratio-16x9">
-          <iframe src=" " title="YouTube video" allowFullScreen></iframe>
+          <iframe src="https://www.youtube.com/embed/LQbyMMFj25k?si=vH_739NEf8dO7n7G" title="YouTube video" allowFullScreen></iframe>
         </div>
 
-        <div className="video-disc">
-          Title of Channel:
-          <Link className="video-chnl-link" to={"  "}>
-            *** <br />
-          </Link>
-          Title: *****
-        </div>
+        <div className='video-disc'>
+           Title of Channel:
+
+
+           <Link className='video-chnl-link' to={"https://www.youtube.com/@JLEAGUEInternational"}>
+             J.LEAGUE International <br/>
+           </Link>
+
+
+           Title: GET TO KNOW J.LEAGUE: Kawasaki Frontale
+       </div>
       </Container>
 
       {/*This is the container for the team socials*/}
