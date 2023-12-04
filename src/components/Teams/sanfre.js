@@ -117,7 +117,9 @@ export default function Sanfrecce() {
 
       <footer className="social-media">
         <h2 className="social-media-hdr">
-          <div className="social-media-hdr-title">Sanfrecce Hiroshima Social Pages</div>
+          <div className="social-media-hdr-title">
+            Sanfrecce Hiroshima Social Pages
+          </div>
           <div class="social-media-hdr-title-underline" />
         </h2>
         <div className="social-media-area">
@@ -125,49 +127,49 @@ export default function Sanfrecce() {
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://twitter.com/sanfrecce_SFC"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" *** _twt"
+                    alt="sanfre_twt"
                     className="social-media-img"
                     icon="fab fa-twitter"
                   />
                 </div>
-                <div className="social-media-title"> @ *** </div>
+                <div className="social-media-title"> @sanfrecce_SFC </div>
               </a>
             </li>
 
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.instagram.com/sanfrecce.official/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" *** _ig"
+                    alt="sanfre_ig"
                     className="social-media-img"
                     icon="fab fa-instagram"
                   />
                 </div>
-                <div className="social-media-title"> @ *** </div>
+                <div className="social-media-title"> @sanfrecce.official </div>
               </a>
             </li>
 
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.youtube.com/channel/UC7JNMwOkj_zHjbXiXlDaAVA"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" *** _yt"
+                    alt="sanfre_yt"
                     className="social-media-img"
                     icon="fab fa-youtube"
                   />
@@ -179,36 +181,21 @@ export default function Sanfrecce() {
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.facebook.com/sanfrecce.hiroshima.official"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" ** _tiktok"
-                    className="social-media-img"
-                    icon="fab fa-tiktok"
-                  />
-                </div>
-                <div className="social-media-title"> @ *** </div>
-              </a>
-            </li>
-
-            <li className="social-media-item">
-              <a
-                className="social-media-value"
-                href=""
-                target="_blank"
-                rel="noreferrer"
-              >
-                <div>
-                  <FontAwesomeIcon
-                    alt=" *** _facebk"
+                    alt="sanfre_facebk"
                     className="social-media-img"
                     icon="fab fa-facebook-f"
                   />
                 </div>
-                <div className="social-media-title"> @*** </div>
+                <div className="social-media-title">
+                  {" "}
+                  @sanfrecce.hiroshima.official{" "}
+                </div>
               </a>
             </li>
           </ul>
