@@ -13,7 +13,7 @@
     --kyot: #750069; --kyotSec: #e6002e;
     --nago:  #d51216; --nagoSec: #f29200;
     --tosu: #ea5599; --tosuSec: #009ccc;
-    --hiro: #59358c; --hiroSec: #ffffff;
+    --hiro: #59358c; --hiroSec: #340234;
     --shon: #77b82a; --shonSec: #005da0;
     --reds: #e4032f; --redsSec: #000000;
     --kobe: #a40931; --kobeSec: #000000;
@@ -595,4 +595,56 @@
 }
 .sagan .social-media-img:hover{
     background-color: var(--tosu);
+}
+
+.sanfre .team-page-logo{
+    height: 100px;
+}
+.sanfre{
+    background-image: url('../images/Stadiums/SanfrecceHiroshimaStadium.jpeg');
+    background-repeat: no-repeat;
+    margin-top: -40px;
+    background-size:cover;
+    background-attachment: fixed;
+    align-items: center; 
+}
+.sanfre .header{
+    color: var(--hiro);
+    text-shadow:
+        0.05em 0 var(--hiroSec),
+        0 0.05em var(--white),
+        0.05em 0.05em var(--white);
+}
+.sanfre .team-info{
+    background-image: linear-gradient(
+        90deg,
+        var(--hiro) 0%,
+        var(--hiro) 20%,
+        var(--hiro) 25%,
+        var(--hiroSec) 40%,
+        var(--hiroSec) 40%,
+        var(--hiroSec) 50%,
+        var(--hiroSec) 55%,
+        var(--hiro) 80%,
+        var(--hiro) 90%,
+        var(--hiro) 100%
+    );
+}
+.sanfre .social-media-hdr-title-underline{
+    background-image: 
+        linear-gradient(
+            90deg,
+            rgba(26,25,25,0.0001) 0,
+            var(--hiroSec) 10%,
+            var(--hiro) 60.96%
+        );
+}
+.sanfre .social-media-value{
+    color: var(--white)
+}
+.sanfre .social-media-img{
+    background: var(--hiro);
+}
+.sanfre .social-media-img:hover{
+    background-color: var(--hiroSec);
 }
