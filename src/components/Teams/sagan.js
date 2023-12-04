@@ -87,7 +87,7 @@ export default function Sagan() {
 
       <footer className="social-media">
         <h2 className="social-media-hdr">
-          <div className="social-media-hdr-title">*** Social Pages</div>
+          <div className="social-media-hdr-title"> Sagan Tosu Social Pages</div>
           <div class="social-media-hdr-title-underline" />
         </h2>
         <div className="social-media-area">
@@ -95,49 +95,49 @@ export default function Sagan() {
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://twitter.com/saganofficial17"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" *** _twt"
+                    alt="sagan_twt"
                     className="social-media-img"
                     icon="fab fa-twitter"
                   />
                 </div>
-                <div className="social-media-title"> @ *** </div>
+                <div className="social-media-title"> @saganofficial17 </div>
               </a>
             </li>
 
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.instagram.com/sagantosu_official/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" *** _ig"
+                    alt="sagan_ig"
                     className="social-media-img"
                     icon="fab fa-instagram"
                   />
                 </div>
-                <div className="social-media-title"> @ *** </div>
+                <div className="social-media-title"> @sagantosu_official </div>
               </a>
             </li>
 
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.youtube.com/user/officialsagantosu"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" *** _yt"
+                    alt="sagan_yt"
                     className="social-media-img"
                     icon="fab fa-youtube"
                   />
@@ -149,36 +149,18 @@ export default function Sagan() {
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.facebook.com/people/%E3%82%B5%E3%82%AC%E3%83%B3%E9%B3%A5%E6%A0%96SAGANTOSU/100051575031755/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" ** _tiktok"
-                    className="social-media-img"
-                    icon="fab fa-tiktok"
-                  />
-                </div>
-                <div className="social-media-title"> @ *** </div>
-              </a>
-            </li>
-
-            <li className="social-media-item">
-              <a
-                className="social-media-value"
-                href=""
-                target="_blank"
-                rel="noreferrer"
-              >
-                <div>
-                  <FontAwesomeIcon
-                    alt=" *** _facebk"
+                    alt="sagan_facebk"
                     className="social-media-img"
                     icon="fab fa-facebook-f"
                   />
                 </div>
-                <div className="social-media-title"> @*** </div>
+                <div className="social-media-title"> @サガン鳥栖 (SAGANTOSU) </div>
               </a>
             </li>
           </ul>
