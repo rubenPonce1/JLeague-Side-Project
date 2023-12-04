@@ -2,7 +2,7 @@
 Filename: sagan.js
 Date: 12/01/23
 Authors: Ruben Ponce
-Description: This is the team page for 
+Description: This is the team page for Sagan Tosu
 */
 
 import React from "react";
