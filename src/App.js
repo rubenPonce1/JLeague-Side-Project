@@ -19,9 +19,14 @@ import Gamba from "./components/Teams/gamba";
 import Nagoya from "./components/Teams/grampus";
 import Kawasaki from "./components/Teams/kawFront";
 import Kyoto from "./components/Teams/kyoto";
+import FMarinos from "./components/Teams/marinos";
 import Kashiwa from "./components/Teams/reysol";
 import Sagan from "./components/Teams/sagan";
 import Sanfrecce from "./components/Teams/sanfre";
+import Shonan from "./components/Teams/shonan";
+import Urawa from "./components/Teams/urawa";
+import Vissel from "./components/Teams/vissel";
+import YokohamaFC from "./components/Teams/yokfc";
 
 function App() {
   return (
@@ -48,6 +53,11 @@ function App() {
           <Route path="/Nagoya_Grampus" element={<Nagoya />} />
           <Route path="/Sagan_Tosu" element={<Sagan />} />
           <Route path="/Sanfreece_Hiroshima" element={<Sanfrecce />} />
+          <Route path="/Shonan_Bellmare" element={<Shonan />} />
+          <Route path="/Urawa_Reds" element={<Urawa />} />
+          <Route path="/Vissel_Kobe" element={<Vissel />} />
+          <Route path="/Yokohama_F_Marinos" element={<FMarinos />} />
+          <Route path="/Yokohama_FC" element={<YokohamaFC />} />
         </Routes>
       </div>
     </BrowserRouter>
