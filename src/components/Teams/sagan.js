@@ -29,33 +29,31 @@ export default function Sagan() {
           <div className="info-title"> Info </div>
 
           <div className="info-item"> EST: </div>
-          <div className="value"> *** </div>
+          <div className="value"> 1997 </div>
 
           <div className="info-item">Team names: </div>
           <div className="info-value">
-            **** <br />
+            Sagan Tosu FC (1997-present)
             <br />
             <br />
-            Nickname: **
+            Nickname: Sagan, "Tosu of Saga (Prefecture)"
           </div>
 
           <div className="info-item"> Stadium: </div>
           <div className="info-value">
-            ***
+            EKIMAE REAL ESTATE STADIUM
             <br />
-            Capacity: <br />
-            <i class="fas fa-map-marker-alt"> </i> * <br />
+            Capacity: 24,130
+            <br />
+            <i class="fas fa-map-marker-alt"> </i> Tosu, Saga <br />
           </div>
 
           <div className="info-item">Accomplishments: </div>
           <div className="info-value">
+            Sagan Tosu FC:
             <br />
-            &emsp; <br />
-            &emsp; <br />
-            &emsp; <br />
-            &emsp; <br />
-            &emsp; <br />
-            &emsp; <br />
+            &emsp; J.League Division 2 [2nd place promotion] (2011)
+            <br />
             <br />
           </div>
         </div>
