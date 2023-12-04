@@ -544,3 +544,55 @@
 .grampus .social-media-img:hover{
     background-color: var(--nagoSec);
 }
+
+.sagan .team-page-logo{
+    height: 90px;
+}
+.sagan{
+    background-image: url('../images/Stadiums/SaganTosuStadium.jpeg');
+    background-repeat: no-repeat;
+    margin-top: -40px;
+    background-size:cover;
+    background-attachment: fixed;
+    align-items: center; 
+}
+.sagan .header{
+    color: var(--white);
+    text-shadow:
+        0.05em 0 var(--tosu),
+        0 0.05em var(--tosuSec),
+        0.05em 0.05em var(--tosuSec);
+}
+.sagan .team-info{
+    background-image: linear-gradient(
+        90deg,
+        var(--tosuSec) 0%,
+        var(--tosuSec) 20%,
+        var(--tosu) 25%,
+        var(--tosu) 40%,
+        var(--tosu)40%,
+        var(--tosu) 50%,
+        var(--tosu) 55%,
+        var(--tosu) 80%,
+        var(--tosuSec) 90%,
+        var(--tosuSec) 100%
+    );
+}
+.sagan .social-media-hdr-title-underline{
+    background-image: 
+        linear-gradient(
+            90deg,
+            rgba(26,25,25,0.0001) 0,
+            var(--tosuSec) 10%,
+            var(--tosu) 60.96%
+        );
+}
+.sagan .social-media-value{
+    color: var(--tosu)
+}
+.sagan .social-media-img{
+    background: var(--tosuSec);
+}
+.sagan .social-media-img:hover{
+    background-color: var(--tosu);
+}
