@@ -140,7 +140,7 @@ export const TeamList =[
 
     {
         image: YokohamaFMarinos,
-        title: 'Yokohama F Marinos',
+        title: 'Yokohama F·Marinos',
         path: '/Yokohama_F_Marinos' ,
         cName: 'team-link'
     },
