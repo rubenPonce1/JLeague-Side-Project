@@ -91,18 +91,25 @@ export default function Sanfrecce() {
 
       {/*This is the container for the team video*/}
       <Container className="video-cntr">
-        <h2 className="video-header"> Short Video of ***** </h2>
+        <h2 className="video-header"> Short Video of Sanfrecce Hiroshima </h2>
 
         <div class="ratio ratio-16x9">
-          <iframe src=" " title="YouTube video" allowFullScreen></iframe>
+          <iframe
+            src="https://www.youtube.com/embed/ysFaaC6lPc8?si=aW_55zk0Ro3Owa8E"
+            title="YouTube video"
+            allowFullScreen
+          ></iframe>
         </div>
 
         <div className="video-disc">
           Title of Channel:
-          <Link className="video-chnl-link" to={"  "}>
-            *** <br />
+          <Link
+            className="video-chnl-link"
+            to={"https://www.youtube.com/@JLEAGUEInternational"}
+          >
+            J.LEAGUE International <br />
           </Link>
-          Title: *****
+          Title: GET TO KNOW J.LEAGUE: Sanfrecce Hiroshima
         </div>
       </Container>
 
@@ -110,7 +117,7 @@ export default function Sanfrecce() {
 
       <footer className="social-media">
         <h2 className="social-media-hdr">
-          <div className="social-media-hdr-title">*** Social Pages</div>
+          <div className="social-media-hdr-title">Sanfrecce Hiroshima Social Pages</div>
           <div class="social-media-hdr-title-underline" />
         </h2>
         <div className="social-media-area">
