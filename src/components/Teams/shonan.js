@@ -62,18 +62,25 @@ export default function Shonan() {
 
       {/*This is the container for the team video*/}
       <Container className="video-cntr">
-        <h2 className="video-header"> Short Video of ***** </h2>
+        <h2 className="video-header"> Short Video of Shonan Bellmare </h2>
 
         <div class="ratio ratio-16x9">
-          <iframe src=" " title="YouTube video" allowFullScreen></iframe>
+          <iframe
+            src="https://www.youtube.com/embed/5TRzGxDyGB8?si=9RIti5Gni9_n82ny"
+            title="YouTube video"
+            allowFullScreen
+          ></iframe>
         </div>
 
         <div className="video-disc">
           Title of Channel:
-          <Link className="video-chnl-link" to={"  "}>
-            *** <br />
+          <Link
+            className="video-chnl-link"
+            to={"https://www.youtube.com/@JLEAGUEInternational"}
+          >
+            J.LEAGUE International <br />
           </Link>
-          Title: *****
+          Title: GET TO KNOW J.LEAGUE: Shonan Bellmare
         </div>
       </Container>
 

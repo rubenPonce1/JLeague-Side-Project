@@ -20,6 +20,7 @@ export default function FMarinos() {
       <h1 className="header">
         {" "}
         <img src={YokohamaFMarinos} alt="logo" className="team-page-logo"></img>
+        Yokohama F·Marinos
       </h1>
 
       {/*This is the container for the team info */}
@@ -62,18 +63,25 @@ export default function FMarinos() {
 
       {/*This is the container for the team video*/}
       <Container className="video-cntr">
-        <h2 className="video-header"> Short Video of ***** </h2>
+        <h2 className="video-header"> Short Video of Yokohama F·Marinos </h2>
 
         <div class="ratio ratio-16x9">
-          <iframe src=" " title="YouTube video" allowFullScreen></iframe>
+          <iframe
+            src="https://www.youtube.com/embed/RViNw7nOAQs?si=LS1qcwuuzbW4ewwM"
+            title="YouTube video"
+            allowFullScreen
+          ></iframe>
         </div>
 
         <div className="video-disc">
           Title of Channel:
-          <Link className="video-chnl-link" to={"  "}>
-            *** <br />
+          <Link
+            className="video-chnl-link"
+            to={"https://www.youtube.com/@JLEAGUEInternational"}
+          >
+            J.LEAGUE International <br />
           </Link>
-          Title: *****
+          Title: GET TO KNOW J.LEAGUE: Yokohama F·Marinos
         </div>
       </Container>
 
