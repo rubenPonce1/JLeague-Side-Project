@@ -113,7 +113,7 @@ export const TeamList =[
     {
         image: Sanfrecce,
         title: 'Sanfrecce Hiroshima',
-        path: '/Sanfreece Hiroshima' ,
+        path: '/Sanfreece_Hiroshima' ,
         cName: 'team-link'
     },
 
