@@ -93,7 +93,7 @@ export default function Urawa() {
 
       <footer className="social-media">
         <h2 className="social-media-hdr">
-          <div className="social-media-hdr-title">*** Social Pages</div>
+          <div className="social-media-hdr-title">Urawa Red Diamonds Social Pages</div>
           <div class="social-media-hdr-title-underline" />
         </h2>
         <div className="social-media-area">
@@ -101,49 +101,49 @@ export default function Urawa() {
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://twitter.com/REDSOFFICIAL"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" *** _twt"
+                    alt="reds _twt"
                     className="social-media-img"
                     icon="fab fa-twitter"
                   />
                 </div>
-                <div className="social-media-title"> @ *** </div>
+                <div className="social-media-title"> @REDSOFFICIAL </div>
               </a>
             </li>
 
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.instagram.com/urawaredsofficial/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" *** _ig"
+                    alt="reds_ig"
                     className="social-media-img"
                     icon="fab fa-instagram"
                   />
                 </div>
-                <div className="social-media-title"> @ *** </div>
+                <div className="social-media-title"> @urawaredsofficial </div>
               </a>
             </li>
 
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.youtube.com/c/URAWAREDSOFFICIALTV"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" *** _yt"
+                    alt="reds_yt"
                     className="social-media-img"
                     icon="fab fa-youtube"
                   />
@@ -155,36 +155,37 @@ export default function Urawa() {
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://music.apple.com/jp/curator/%E6%B5%A6%E5%92%8C%E3%83%AC%E3%83%83%E3%82%BA/1605906211"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
+                  
                   <FontAwesomeIcon
-                    alt=" ** _tiktok"
+                    alt="reds_tiktok"
                     className="social-media-img"
-                    icon="fab fa-tiktok"
+                    icon="fas fa-music"
                   />
                 </div>
-                <div className="social-media-title"> @ *** </div>
+                <div className="social-media-title"> Apple Music </div>
               </a>
             </li>
 
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.youtube.com/c/URAWAREDSOFFICIALTV"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" *** _facebk"
+                    alt="reds_facebk"
                     className="social-media-img"
                     icon="fab fa-facebook-f"
                   />
                 </div>
-                <div className="social-media-title"> @*** </div>
+                <div className="social-media-title"> @URAWAREDSOFFICIALTV </div>
               </a>
             </li>
           </ul>
