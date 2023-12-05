@@ -15,7 +15,7 @@
   --tosu: #ea5599; --tosuSec: #009ccc;
   --hiro: #59358c; --hiroSec: #340234;
   --shon: #77b82a; --shonSec: #005da0;
-  --reds: #e4032f; --redsSec: #000000;
+  --reds: #e4032f; --redsSec: #880a23;
   --kobe: #a40931; --kobeSec: #000000;
   --yfc: #009fe3; --yfcSec: #13387f;
   --yfm: #174195; --yfmSec: #e4003b;
@@ -694,7 +694,7 @@
 }
 .reds .header {
   color: var(--reds);
-  text-shadow: 0.05em 0 var(--redsSec), 0 0.05em var(--white),
+  text-shadow: 0.05em 0 var(--redsSec), 0 0.05em var(--black),
     0.05em 0.05em var(--redsSec);
 }
 .reds .team-info {
@@ -703,35 +703,36 @@
   background-image: 
     linear-gradient(
       60deg,
-      var(--redsSec) 25%,
+      var(--black) 25%,
       transparent 25%,
       transparent 75%,
-      var(--redsSec)  75%,
-      var(--redsSec) 
+      var(--black)  75%,
+      var(--black) 
     ),
     linear-gradient(
       120deg,
-      var(--redsSec)  25%,
+      var(--black)  25%,
       transparent 25%,
       transparent 75%,
-      var(--redsSec)  75%,
-      var(--redsSec) 
+      var(--black)  75%,
+      var(--black) 
     );
 }
 .reds .social-media-hdr-title-underline {
   background-image: linear-gradient(
     90deg,
     rgba(26, 25, 25, 0.0001) 0,
-    var(--shon) 10%,
-    var(--shonSec) 60.96%
+    var(--reds) 10%,
+    var(--redsSec) 60.96%
   );
 }
 .reds .social-media-value {
-  color: var(--shon);
+  color: var(--reds);
 }
 .reds .social-media-img {
-  background: var(--shonSec);
+  color: var(--black);
+  background: var(--white);
 }
 .reds .social-media-img:hover {
-  background-color: var(--shon);
+  background-color: var(--reds);
 }
