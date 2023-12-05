@@ -29,33 +29,51 @@ export default function Shonan() {
           <div className="info-title"> Info </div>
 
           <div className="info-item"> EST: </div>
-          <div className="value"> *** </div>
+          <div className="value"> 1968 </div>
 
           <div className="info-item">Team names: </div>
           <div className="info-value">
-            **** <br />
+            Towa Real Estate SC (1968-1973)
             <br />
+            Fujita Kogyo SC (1974-1992)
             <br />
-            Nickname: **
+            Shonan Bellmare (1992-1993) <br />
+            Bellmare Hiratsuka (1994-1999)
+            <br />
+            Shonan Bellmare (2000-present)
+            <br />
+            Nickname: Bellmare (beautiful sea)
           </div>
 
           <div className="info-item"> Stadium: </div>
           <div className="info-value">
-            ***
+            Lemon Gas Stadium Hiratsuka
             <br />
-            Capacity: <br />
-            <i class="fas fa-map-marker-alt"> </i> * <br />
+            Capacity: 15,380
+            <br />
+            <i class="fas fa-map-marker-alt"> </i> Hiratsuka, Kanagawa <br />
           </div>
 
           <div className="info-item">Accomplishments: </div>
           <div className="info-value">
+            Towa Real Estate SC:<br />
+            &emsp; JSL Cup/J.League Cup (1973)<br />
+            &emsp; All Japan Senior Football Championship (1971)<br />
             <br />
-            &emsp; <br />
-            &emsp; <br />
-            &emsp; <br />
-            &emsp; <br />
-            &emsp; <br />
-            &emsp; <br />
+            Fujita Kogyo SC<br />
+            &emsp; Japan Soccer League Division 1 (1977, 1979, 1981)<br />
+            &emsp; Japan Soccer League Division 2 (1992)<br />
+            &emsp; Emperor's Cup (1977, 1979)<br />
+            &emsp; Japanese Super Cup (1978, 1982)<br />
+            <br />
+            Bellmare Hiratsuka<br />
+            &emsp; Emperor's Cup (1994)<br />
+            &emsp; Asian Cup Winners' Cup (1995)<br />
+            <br />
+            Shonan Bellmare<br />
+            &emsp; J2 League Division 2 (2014, 2017)<br />
+            &emsp; JSL Cup/J.League Cup (2018)<br />
+            &emsp; BTV Cup (2016)<br />
             <br />
           </div>
         </div>
@@ -89,7 +107,9 @@ export default function Shonan() {
 
       <footer className="social-media">
         <h2 className="social-media-hdr">
-          <div className="social-media-hdr-title">Shonan Bellmare Social Pages</div>
+          <div className="social-media-hdr-title">
+            Shonan Bellmare Social Pages
+          </div>
           <div class="social-media-hdr-title-underline" />
         </h2>
         <div className="social-media-area">
