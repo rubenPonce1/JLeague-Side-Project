@@ -32,34 +32,59 @@ export default function Urawa() {
         <div className="team-info-wrapper">
           <div className="info-title"> Info </div>
 
-          <div className="info-item"> EST: </div>
-          <div className="value"> *** </div>
+          <div className="info-item"> EST:</div>
+          <div className="value">
+            {" "}
+            1950 <br />
+            "Original Ten"
+          </div>
 
           <div className="info-item">Team names: </div>
           <div className="info-value">
-            **** <br />
+            Mitsubishi Motors FC (1950-1991)
             <br />
+            Urawa Red Diamonds (1992-present)
             <br />
-            Nickname: **
+            Nickname: Reds, Red Devils
           </div>
 
           <div className="info-item"> Stadium: </div>
           <div className="info-value">
-            ***
+            Saitama Stadium 2002
             <br />
-            Capacity: <br />
-            <i class="fas fa-map-marker-alt"> </i> * <br />
+            Capacity: 63,700
+            <br />
+            <i class="fas fa-map-marker-alt"> </i> Midori Ward, Saitama <br />
           </div>
 
           <div className="info-item">Accomplishments: </div>
           <div className="info-value">
+            Mitsubishi Motors FC:
             <br />
-            &emsp; <br />
-            &emsp; <br />
-            &emsp; <br />
-            &emsp; <br />
-            &emsp; <br />
-            &emsp; <br />
+            &emsp; Japan Soccer League (1969, 1973, 1978, 1982)
+            <br />
+            &emsp; Japan Soccer League Division 2 (1989)
+            <br />
+            &emsp; Emperor's Cup (1971, 1973, 1978, 1980)
+            <br />
+            &emsp; JSL Cup/J.League Cup (1978, 1981)
+            <br />
+            &emsp; Japanese Super Cup (1979, 1980, 1983)
+            <br />
+            Urawa Red Diamonds:
+            <br />
+            &emsp; J1 League (2006)
+            <br />
+            &emsp; Emperor's Cup (2005, 2006, 2018, 2021)
+            <br />
+            &emsp; JSL Cup/J.League Cup (2003, 2016)
+            <br />
+            &emsp; Japanese Super Cup (2006, 2022)
+            <br />
+            &emsp; AFC Champions League (2007, 2017, 2022)
+            <br />
+            &emsp; J.League Cup / Copa Sudamericana Championship (2017)
+            <br />
             <br />
           </div>
         </div>
@@ -93,7 +118,9 @@ export default function Urawa() {
 
       <footer className="social-media">
         <h2 className="social-media-hdr">
-          <div className="social-media-hdr-title">Urawa Red Diamonds Social Pages</div>
+          <div className="social-media-hdr-title">
+            Urawa Red Diamonds Social Pages
+          </div>
           <div class="social-media-hdr-title-underline" />
         </h2>
         <div className="social-media-area">
@@ -160,7 +187,6 @@ export default function Urawa() {
                 rel="noreferrer"
               >
                 <div>
-                  
                   <FontAwesomeIcon
                     alt="reds_tiktok"
                     className="social-media-img"
