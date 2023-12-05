@@ -687,16 +687,16 @@
         linear-gradient(
             90deg,
             rgba(26,25,25,0.0001) 0,
-            var(--hiroSec) 10%,
-            var(--hiro) 60.96%
+            var(--shon) 10%,
+            var(--shonSec) 60.96%
         );
 }
 .shonan .social-media-value{
-    color: var(--white)
+    color: var(--shon)
 }
 .shonan .social-media-img{
-    background: var(--hiro);
+    background: var(--shonSec);
 }
 .shonan .social-media-img:hover{
-    background-color: var(--hiroSec);
+    background-color: var(--shon);
 }

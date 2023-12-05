@@ -89,7 +89,7 @@ export default function Shonan() {
 
       <footer className="social-media">
         <h2 className="social-media-hdr">
-          <div className="social-media-hdr-title">*** Social Pages</div>
+          <div className="social-media-hdr-title">Shonan Bellmare Social Pages</div>
           <div class="social-media-hdr-title-underline" />
         </h2>
         <div className="social-media-area">
@@ -97,49 +97,49 @@ export default function Shonan() {
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://twitter.com/bellmare_staff"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" *** _twt"
+                    alt="shonan_twt"
                     className="social-media-img"
                     icon="fab fa-twitter"
                   />
                 </div>
-                <div className="social-media-title"> @ *** </div>
+                <div className="social-media-title"> @bellmare_staff </div>
               </a>
             </li>
 
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.instagram.com/shonan_bellmare/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" *** _ig"
+                    alt="shonan_ig"
                     className="social-media-img"
                     icon="fab fa-instagram"
                   />
                 </div>
-                <div className="social-media-title"> @ *** </div>
+                <div className="social-media-title"> @shonan_bellmare </div>
               </a>
             </li>
 
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.youtube.com/channel/UCc3FnR9YVLyd-c4_uWpzgtA"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" *** _yt"
+                    alt="shonan_yt"
                     className="social-media-img"
                     icon="fab fa-youtube"
                   />
@@ -151,36 +151,36 @@ export default function Shonan() {
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.tiktok.com/@bellmare_official"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" ** _tiktok"
+                    alt="shonan_tiktok"
                     className="social-media-img"
                     icon="fab fa-tiktok"
                   />
                 </div>
-                <div className="social-media-title"> @ *** </div>
+                <div className="social-media-title">@bellmare_official</div>
               </a>
             </li>
 
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://ja-jp.facebook.com/teambellmare"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" *** _facebk"
+                    alt="shonan_facebk"
                     className="social-media-img"
                     icon="fab fa-facebook-f"
                   />
                 </div>
-                <div className="social-media-title"> @*** </div>
+                <div className="social-media-title"> @teambellmare </div>
               </a>
             </li>
           </ul>
