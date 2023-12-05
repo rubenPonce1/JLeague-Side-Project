@@ -20,6 +20,7 @@ export default function Vissel() {
       <h1 className="header">
         {" "}
         <img src={Vissel_Kobe} alt="logo" className="team-page-logo"></img>
+        Vissel Kobe
       </h1>
 
       {/*This is the container for the team info */}

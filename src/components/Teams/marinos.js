@@ -16,7 +16,7 @@ import { Link } from "react-router-dom";
 
 export default function FMarinos() {
   return (
-    <div className=" ">
+    <div className="marinos">
       <h1 className="header">
         {" "}
         <img src={YokohamaFMarinos} alt="logo" className="team-page-logo"></img>

@@ -24,6 +24,7 @@ export default function Urawa() {
           alt="logo"
           className="team-page-logo"
         ></img>
+        Urawa Red Diamonds
       </h1>
 
       {/*This is the container for the team info */}

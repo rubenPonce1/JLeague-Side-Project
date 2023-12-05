@@ -20,6 +20,7 @@ export default function Shonan() {
       <h1 className="header">
         {" "}
         <img src={Shonan_Bellmare} alt="logo" className="team-page-logo"></img>
+        Shonan Bellmare
       </h1>
 
       {/*This is the container for the team info */}

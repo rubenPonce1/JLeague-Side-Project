@@ -16,10 +16,11 @@ import { Link } from "react-router-dom";
 
 export default function YokohamaFC() {
   return (
-    <div className=" ">
+    <div className="yokfc">
       <h1 className="header">
         {" "}
         <img src={Yok_FC} alt="logo" className="team-page-logo"></img>
+        Yokohama FC
       </h1>
 
       {/*This is the container for the team info */}
