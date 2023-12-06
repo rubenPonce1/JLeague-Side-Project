@@ -29,33 +29,40 @@ export default function Vissel() {
           <div className="info-title"> Info </div>
 
           <div className="info-item"> EST: </div>
-          <div className="value"> *** </div>
+          <div className="value"> 1966 </div>
 
           <div className="info-item">Team names: </div>
           <div className="info-value">
-            **** <br />
+            Kawasaki Steel Soccer Club (1966-1994)
             <br />
+            Vissel Kobe (1995-present)
             <br />
-            Nickname: **
+            Nickname: Ushi (cows), Vissel (victory and vessel)
           </div>
 
           <div className="info-item"> Stadium: </div>
           <div className="info-value">
-            ***
+            NOEVIR Stadium Kobe
             <br />
-            Capacity: <br />
-            <i class="fas fa-map-marker-alt"> </i> * <br />
+            Capacity: 30,134
+            <br />
+            <i class="fas fa-map-marker-alt"> </i> Hyogo Ward, Kobe <br />
           </div>
 
           <div className="info-item">Accomplishments: </div>
           <div className="info-value">
+            Kawasaki Steel Mizushima:
             <br />
-            &emsp; <br />
-            &emsp; <br />
-            &emsp; <br />
-            &emsp; <br />
-            &emsp; <br />
-            &emsp; <br />
+            &emsp; Chūgoku Soccer League 5th Tier (1980, 1981, 1982, 1984, 1985)
+            <br />
+            <br />
+            Vissel Kobe <br />
+            &emsp; J1 League (2023)
+            <br />
+            &emsp; Emperor's Cup (2019)
+            <br />
+            &emsp; Japanese Super Cup (2020)
+            <br />
             <br />
           </div>
         </div>
@@ -89,7 +96,7 @@ export default function Vissel() {
 
       <footer className="social-media">
         <h2 className="social-media-hdr">
-          <div className="social-media-hdr-title">*** Social Pages</div>
+          <div className="social-media-hdr-title"> Vissel Kobe Social Pages</div>
           <div class="social-media-hdr-title-underline" />
         </h2>
         <div className="social-media-area">
@@ -97,49 +104,49 @@ export default function Vissel() {
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://twitter.com/visselkobe"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" *** _twt"
+                    alt="kobe_twt"
                     className="social-media-img"
                     icon="fab fa-twitter"
                   />
                 </div>
-                <div className="social-media-title"> @ *** </div>
+                <div className="social-media-title"> @visselkobe </div>
               </a>
             </li>
 
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.instagram.com/visselkobe/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" *** _ig"
+                    alt="kobe_ig"
                     className="social-media-img"
                     icon="fab fa-instagram"
                   />
                 </div>
-                <div className="social-media-title"> @ *** </div>
+                <div className="social-media-title"> @visselkobe </div>
               </a>
             </li>
 
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.youtube.com/c/visselkobe"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" *** _yt"
+                    alt="kobe_yt"
                     className="social-media-img"
                     icon="fab fa-youtube"
                   />
@@ -151,36 +158,36 @@ export default function Vissel() {
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.tiktok.com/@visselkobe_official"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" ** _tiktok"
+                    alt="kobe_tiktok"
                     className="social-media-img"
                     icon="fab fa-tiktok"
                   />
                 </div>
-                <div className="social-media-title"> @ *** </div>
+                <div className="social-media-title"> @visselkobe_official </div>
               </a>
             </li>
 
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.facebook.com/VISSELKOBE"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" *** _facebk"
+                    alt="kobe_facebk"
                     className="social-media-img"
                     icon="fab fa-facebook-f"
                   />
                 </div>
-                <div className="social-media-title"> @*** </div>
+                <div className="social-media-title"> @VISSELKOBE </div>
               </a>
             </li>
           </ul>
