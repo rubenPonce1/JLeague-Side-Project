@@ -29,33 +29,31 @@ export default function YokohamaFC() {
           <div className="info-title"> Info </div>
 
           <div className="info-item"> EST: </div>
-          <div className="value"> *** </div>
+          <div className="value"> 1998 </div>
 
           <div className="info-item">Team names: </div>
           <div className="info-value">
-            **** <br />
-            <br />
-            <br />
-            Nickname: **
+            Yokohama Football Club (1998-present) <br />
+            Nickname: Fulie
           </div>
 
           <div className="info-item"> Stadium: </div>
           <div className="info-value">
-            ***
+            NHK Spring Mitsuzawa Football Stadium
             <br />
-            Capacity: <br />
-            <i class="fas fa-map-marker-alt"> </i> * <br />
+            Capacity: 15,444
+            <br />
+            <i class="fas fa-map-marker-alt"> </i> Yokohama, Kanagawa <br />
           </div>
 
           <div className="info-item">Accomplishments: </div>
           <div className="info-value">
+            Yokohama FC
             <br />
-            &emsp; <br />
-            &emsp; <br />
-            &emsp; <br />
-            &emsp; <br />
-            &emsp; <br />
-            &emsp; <br />
+            &emsp; Japan Football League (1999, 2000)
+            <br />
+            &emsp; J2 League Division (2006)
+            <br />
             <br />
           </div>
         </div>
@@ -89,7 +87,10 @@ export default function YokohamaFC() {
 
       <footer className="social-media">
         <h2 className="social-media-hdr">
-          <div className="social-media-hdr-title">*** Social Pages</div>
+          <div className="social-media-hdr-title">
+            {" "}
+            Yokohama FC Social Pages
+          </div>
           <div class="social-media-hdr-title-underline" />
         </h2>
         <div className="social-media-area">
@@ -97,49 +98,49 @@ export default function YokohamaFC() {
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://twitter.com/yokohama_fc/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" *** _twt"
+                    alt="yokfc_twt"
                     className="social-media-img"
                     icon="fab fa-twitter"
                   />
                 </div>
-                <div className="social-media-title"> @ *** </div>
+                <div className="social-media-title"> @yokohama_fc </div>
               </a>
             </li>
 
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.instagram.com/yokohamafc_official/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" *** _ig"
+                    alt="yokfc_ig"
                     className="social-media-img"
                     icon="fab fa-instagram"
                   />
                 </div>
-                <div className="social-media-title"> @ *** </div>
+                <div className="social-media-title"> @yokohamafc_official </div>
               </a>
             </li>
 
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.youtube.com/channel/UCUiRzm2iBaQM8k_TccZDq-w"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" *** _yt"
+                    alt="yokfc_yt"
                     className="social-media-img"
                     icon="fab fa-youtube"
                   />
@@ -151,36 +152,36 @@ export default function YokohamaFC() {
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.tiktok.com/@fulimaru_official"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" ** _tiktok"
+                    alt="yokfc_tiktok"
                     className="social-media-img"
                     icon="fab fa-tiktok"
                   />
                 </div>
-                <div className="social-media-title"> @ *** </div>
+                <div className="social-media-title"> @fulimaru_official </div>
               </a>
             </li>
 
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.facebook.com/yokohamafc1999/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" *** _facebk"
+                    alt="yokfc_facebk"
                     className="social-media-img"
                     icon="fab fa-facebook-f"
                   />
                 </div>
-                <div className="social-media-title"> @*** </div>
+                <div className="social-media-title"> @yokohamafc1999 </div>
               </a>
             </li>
           </ul>
