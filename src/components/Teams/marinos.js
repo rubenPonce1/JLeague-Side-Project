@@ -29,33 +29,55 @@ export default function FMarinos() {
           <div className="info-title"> Info </div>
 
           <div className="info-item"> EST: </div>
-          <div className="value"> *** </div>
+          <div className="value"> 1972 <br/> Original 10</div>
 
           <div className="info-item">Team names: </div>
           <div className="info-value">
-            **** <br />
+            Nissan Motor Football Club (1972-1991)
             <br />
+            Yokohama Marinos (1992-1998)<br />
+            * Merger with Yokohama Flügels (1964-1998) *
             <br />
-            Nickname: **
+            Yokohama F·Marinos (1999-present)
+            <br />
+            Nickname: Marinos, Tricolor
           </div>
 
           <div className="info-item"> Stadium: </div>
           <div className="info-value">
-            ***
+            Nissan Stadium
             <br />
-            Capacity: <br />
-            <i class="fas fa-map-marker-alt"> </i> * <br />
+            Capacity: 72,327
+            <br />
+            <i class="fas fa-map-marker-alt"> </i> Yokohama, Kanagawa <br />
           </div>
 
           <div className="info-item">Accomplishments: </div>
           <div className="info-value">
+          Nissan Motor Football Club: <br />
+            &emsp; Japan Soccer League Div 1 (1988, 1989)<br />
+            &emsp; Emperor's Cup (1983, 1985, 1988, 1989, 1991)<br />
+            &emsp; J.League Cup (1988, 1989, 1990)<br />
+            &emsp; All Japan Senior Football Championship (1976)<br />
+            &emsp; Asian Cup Winners' Cup (1991)<br />
             <br />
-            &emsp; <br />
-            &emsp; <br />
-            &emsp; <br />
-            &emsp; <br />
-            &emsp; <br />
-            &emsp; <br />
+            Yokohama Flügels: <br />
+            &emsp; Regional Promotion Series (1983)<br />
+            &emsp; JSL Division 2 (1987)<br />
+            &emsp; Emperor's Cup (1993, 1998)<br />
+            &emsp; Asian Cup Winners' Cup (1994)<br />
+            &emsp; Asian Super Cup (1995)<br />
+            <br />
+           Yokohama Marinos: <br />
+            &emsp; J1 League (1995)<br />
+            &emsp; Emperor's Cup (1992)<br />
+            &emsp; Asian Cup Winners' Cup (1992)<br />
+            <br />
+            Yokohama F·Marinos: <br />
+            &emsp; J1 League (2003, 2004, 2019, 2022)<br />
+            &emsp; Emperor's Cup (2013)<br />
+            &emsp; J.League Cup (2001)<br />
+            &emsp; Japanese Super Cup (2003)<br />
             <br />
           </div>
         </div>
@@ -89,7 +111,7 @@ export default function FMarinos() {
 
       <footer className="social-media">
         <h2 className="social-media-hdr">
-          <div className="social-media-hdr-title">*** Social Pages</div>
+          <div className="social-media-hdr-title"> Yokohama F·Marinos Social Pages</div>
           <div class="social-media-hdr-title-underline" />
         </h2>
         <div className="social-media-area">
@@ -97,49 +119,49 @@ export default function FMarinos() {
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://twitter.com/prompt_fmarinos"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" *** _twt"
+                    alt="marinos_twt"
                     className="social-media-img"
                     icon="fab fa-twitter"
                   />
                 </div>
-                <div className="social-media-title"> @ *** </div>
+                <div className="social-media-title"> @prompt_fmarinos </div>
               </a>
             </li>
 
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.instagram.com/yokohamaf.marinos/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" *** _ig"
+                    alt="marinos_ig"
                     className="social-media-img"
                     icon="fab fa-instagram"
                   />
                 </div>
-                <div className="social-media-title"> @ *** </div>
+                <div className="social-media-title"> @yokohamaf.marinos </div>
               </a>
             </li>
 
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.youtube.com/user/yokohamafmarinos1972"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" *** _yt"
+                    alt="marinos_yt"
                     className="social-media-img"
                     icon="fab fa-youtube"
                   />
@@ -151,36 +173,36 @@ export default function FMarinos() {
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.tiktok.com/@yokohamaf_marinos"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" ** _tiktok"
+                    alt="marinos_tiktok"
                     className="social-media-img"
                     icon="fab fa-tiktok"
                   />
                 </div>
-                <div className="social-media-title"> @ *** </div>
+                <div className="social-media-title"> @yokohamaf_marinos </div>
               </a>
             </li>
 
             <li className="social-media-item">
               <a
                 className="social-media-value"
-                href=""
+                href="https://www.facebook.com/yokohamafm"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div>
                   <FontAwesomeIcon
-                    alt=" *** _facebk"
+                    alt="marinos_facebk"
                     className="social-media-img"
                     icon="fab fa-facebook-f"
                   />
                 </div>
-                <div className="social-media-title"> @*** </div>
+                <div className="social-media-title"> @yokohamafm </div>
               </a>
             </li>
           </ul>
