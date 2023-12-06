@@ -140,14 +140,18 @@
 }
 .crz .team-info {
   background:
-        /* On "top" */ repeating-linear-gradient(
+    repeating-linear-gradient(
       45deg,
       transparent,
       transparent 10px,
       var(--cosSec) 10px,
       var(--cos) 20px
     ),
-    /* on "bottom" */ linear-gradient(to bottom, var(--cos), var(--cos));
+    linear-gradient(
+      to bottom, 
+      var(--cos), 
+      var(--cos))
+    ;
 }
 .crz .social-media-hdr-title-underline {
   background-image: linear-gradient(
@@ -736,3 +740,59 @@
 .reds .social-media-img:hover {
   background-color: var(--reds);
 }
+
+.kobe {
+  background-image: url("../images/Stadiums/VisselKobeStadium.jpeg");
+  background-repeat: no-repeat;
+  margin-top: -40px;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+}
+.kobe .header {
+  color: var(--kobe);
+  text-shadow: 0.05em 0 var(--black), 0 0.05em var(--kobeSec),
+    0.05em 0.05em var(--black);
+}
+.kobe .team-info {
+  background:
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 10px,
+      var(--kobeSec) 100px,
+      var(--kobe) 200px
+    ),
+    repeating-linear-gradient(
+      150deg,
+      transparent,
+      transparent 10px,
+      var(--kobeSec) 100px,
+      var(--kobe) 200px
+    ),
+    linear-gradient(
+      to bottom, 
+      var(--kobe), 
+      var(--kobe))
+    ;
+}
+.kobe .social-media-hdr-title-underline {
+  background-image: linear-gradient(
+    90deg,
+    rgba(26, 25, 25, 0.0001) 0,
+    var(--white) 10%,
+    var(--kobe) 60.96%
+  );
+}
+.kobe .social-media-value {
+  color: var(--white);
+}
+.kobe .social-media-img {
+  color: var(--black);
+  background: var(--white);
+}
+.kobe .social-media-img:hover {
+  color: var(--white);
+  background-color: var(--kobe);
+}
+
