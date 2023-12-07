@@ -60,17 +60,10 @@
 }
 
 .team-list img {
+  height: auto;
+  width: 80px;
   margin-right: 20px;
   margin-top: 20px;
-}
-
-.albirex{
-  width: 60px;
-  height: auto;
-}
-
-.avispa{
-  
 }
 
 .team-link {
