@@ -29,6 +29,7 @@ export const TeamList =[
     {
         image: Albirex,
         title: 'Albirex Niigata',
+        logoName: "albirex",
         path: '/Albirex' ,
         cName: 'team-link'
     },
@@ -36,6 +37,7 @@ export const TeamList =[
     {
         image: Avispa,
         title: 'Avispa Fukuoka',
+        logoName: "avispa",
         path: '/Avispa' ,
         cName: 'team-link'
     },
@@ -43,6 +45,7 @@ export const TeamList =[
     {
         image: Cerezo,
         title: 'Cerezo Osaka',
+        logoName: "cerezo",
         path: '/Cerezo' ,
         cName: 'team-link'
     },
@@ -50,6 +53,7 @@ export const TeamList =[
     {
         image: FCTokyo,
         title: 'FC Tokyo',
+        logoName: "fcTokyo",
         path: '/FC_Tokyo' ,
         cName: 'team-link'
     },
@@ -57,6 +61,7 @@ export const TeamList =[
     {
         image: Gamba,
         title: 'Gamba Osaka',
+        logoName: "gambaOsaka",
         path: '/Gamba_Osaka' ,
         cName: 'team-link'
     },
@@ -64,6 +69,7 @@ export const TeamList =[
     {
         image: Hokkaido,
         title: 'Hokkaido Consadole Sapporo',
+        logoName: "hokkaido",
         path: '/Hokkaido' ,
         cName: 'team-link'
     },
@@ -71,6 +77,7 @@ export const TeamList =[
     {
         image: Kashima,
         title: 'Kashima Antlers',
+        logoName: "kashima",
         path: '/Kashima_Antlers' ,
         cName: 'team-link'
     },
@@ -78,6 +85,7 @@ export const TeamList =[
     {
         image: Kashiwa,
         title: 'Kashiwa Reysol',
+        logoName: "kashiwa",
         path: '/Kashiwa_Reysol' ,
         cName: 'team-link'
     },
@@ -85,6 +93,7 @@ export const TeamList =[
     {
         image: Kawasaki,
         title: 'Kawasaki Frontale',
+        logoName: "kawasaki",
         path: '/Kawasaki_Frontale' ,
         cName: 'team-link'
     },
@@ -92,6 +101,7 @@ export const TeamList =[
     {
         image: Kyoto,
         title: 'Kyoto Sanga FC',
+        logoName: "kyotoSanga",
         path: '/Kyoto_Sanga' ,
         cName: 'team-link'
     },
@@ -99,6 +109,7 @@ export const TeamList =[
     {
         image: Nagoya,
         title: 'Nagoya Grampus',
+        logoName: "nagoya",
         path: '/Nagoya_Grampus' ,
         cName: 'team-link'
     },
@@ -106,6 +117,7 @@ export const TeamList =[
     {
         image: Sagan,
         title: 'Sagan Tosu',
+        logoName: "saganTosu",
         path: '/Sagan_Tosu' ,
         cName: 'team-link'
     },
@@ -113,6 +125,7 @@ export const TeamList =[
     {
         image: Sanfrecce,
         title: 'Sanfrecce Hiroshima',
+        logoName: "sanfrecce",
         path: '/Sanfreece_Hiroshima' ,
         cName: 'team-link'
     },
@@ -120,6 +133,7 @@ export const TeamList =[
     {
         image: Shonan,
         title: 'Shonan Bellmare',
+        logoName: "shonanBellmare",
         path: '/Shonan_Bellmare' ,
         cName: 'team-link'
     },
@@ -127,6 +141,7 @@ export const TeamList =[
     {
         image: Urawa,
         title: 'Urawa Red Diamonds',
+        logoName: "urawa",
         path: '/Urawa_Reds' ,
         cName: 'team-link'
     },
@@ -134,6 +149,7 @@ export const TeamList =[
     {
         image: Vissel,
         title: 'Vissel Kobe',
+        logoName: "vissel",
         path: '/Vissel_Kobe' ,
         cName: 'team-link'
     },
@@ -141,6 +157,7 @@ export const TeamList =[
     {
         image: YokohamaFMarinos,
         title: 'Yokohama F·Marinos',
+        logoName: "fMarinos",
         path: '/Yokohama_F_Marinos' ,
         cName: 'team-link'
     },
@@ -148,6 +165,7 @@ export const TeamList =[
     {
         image: YokohamaFC,
         title: 'Yokohama FC',
+        logoName: "yokohama",
         path: '/Yokohama_FC' ,
         cName: 'team-link'
     },
