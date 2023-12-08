@@ -59,37 +59,46 @@
   display: flexbox;
 }
 
-.team-list img:hover{
+.team-list img:hover {
   transform: translateX(5px) translateY(5px);
-  
 }
 
-.avispa, .cerezo, .fcTokyo, .hokkaido, 
-.nagoya, .sanfrecce, .shonanBellmare, 
-.urawa{
+.avispa,
+.cerezo,
+.fcTokyo,
+.hokkaido,
+.nagoya,
+.sanfrecce,
+.shonanBellmare,
+.urawa {
   height: auto;
   width: 80px;
   margin-right: 20px;
   margin-top: 20px;
 }
 
-.albirex, .gambaOsaka, .kashima, 
-.kyotoSanga, .vissel, .yokohama{
+.albirex,
+.gambaOsaka,
+.kashima,
+.kyotoSanga,
+.vissel,
+.yokohama {
   height: auto;
   width: 75px;
   margin-right: 20px;
   margin-top: 20px;
-
 }
 
-.kashiwa, .kawasaki{
+.kashiwa,
+.kawasaki {
   height: auto;
   width: 90px;
   margin-right: 20px;
   margin-top: 20px;
 }
 
-.saganTosu, .fMarinos{
+.saganTosu,
+.fMarinos {
   height: 85px;
   width: auto;
   margin-right: 20px;
@@ -105,4 +114,3 @@
   text-decoration: none;
   color: black;
 }
-
