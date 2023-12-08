@@ -45,21 +45,21 @@ export default function Home() {
             {TeamList.map((item, index) => {
               return (
                 <div className="item">
-                <li className="value" key={TeamList.index}>
-                  <Link
-                    className={item.cName}
-                    to={item.path}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img
-                      src={item.image}
-                      className={item.logoName}
-                      alt="team-logo"
-                    ></img>
-                    {item.title}
-                  </Link>
-                </li>
+                  <li className="value" key={TeamList.index}>
+                    <Link
+                      className={item.cName}
+                      to={item.path}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <img
+                        src={item.image}
+                        className={item.logoName}
+                        alt="team-logo"
+                      ></img>
+                      {item.title}
+                    </Link>
+                  </li>
                 </div>
               );
             })}
