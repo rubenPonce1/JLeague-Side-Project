@@ -1,0 +1,890 @@
+:root {
+  --white: #ffffff; 
+  --black: #000000; 
+  --albi: #e84e10; --albiSec: #174195;
+  --avi: #0092ae; --aviSec: #0b2355;
+  --cos: #d60666; --cosSec: #30287d;
+  --fctk: #26348c; --fctkSec: #e4032f;
+  --gos: #00468e; --gosSec: #000000;
+  --sapp: #d30a12; --sappSec: #000000;
+  --kasm: #b71e3f; --kasmSec: #000000;
+  --kasw: #feed00; --kaswSec: #000000;
+  --kaf: #3ea2dd; --kafSec: #000000;
+  --kyot: #750069; --kyotSec: #e6002e;
+  --nago: #d51216; --nagoSec: #f29200;
+  --tosu: #ea5599; --tosuSec: #009ccc;
+  --hiro: #59358c; --hiroSec: #340234;
+  --shon: #77b82a; --shonSec: #005da0;
+  --reds: #e4032f; --redsSec: #880a23;
+  --kobe: #a40931; --kobeSec: #000000;
+  --yfc: #009fe3; --yfcSec: #13387f;
+  --yfm: #174195; --yfmSec: #e4003b;
+}
+.albi {
+  background-image: url("../images/Stadiums/BigSwanStadium\ Medium.png");
+  background-repeat: no-repeat;
+  margin-top: -40px;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+}
+.albi .header {
+  color: var(--albi);
+  text-shadow: 0.05em 0 var(--albiSec), 0 0.05em var(--albiSec),
+    0.05em 0.05em var(--albiSec);
+}
+.albi .team-info {
+  background-size: 180px 180px;
+  background-color: var(--albi);
+
+  background-image: -webkit-linear-gradient(
+    var(--albiSec) 50%,
+    transparent 50%,
+    transparent
+  );
+  background-image: -moz-linear-gradient(
+    var(--albiSec) 50%,
+    transparent 50%,
+    transparent
+  );
+  background-image: -ms-linear-gradient(
+    var(--albiSec) 50%,
+    transparent 50%,
+    transparent
+  );
+  background-image: -o-linear-gradient(
+    var(--albiSec) 5 50%,
+    transparent 50%,
+    transparent
+  );
+  background-image: linear-gradient(
+    var(--albiSec) 50%,
+    transparent 50%,
+    transparent
+  );
+}
+.albi .social-media-hdr-title-underline {
+  background-image: linear-gradient(
+    90deg,
+    rgba(26, 25, 25, 0.0001) 0,
+    var(--albi) 10%,
+    var(--albiSec) 99.96%
+  );
+}
+.albi .social-media-value {
+  color: var(--albiSec);
+}
+.albi .social-media-img {
+  background: var(--albi);
+}
+.albi .social-media-img:hover {
+  background-color: var(--albiSec);
+}
+
+.avi {
+  background-image: url("../images/Stadiums/BestDenkiStadium\ Large.png");
+  background-repeat: no-repeat;
+  margin-top: -40px;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+}
+.avi .header {
+  color: var(--avi);
+  text-shadow: 0.05em 0 var(--aviSec), 0 0.05em var(--aviSec),
+    0.05em 0.05em var(--aviSec);
+}
+.avi .team-info {
+  background-image: linear-gradient(
+    90deg,
+    var(--avi) 18.04%,
+    var(--aviSec) 18.04%,
+    var(--aviSec) 50%,
+    var(--avi) 50%,
+    var(--avi) 68.04%,
+    var(--aviSec) 68.04%,
+    var(--aviSec) 100%
+  );
+  background-size: 195px 200px;
+}
+.avi .social-media-hdr-title-underline {
+  background-image: linear-gradient(
+    90deg,
+    rgba(26, 25, 25, 0.0001) 0,
+    var(--avi) 10%,
+    var(--aviSec) 99.96%
+  );
+}
+.avi .social-media-value {
+  color: var(--avi);
+}
+.avi .social-media-img {
+  background: var(--aviSec);
+}
+.avi .social-media-img:hover {
+  background-color: var(--avi);
+}
+
+.crz {
+  background-image: url("../images/Stadiums/CerezoOsaka.png");
+  background-repeat: no-repeat;
+  margin-top: -40px;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+}
+.crz .header {
+  color: var(--cos);
+  text-shadow: 0.05em 0 var(--cosSec), 0 0.05em var(--cosSec),
+    0.05em 0.05em var(--white);
+}
+.crz .team-info {
+  background:
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 10px,
+      var(--cosSec) 10px,
+      var(--cos) 20px
+    ),
+    linear-gradient(
+      to bottom, 
+      var(--cos), 
+      var(--cos))
+    ;
+}
+.crz .social-media-hdr-title-underline {
+  background-image: linear-gradient(
+    90deg,
+    rgba(26, 25, 25, 0.0001) 0,
+    var(--cos) 10%,
+    var(--cosSec) 99.96%
+  );
+}
+.crz .social-media-value {
+  color: var(--cosSec);
+}
+.crz .social-media-img {
+  background: var(--cos);
+}
+.crz .social-media-img:hover {
+  background-color: var(--cosSec);
+}
+
+.fctk {
+  background-image: url("../images/Stadiums/FCTokyoStadium.png");
+  background-repeat: no-repeat;
+  margin-top: -40px;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+}
+.fctk .header {
+  color: var(--fctk);
+  text-shadow: 0.05em 0 var(--white), 0 0.05em var(--white),
+    0.05em 0.05em var(--white);
+}
+.fctk .team-info {
+  background-image: linear-gradient(
+    90deg,
+    var(--fctk) 0%,
+    var(--fctk) 20%,
+    var(--fctkSec) 20%,
+    var(--fctkSec) 40%,
+    var(--fctk) 40%,
+    var(--fctk) 60%,
+    var(--fctkSec) 60%,
+    var(--fctkSec) 80%,
+    var(--fctk) 80%,
+    var(--fctk) 100%
+  );
+}
+.fctk .social-media-hdr-title-underline {
+  background-image: linear-gradient(
+    90deg,
+    rgba(26, 25, 25, 0.0001) 0,
+    var(--fctk) 10%,
+    var(--fctkSec) 70.96%
+  );
+}
+.fctk .social-media-value {
+  color: var(--fctkSec);
+}
+.fctk .social-media-img {
+  background: var(--fctk);
+}
+.fctk .social-media-img:hover {
+  background-color: var(--fctkSec);
+}
+
+.gamba {
+  background-image: url("../images/Stadiums/GambaOsakaStadium.jpeg");
+  background-repeat: no-repeat;
+  margin-top: -40px;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+}
+.gamba .header {
+  color: var(--gos);
+  text-shadow: 0.05em 0 var(--gosSec), 0 0.05em var(--gosSec),
+    0.05em 0.05em var(--gosSec);
+}
+.gamba .team-info {
+  background-image: linear-gradient(
+    90deg,
+    var(--gos) 0%,
+    var(--gos) 20%,
+    var(--gosSec) 20%,
+    var(--gosSec) 40%,
+    var(--gos) 40%,
+    var(--gos) 60%,
+    var(--gosSec) 60%,
+    var(--gosSec) 80%,
+    var(--gos) 80%,
+    var(--gos) 100%
+  );
+}
+.gamba .social-media-hdr-title-underline {
+  background-image: linear-gradient(
+    90deg,
+    rgba(26, 25, 25, 0.0001) 0,
+    var(--white) 10%,
+    var(--gos) 70.96%
+  );
+}
+.gamba .social-media-value {
+  color: var(--white);
+}
+.gamba .social-media-img {
+  background: var(--gos);
+}
+.gamba .social-media-img:hover {
+  color: var(--gos);
+  background-color: var(--white);
+}
+
+.consa {
+  background-image: url("../images/Stadiums/SapporoDome\ Large.jpeg");
+  background-repeat: no-repeat;
+  margin-top: -40px;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+}
+.consa .header {
+  color: var(--sapp);
+  text-shadow: 0.05em 0 var(--sappSec), 0 0.05em var(--sappSec),
+    0.05em 0.05em var(--sappSec);
+}
+.consa .team-info {
+  background-image: linear-gradient(
+    90deg,
+    var(--sapp) 0%,
+    var(--sapp) 20%,
+    var(--sappSec) 20%,
+    var(--sappSec) 40%,
+    var(--sapp) 40%,
+    var(--sapp) 60%,
+    var(--sappSec) 60%,
+    var(--sappSec) 80%,
+    var(--sapp) 80%,
+    var(--sapp) 100%
+  );
+}
+.consa .social-media-hdr-title-underline {
+  background-image: linear-gradient(
+    90deg,
+    rgba(26, 25, 25, 0.0001) 0,
+    var(--white) 10%,
+    var(--sapp) 70.96%
+  );
+}
+.consa .social-media-value {
+  color: var(--white);
+}
+.consa .social-media-img {
+  background: var(--sapp);
+}
+.consa .social-media-img:hover {
+  color: var(--sapp);
+  background-color: var(--white);
+}
+
+.kasm {
+  background-image: url("../images/Stadiums/KashimaAntlersStadium.jpeg");
+  background-repeat: no-repeat;
+  margin-top: -40px;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+}
+.kasm .header {
+  color: var(--kasm);
+  text-shadow: 0.05em 0 var(--kasmSec), 0 0.05em var(--kasmSec),
+    0.05em 0.05em var(--kasmSec);
+}
+.kasm .team-info {
+  background-image: linear-gradient(
+    90deg,
+    var(--kasmSec) 0%,
+    var(--kasmSec) 10%,
+    var(--kasm) 10%,
+    var(--kasm) 90%,
+    var(--kasmSec) 90%,
+    var(--kasmSec) 100%
+  );
+}
+.kasm .social-media-hdr-title-underline {
+  background-image: linear-gradient(
+    90deg,
+    rgba(26, 25, 25, 0.0001) 0,
+    var(--white) 10%,
+    var(--kasm) 70.96%
+  );
+}
+.kasm .social-media-value {
+  color: var(--white);
+}
+.kasm .social-media-img {
+  background: var(--kasm);
+}
+.kasm .social-media-img:hover {
+  color: var(--kasm);
+  background-color: var(--white);
+}
+
+.rey {
+  background-image: url("../images/Stadiums/KashiwaReysolStadium.jpeg");
+  background-repeat: no-repeat;
+  margin-top: -40px;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+}
+.rey .header {
+  color: var(--kasw);
+  text-shadow: 0.05em 0 var(--white), 0 0.05em var(--black),
+    0.05em 0.05em var(--white);
+}
+.rey .team-info {
+  background-image: linear-gradient(
+    0deg,
+    var(--kaswSec) 0%,
+    var(--kasw) 20%,
+    var(--kaswSec) 20%,
+    var(--kasw) 40%,
+    var(--kaswSec) 40%,
+    var(--kaswSec) 60%,
+    var(--kasw) 60%,
+    var(--kaswSec) 80%,
+    var(--kasw) 80%,
+    var(--kaswSec) 100%
+  );
+}
+.rey .social-media-hdr-title-underline {
+  background-image: linear-gradient(
+    90deg,
+    rgba(26, 25, 25, 0.0001) 0,
+    red 10%,
+    var(--kasw) 70.96%
+  );
+}
+.rey .social-media-value {
+  color: var(--white);
+}
+.rey .social-media-img {
+  color: var(--kasmSec);
+  background: var(--kasw);
+}
+.rey .social-media-img:hover {
+  color: var(--kaswSec);
+  background-color: var(--white);
+}
+
+.kaw-fr {
+  background-image: url("../images/Stadiums/KawasakiFrontaleStadium.jpeg");
+  background-repeat: no-repeat;
+  margin-top: -40px;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+}
+.kaw-fr .header {
+  color: var(--kaf);
+  text-shadow: 0.05em 0 var(--kafSec), 0 0.05em var(--kafSec),
+    0.05em 0.05em var(--kafSec);
+}
+.kaw-fr .team-info {
+  background-image: linear-gradient(
+    90deg,
+    var(--kaf) 0%,
+    var(--kaf) 20%,
+    var(--kaf) 25%,
+    var(--kafSec) 40%,
+    var(--kafSec) 40%,
+    var(--kafSec) 50%,
+    var(--kafSec) 55%,
+    var(--kaf) 80%,
+    var(--kaf) 90%,
+    var(--kaf) 100%
+  );
+}
+.kaw-fr .social-media-hdr-title-underline {
+  background-image: linear-gradient(
+    90deg,
+    rgba(26, 25, 25, 0.0001) 0,
+    var(--kaf) 10%,
+    var(--kaf) 70.96%
+  );
+}
+.kaw-fr .social-media-value {
+  color: var(--white);
+}
+.kaw-fr .social-media-img {
+  background: var(--kaf);
+}
+.kaw-fr .social-media-img:hover {
+  color: var(--kaf);
+  background-color: var(--white);
+}
+
+.kyoto .team-page-logo {
+  height: 95px;
+  margin-right: 15px;
+}
+.kyoto {
+  background-image: url("../images/Stadiums/KyotoSangaStadium.jpeg");
+  background-repeat: no-repeat;
+  margin-top: -40px;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+}
+.kyoto .header {
+  color: var(--kyot);
+  text-shadow: 0.05em 0 var(--kyotSec), 0 0.05em var(--kyotSec),
+    0.05em 0.05em var(--kyotSec);
+}
+.kyoto .team-info {
+  background-image: repeating-linear-gradient(
+    #2f0c2f 0px,
+    #500350 12px,
+    var(--kyot) 5px,
+    var(--kyot) 100px
+  );
+}
+.kyoto .social-media-hdr-title-underline {
+  background-image: linear-gradient(
+    90deg,
+    rgba(26, 25, 25, 0.0001) 0,
+    var(--kyotSec) 10%,
+    var(--kyot) 65.96%
+  );
+}
+.kyoto .social-media-value {
+  color: var(--white);
+}
+.kyoto .social-media-img {
+  background: var(--kyot);
+}
+.kyoto .social-media-img:hover {
+  background-color: var(--kyotSec);
+}
+
+.grampus .team-page-logo {
+  height: 100px;
+}
+.grampus {
+  background-image: url("../images/Stadiums/NagoyaGrampusStadium.jpeg");
+  background-repeat: no-repeat;
+  margin-top: -40px;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+}
+.grampus .header {
+  color: var(--nago);
+  text-shadow: 0.05em 0 var(--nagoSec), 0 0.05em var(--black),
+    0.05em 0.05em var(--black);
+}
+.grampus .team-info {
+  background-image: linear-gradient(
+    90deg,
+    var(--nago) 0%,
+    var(--nago) 20%,
+    var(--nago) 25%,
+    var(--nagoSec) 40%,
+    var(--nagoSec) 40%,
+    var(--nagoSec) 50%,
+    var(--nagoSec) 55%,
+    var(--nago) 80%,
+    var(--nago) 90%,
+    var(--nago) 100%
+  );
+}
+.grampus .social-media-hdr-title-underline {
+  background-image: linear-gradient(
+    90deg,
+    rgba(26, 25, 25, 0.0001) 0,
+    var(--nagoSec) 10%,
+    var(--nago) 65.96%
+  );
+}
+.grampus .social-media-value {
+  color: var(--nagoSec);
+}
+.grampus .social-media-img {
+  background: var(--nago);
+}
+.grampus .social-media-img:hover {
+  background-color: var(--nagoSec);
+}
+
+.sagan .team-page-logo {
+  height: 90px;
+}
+.sagan {
+  background-image: url("../images/Stadiums/SaganTosuStadium.jpeg");
+  background-repeat: no-repeat;
+  margin-top: -40px;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+}
+.sagan .header {
+  color: var(--white);
+  text-shadow: 0.05em 0 var(--tosu), 0 0.05em var(--tosuSec),
+    0.05em 0.05em var(--tosuSec);
+}
+.sagan .team-info {
+  background-image: linear-gradient(
+    90deg,
+    var(--tosuSec) 0%,
+    var(--tosuSec) 20%,
+    var(--tosu) 25%,
+    var(--tosu) 40%,
+    var(--tosu) 40%,
+    var(--tosu) 50%,
+    var(--tosu) 55%,
+    var(--tosu) 80%,
+    var(--tosuSec) 90%,
+    var(--tosuSec) 100%
+  );
+}
+.sagan .social-media-hdr-title-underline {
+  background-image: linear-gradient(
+    90deg,
+    rgba(26, 25, 25, 0.0001) 0,
+    var(--tosuSec) 10%,
+    var(--tosu) 60.96%
+  );
+}
+.sagan .social-media-value {
+  color: var(--tosu);
+}
+.sagan .social-media-img {
+  background: var(--tosuSec);
+}
+.sagan .social-media-img:hover {
+  background-color: var(--tosu);
+}
+
+.sanfre .team-page-logo {
+  height: 100px;
+}
+.sanfre {
+  background-image: url("../images/Stadiums/SanfrecceHiroshimaStadium.jpeg");
+  background-repeat: no-repeat;
+  margin-top: -40px;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+}
+.sanfre .header {
+  color: var(--hiro);
+  text-shadow: 0.05em 0 var(--hiroSec), 0 0.05em var(--white),
+    0.05em 0.05em var(--white);
+}
+.sanfre .team-info {
+  background-image: linear-gradient(
+    90deg,
+    var(--hiro) 0%,
+    var(--hiro) 20%,
+    var(--hiro) 25%,
+    var(--hiroSec) 40%,
+    var(--hiroSec) 40%,
+    var(--hiroSec) 50%,
+    var(--hiroSec) 55%,
+    var(--hiro) 80%,
+    var(--hiro) 90%,
+    var(--hiro) 100%
+  );
+}
+.sanfre .social-media-hdr-title-underline {
+  background-image: linear-gradient(
+    90deg,
+    rgba(26, 25, 25, 0.0001) 0,
+    var(--hiroSec) 10%,
+    var(--hiro) 60.96%
+  );
+}
+.sanfre .social-media-value {
+  color: var(--white);
+}
+.sanfre .social-media-img {
+  background: var(--hiro);
+}
+.sanfre .social-media-img:hover {
+  background-color: var(--hiroSec);
+}
+
+.shonan .team-page-logo {
+  height: 100px;
+}
+.shonan {
+  background-image: url("../images/Stadiums/ShonanBellmareStadium.jpeg");
+  background-repeat: no-repeat;
+  margin-top: -40px;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+}
+.shonan .header {
+  color: var(--shon);
+  text-shadow: 0.05em 0 var(--shonSec), 0 0.05em var(--shonSec),
+    0.05em 0.05em var(--white);
+}
+.shonan .team-info {
+  background-image: linear-gradient(
+    90deg,
+    var(--shon) 0%,
+    var(--shon) 20%,
+    var(--shon) 25%,
+    var(--shonSec) 40%,
+    var(--shonSec) 40%,
+    var(--shonSec) 50%,
+    var(--shonSec) 55%,
+    var(--shon) 80%,
+    var(--shon) 90%,
+    var(--shon) 100%
+  );
+}
+.shonan .social-media-hdr-title-underline {
+  background-image: linear-gradient(
+    90deg,
+    rgba(26, 25, 25, 0.0001) 0,
+    var(--shon) 10%,
+    var(--shonSec) 60.96%
+  );
+}
+.shonan .social-media-value {
+  color: var(--shon);
+}
+.shonan .social-media-img {
+  background: var(--shonSec);
+}
+.shonan .social-media-img:hover {
+  background-color: var(--shon);
+}
+
+.reds {
+  background-image: url("../images/Stadiums/UrawaRedsStadium.jpeg");
+  background-repeat: no-repeat;
+  margin-top: -40px;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+}
+.reds .header {
+  color: var(--reds);
+  text-shadow: 0.05em 0 var(--redsSec), 0 0.05em var(--black),
+    0.05em 0.05em var(--redsSec);
+}
+.reds .team-info {
+  background-color: var(--reds);
+  background-size: 90px 140px;
+  background-image: 
+    linear-gradient(
+      60deg,
+      var(--black) 25%,
+      transparent 25%,
+      transparent 75%,
+      var(--black)  75%,
+      var(--black) 
+    ),
+    linear-gradient(
+      120deg,
+      var(--black)  25%,
+      transparent 25%,
+      transparent 75%,
+      var(--black)  75%,
+      var(--black) 
+    );
+}
+.reds .social-media-hdr-title-underline {
+  background-image: linear-gradient(
+    90deg,
+    rgba(26, 25, 25, 0.0001) 0,
+    var(--reds) 10%,
+    var(--redsSec) 60.96%
+  );
+}
+.reds .social-media-value {
+  color: var(--reds);
+}
+.reds .social-media-img {
+  color: var(--black);
+  background: var(--white);
+}
+.reds .social-media-img:hover {
+  background-color: var(--reds);
+}
+
+.kobe {
+  background-image: url("../images/Stadiums/VisselKobeStadium.jpeg");
+  background-repeat: no-repeat;
+  margin-top: -40px;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+}
+.kobe .header {
+  color: var(--kobe);
+  text-shadow: 0.05em 0 var(--black), 0 0.05em var(--kobeSec),
+    0.05em 0.05em var(--black);
+}
+.kobe .team-info {
+  background:
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 10px,
+      var(--kobeSec) 100px,
+      var(--kobe) 200px
+    ),
+    repeating-linear-gradient(
+      150deg,
+      transparent,
+      transparent 10px,
+      var(--kobeSec) 100px,
+      var(--kobe) 200px
+    ),
+    linear-gradient(
+      to bottom, 
+      var(--kobe), 
+      var(--kobe))
+    ;
+}
+.kobe .social-media-hdr-title-underline {
+  background-image: linear-gradient(
+    90deg,
+    rgba(26, 25, 25, 0.0001) 0,
+    var(--white) 10%,
+    var(--kobe) 60.96%
+  );
+}
+.kobe .social-media-value {
+  color: var(--white);
+}
+.kobe .social-media-img {
+  color: var(--black);
+  background: var(--white);
+}
+.kobe .social-media-img:hover {
+  color: var(--white);
+  background-color: var(--kobe);
+}
+
+.marinos {
+  background-image: url("../images/Stadiums/FMarinosStadium.jpeg");
+  background-repeat: no-repeat;
+  margin-top: -40px;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+}
+.marinos .header {
+  color: var(--white);
+  text-shadow: 0.05em 0 var(--yfm), 0 0.05em var(--yfmSec),
+    0.05em 0.05em var(--yfm);
+}
+.marinos .team-info {
+  background-image: linear-gradient(
+  150deg,
+  var(--yfmSec) 0%,
+  var(--yfmSec) 40%,
+  var(--white) 40%,
+  var(--white) 60%,
+  var(--yfm) 60%,
+  var(--yfm) 100%,
+  var(--yfm) 80%,
+  var(--yfm) 100%
+);
+}
+.marinos .social-media-hdr-title-underline {
+  background-image: linear-gradient(
+    90deg,
+    rgba(26, 25, 25, 0.0001) 0,
+    var(--yfmSec) 30%,
+    var(--white) 50%,
+    var(--yfm) 60.96%
+  );
+}
+.marinos .social-media-value {
+  color: var(--white);
+}
+.marinos .social-media-img {
+  background: var(--yfmSec);
+}
+.marinos .social-media-img:hover {
+  color: var(--white);
+  background-color: var(--yfm);
+}
+
+.yokfc {
+  background-image: url("../images/Stadiums/YokahamaFCStadium.jpeg");
+  background-repeat: no-repeat;
+  margin-top: -40px;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+}
+.yokfc .header {
+  color: var(--white);
+  text-shadow: 0.05em 0 var(--yfc), 0 0.05em var(--yfc),
+    0.05em 0.05em var(--yfc);
+}
+.yokfc .team-info {
+  background-image: linear-gradient(
+    90deg,
+    var(--yfc) 0%,
+    var(--yfc) 20%,
+    var(--yfc) 25%,
+    var(--yfcSec) 40%,
+    var(--yfcSec) 40%,
+    var(--yfcSec) 50%,
+    var(--yfcSec) 55%,
+    var(--yfc) 80%,
+    var(--yfc) 90%,
+    var(--yfc) 100%
+  );
+}
+.yokfc .social-media-hdr-title-underline {
+  background-image: linear-gradient(
+    90deg,
+    rgba(26, 25, 25, 0.0001) 0,
+    var(--yfc) 10%,
+    var(--yfcSec) 80.96%
+  );
+}
+.yokfc .social-media-value {
+  color: var(--white);
+}
+.yokfc .social-media-img {
+  background: var(--yfc);
+}
+.yokfc .social-media-img:hover {
+  color: var(--white);
+  background-color: var(--yfcSec);
+}

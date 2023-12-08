@@ -1,0 +1,116 @@
+.home {
+  background-image: url("../images/J1_images/IMG_0036.png");
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-attachment: fixed;
+
+  align-items: center;
+}
+
+.HeaderName {
+  text-align: center;
+
+  margin-bottom: 40px;
+  font-size: 80px;
+  font-weight: bolder;
+  font-stretch: expanded;
+  font-family: overpass, sans-serif;
+
+  font-style: italic;
+  color: black;
+  text-shadow: 0.05em 0 white, 0 0.05em white, -0.05em 0 white, 0 -0.05em white,
+    -0.05em -0.05em white, -0.05em 0.05em white, 0.05em -0.05em white,
+    0.05em 0.05em white;
+}
+.video-cntr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.team-list-cntr {
+  background: #f6eee3;
+  padding: 25px;
+}
+
+.team-list-hdr {
+  text-align: center;
+
+  margin-bottom: 40px;
+  font-size: 60px;
+  font-weight: bolder;
+  font-stretch: expanded;
+  font-family: overpass, sans-serif;
+
+  color: black;
+}
+
+.team-list {
+  /* This removes the bulletin points in the List */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+
+  column-count: 2;
+  column-gap: 30px;
+  column-rule: none;
+  display: flexbox;
+}
+
+.team-list img:hover {
+  transform: translateX(5px) translateY(5px);
+}
+
+.avispa,
+.cerezo,
+.fcTokyo,
+.hokkaido,
+.nagoya,
+.sanfrecce,
+.shonanBellmare,
+.urawa {
+  height: auto;
+  width: 80px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.albirex,
+.gambaOsaka,
+.kashima,
+.kyotoSanga,
+.vissel,
+.yokohama {
+  height: auto;
+  width: 75px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.kashiwa,
+.kawasaki {
+  height: auto;
+  width: 90px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.saganTosu,
+.fMarinos {
+  height: 85px;
+  width: auto;
+  margin-right: 20px;
+  margin-left: -20px;
+  margin-top: 20px;
+}
+
+.team-link {
+  font-size: 22px;
+  font-family: overpass, sans-serif;
+  margin-left: 20px;
+
+  text-decoration: none;
+  color: black;
+}

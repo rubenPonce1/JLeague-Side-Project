@@ -1,0 +1,162 @@
+h1 {
+  text-align: center;
+  font-size: 80px;
+  font-weight: bolder;
+  font-family: overpass, sans-serif;
+  font-style: italic;
+}
+
+.team-page-logo {
+  margin-top: -10px;
+  height: 85px;
+  width: auto;
+  margin-right: 8px;
+}
+
+.header {
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+
+.team-info {
+  background-attachment: fixed;
+  position: relative;
+  margin: 0 48px;
+  padding: 52px;
+}
+
+.team-info-wrapper {
+  background: #faeddf;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.info-title {
+  font-weight: bolder;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.info-item {
+  font-weight: bolder;
+  font-size: 20px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: black;
+  text-decoration: underline;
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+
+.info-value {
+  font-size: 18px;
+  line-height: 35px;
+  color: black;
+}
+
+.video-header {
+  background-color: #faeddf;
+  border-radius: 6px;
+  font-size: 35px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.video-disc {
+  background-color: #faeddf;
+  border-radius: 6px;
+  font-size: 15px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.video-chnl-link {
+  color: black;
+  cursor: pointer;
+}
+
+.social-media {
+  background-color: black;
+  padding: 80px 120px;
+  margin-bottom: -20px;
+}
+
+.social-media-hdr {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.social-media-hdr-title {
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.social-media-hdr-title-underline {
+  content: "";
+  position: absolute;
+  width: 45%;
+  height: 10px;
+  left: 50.5%;
+  transform: translateX(-50%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.social-media-list {
+  margin-top: 30px;
+  display: flex;
+  row-gap: 80px;
+  flex-wrap: wrap;
+  overflow: hidden;
+  justify-content: center;
+  list-style: none;
+}
+
+.social-media-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 220px;
+}
+
+.social-media-value {
+  display: inherit;
+  flex-direction: column;
+  align-items: inherit;
+  transition: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.social-media-img {
+  transition: opacity 0.5s ease-in-out;
+  color: white;
+  height: 60px;
+  width: 60px;
+  padding: 30px;
+  border-radius: 50%;
+}
+
+.social-media-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  margin-top: 18px;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+}
