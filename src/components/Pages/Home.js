@@ -45,7 +45,7 @@ export default function Home() {
             {TeamList.map((item, index) => {
               return (
                 <div className="item">
-                <li key={TeamList.index}>
+                <li className="value" key={TeamList.index}>
                   <Link
                     className={item.cName}
                     to={item.path}
